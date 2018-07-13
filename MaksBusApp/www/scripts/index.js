@@ -83,17 +83,17 @@
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener( 'resume', onResume.bind( this ), false );
         console.log("location");
-        var watchId = navigator.geolocation.watchPosition(function (data) {
-            var lat = data.coords.latitude;
-            var leng = data.coords.longitude;
-            var htt = document.getElementById("mapa");
-            htt.innerHTML = lat;
-            for (let i = 0; i < latitudeRange.length; i++) {
-                if (lat < latitudeRange[i].latFrom && lat > latitudeRange[i].latTo && leng > latitudeRange[i].longFrom && leng < latitudeRange[i].longTo) {
-                    console.log(latitudeRange[i].city);
-                }
-            }
-        });
+        //var watchId = navigator.geolocation.watchPosition(function (data) {
+        //    var lat = data.coords.latitude;
+        //    var leng = data.coords.longitude;
+        //    var htt = document.getElementById("mapa");
+        //    htt.innerHTML = lat;
+        //    for (let i = 0; i < latitudeRange.length; i++) {
+        //        if (lat < latitudeRange[i].latFrom && lat > latitudeRange[i].latTo && leng > latitudeRange[i].longFrom && leng < latitudeRange[i].longTo) {
+        //            console.log(latitudeRange[i].city);
+        //        }
+        //    }
+        //});
         // TODO: Cordova has been loaded. Perform any initialization that requires Cordova here.
         var parentElement = document.getElementById('deviceready');
         var listeningElement = parentElement.querySelector('.listening');
