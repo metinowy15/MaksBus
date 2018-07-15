@@ -83,13 +83,13 @@
         document.addEventListener( 'pause', onPause.bind( this ), false );
         document.addEventListener( 'resume', onResume.bind( this ), false );
         console.log("location");
-        cordova.plugins.diagnostic.isGpsLocationEnabled(function (enabled) {
-            console.log("GPS location is " + (enabled ? "enabled" : "disabled"));
-            var htt = document.getElementById("mapa");
-                htt.innerHTML = enabled;
-        }, function (error) {
-            console.error("The following error occurred: " + error);
-        });   
+        //cordova.plugins.diagnostic.isGpsLocationEnabled(function (enabled) {
+        //    console.log("GPS location is " + (enabled ? "enabled" : "disabled"));
+        //    var htt = document.getElementById("mapa");
+        //        htt.innerHTML = enabled;
+        //}, function (error) {
+        //    console.error("The following error occurred: " + error);
+        //});   
         //var watchId = navigator.geolocation.watchPosition(function (data) {
         //    var lat = data.coords.latitude;
         //    var leng = data.coords.longitude;
