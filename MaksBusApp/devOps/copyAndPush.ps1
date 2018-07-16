@@ -17,7 +17,7 @@ function renameAndCopyFile
     Foreach-Object {
       $oldName = $_.FullName
       $splitName = $_.Name.split(".",[System.StringSplitOptions]::RemoveEmptyEntries)
-      if($splitName.Length = 3){
+      if($splitName.Length -gt 2){
         $newName = $splitName[0] + "." + $splitName[2]
         Rename-Item -Path $oldName -NewName $newName
         Copy-Item ($buildPath + '\' + $newName) -Destination $copyPath
