@@ -3,6 +3,9 @@ $buildPath = 'C:\Users\jakubm.ASTOR\Desktop\MaxBus\Apka\MaksBus\dist\MaksBus'
 $copyScriptPath = 'C:\Users\jakubm.ASTOR\source\repos\CordovaApp\MaksBusApp\www\scripts'
 $copyStylePath = 'C:\Users\jakubm.ASTOR\source\repos\CordovaApp\MaksBusApp\www\css'
 
+$date = Get-Date -Format G
+$message = '"Update build files ' + $date + '"'
+
 function renameAndCopyFile
 {
     Param(
@@ -14,9 +17,12 @@ function renameAndCopyFile
     Foreach-Object {
       $oldName = $_.FullName
       $splitName = $_.Name.split(".",[System.StringSplitOptions]::RemoveEmptyEntries)
-      $newName = $splitName[0] + "." + $splitName[2]
-      Rename-Item -Path $oldName -NewName $newName
-      Copy-Item ($buildPath + '\' + $newName) -Destination $copyPath
+      if($splitName.Length = 3){
+        $newName = $splitName[0] + "." + $splitName[2]
+        Rename-Item -Path $oldName -NewName $newName
+        Copy-Item ($buildPath + '\' + $newName) -Destination $copyPath
+      }
+    
     }
 
  }
@@ -25,10 +31,10 @@ function renameAndCopyFile
  renameAndCopyFile '*.css' $copyStylePath
 
  git status
- git add ../www/css/styles
- git add ../www/scripts/main
- git add ../www/scripts/polyfills
- git add ../www/scripts/runtime
+ git add ../www/css/styles.css
+ git add ../www/scripts/main.js
+ git add ../www/scripts/polyfills.js
+ git add ../www/scripts/runtime.js
 
- git commit -m "Update build files"
+ git commit -m $message
  git push
