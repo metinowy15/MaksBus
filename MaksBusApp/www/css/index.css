@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Kalam';
-    src: URL('../fonts/Kalam-Regular.ttf') format('ttf');
+    src: URL(../fonts/Kalam-Regular.ttf) format('ttf');
 }
 body{
     margin: 0!important;
