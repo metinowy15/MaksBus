@@ -83,8 +83,8 @@
         navigator.notification.confirm(
             'Czy chcesz wyjść?',  // message
             function (buttonIndex) {
-                if (buttonIndex === 0)
-                    navigator.app.exitApp();
+                if (buttonIndex === 1)
+                    cordova.plugins.exit();
                 else return;
 
             },              // callback to invoke with index of button pressed
