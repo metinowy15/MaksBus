@@ -107,5 +107,4 @@
   <plugin name="cordova-plugin-device" spec="~2.0.2" />
   <plugin name="cordova.plugins.diagnostic" spec="~4.0.8" />
   <plugin name="cordova-plugin-dialogs" spec="~2.0.1" />
-  <plugin name="cordova.custom.plugins.exitapp" spec="~1.0.0" src="https://github.com/gaqzi/cordova-plugin-exitapp" />
 </widget>

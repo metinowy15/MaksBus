@@ -84,7 +84,7 @@
             'Czy chcesz wyjść?',  // message
             function (buttonIndex) {
                 if (buttonIndex === 1)
-                    cordova.plugins.exit();
+                    navigator.app.exitApp();
                 else return;
 
             },              // callback to invoke with index of button pressed
