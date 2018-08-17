@@ -23,6 +23,22 @@
         "is_top_level": false,
         "variables": {}
     },
+    "cordova-plugin-network-information": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-device": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-device@~2.0.2"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
     "cordova.plugins.diagnostic": {
         "source": {
             "type": "registry",
@@ -31,10 +47,10 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova-plugin-network-information": {
+    "cordova-plugin-dialogs": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-network-information"
+            "id": "cordova-plugin-dialogs"
         },
         "is_top_level": true,
         "variables": {}

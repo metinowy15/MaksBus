@@ -77,11 +77,36 @@
         }
     ];
     document.addEventListener( 'deviceready', onDeviceReady.bind( this ), false );
+ 
+    function exitFromApp()
+    {
+        navigator.notification.confirm(
+            'Czy chcesz wyjść?',  // message
+            function (buttonIndex) {
+                if (buttonIndex === 0)
+                    navigator.app.exitApp();
+                else return;
+
+            },              // callback to invoke with index of button pressed
+            'Zamknij',            // title
+            'Tak,Nie'          // buttonLabels
+        );
+       
+    }
+
+
 
     function onDeviceReady() {
+
+        //cordova.plugins.notification.local.schedule({
+        //    title: 'MaxBus',
+        //    text: 'Kolejny przystanek za:',
+        //    foreground: true
+        //});
         // Handle the Cordova pause and resume events
         document.addEventListener( 'pause', onPause.bind( this ), false );
-        document.addEventListener( 'resume', onResume.bind( this ), false );
+        document.addEventListener('resume', onResume.bind(this), false);
+        document.addEventListener("backbutton", exitFromApp, false);
         console.log("location");
         //cordova.plugins.diagnostic.isGpsLocationEnabled(function (enabled) {
         //    console.log("GPS location is " + (enabled ? "enabled" : "disabled"));
