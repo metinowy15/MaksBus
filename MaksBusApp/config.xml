@@ -4,10 +4,6 @@
   <description>Aplikacja pokazująca najbliższe przejazdy</description>
   <author href="http://cordova.io" email="dev@cordova.apache.org">GrodNaLyzce</author>
   <vs:template-name>BlankJS</vs:template-name>
-  <vs:toolsetVersion>6.3.1</vs:toolsetVersion>
-  <engine name="android" spec="~5.2.1" />
-  <engine name="ios" spec="4.2.0" />
-  <engine name="windows" spec="~4.4.2" />
   <content src="index.html" />
   <access origin="*" />
   <preference name="SplashScreen" value="screen" />
@@ -107,4 +103,8 @@
   <plugin name="cordova-plugin-device" spec="~2.0.2" />
   <plugin name="cordova.plugins.diagnostic" spec="~4.0.8" />
   <plugin name="cordova-plugin-dialogs" spec="~2.0.1" />
+  <vs:toolsetVersion>6.3.1</vs:toolsetVersion>
+  <engine name="android" spec="5.2.1" />
+  <engine name="ios" spec="4.2.0" />
+  <engine name="windows" spec="4.4.2" />
 </widget>
