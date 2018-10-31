@@ -30,11 +30,11 @@ function renameAndCopyFile
  renameAndCopyFile '*.js' $copyScriptPath
  renameAndCopyFile '*.css' $copyStylePath
 
-# git status
-# git add ../www/css/styles.css
-# git add ../www/scripts/main.js
-# git add ../www/scripts/polyfills.js
-# git add ../www/scripts/runtime.js
+git status
+git add ../www/css/styles.css
+git add ../www/scripts/main.js
+git add ../www/scripts/polyfills.js
+git add ../www/scripts/runtime.js
 
- #git commit -m $message
- #git push
+ git commit -m $message
+ git push

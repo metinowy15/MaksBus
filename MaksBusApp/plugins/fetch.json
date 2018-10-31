@@ -39,18 +39,19 @@
         "is_top_level": true,
         "variables": {}
     },
-    "cordova.plugins.diagnostic": {
-        "source": {
-            "type": "registry",
-            "id": "cordova.plugins.diagnostic"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
     "cordova-plugin-dialogs": {
         "source": {
             "type": "registry",
             "id": "cordova-plugin-dialogs"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova.plugins.diagnostic": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/dpa99c/cordova-diagnostic-plugin",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {}
