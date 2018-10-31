@@ -1,5 +1,5 @@
 
-$buildPath = 'C:\Users\jakubm.ASTOR\Desktop\MaxBus\Apka\MaksBus\dist\MaksBus'
+$buildPath = 'C:\Users\jakubm.ASTOR\Desktop\Manuli\MaxBus\Apka\MaksBus\dist\MaksBus'
 $copyScriptPath = 'C:\Users\jakubm.ASTOR\source\repos\CordovaApp\MaksBusApp\www\scripts'
 $copyStylePath = 'C:\Users\jakubm.ASTOR\source\repos\CordovaApp\MaksBusApp\www\css'
 
@@ -30,11 +30,11 @@ function renameAndCopyFile
  renameAndCopyFile '*.js' $copyScriptPath
  renameAndCopyFile '*.css' $copyStylePath
 
- git status
- git add ../www/css/styles.css
- git add ../www/scripts/main.js
- git add ../www/scripts/polyfills.js
- git add ../www/scripts/runtime.js
+# git status
+# git add ../www/css/styles.css
+# git add ../www/scripts/main.js
+# git add ../www/scripts/polyfills.js
+# git add ../www/scripts/runtime.js
 
- git commit -m $message
- git push
+ #git commit -m $message
+ #git push
