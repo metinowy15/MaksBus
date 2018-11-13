@@ -1,5 +1,5 @@
 
-$buildPath = 'C:\Users\jakubm.ASTOR\Desktop\Manuli\MaxBus\Apka\MaksBus\dist\MaksBus'
+$buildPath = 'C:\Users\jakubm.ASTOR\Desktop\busy krk-lim\MaxBusProject\dist\MaksBus'
 $copyScriptPath = 'C:\Users\jakubm.ASTOR\source\repos\CordovaApp\MaksBusApp\www\scripts'
 $copyStylePath = 'C:\Users\jakubm.ASTOR\source\repos\CordovaApp\MaksBusApp\www\css'
 
