@@ -1,7 +1,7 @@
 
-$buildPath = 'C:\Users\jakubm.ASTOR\Desktop\busy krk-lim\MaxBusProject\dist\MaksBus'
-$copyScriptPath = 'C:\Users\jakubm.ASTOR\source\repos\CordovaApp\MaksBusApp\www\scripts'
-$copyStylePath = 'C:\Users\jakubm.ASTOR\source\repos\CordovaApp\MaksBusApp\www\css'
+$buildPath = 'D:\Kuba Projekty\MaksBus\MaxBusProject\dist\MaksBus'
+$copyScriptPath = 'D:\Kuba Projekty\Cordova\MaksBus\MaksBusApp\www\scripts'
+$copyStylePath = 'D:\Kuba Projekty\Cordova\MaksBus\MaksBusApp\www\css'
 
 $date = Get-Date -Format G
 $message = '"Update build files ' + $date + '"'
