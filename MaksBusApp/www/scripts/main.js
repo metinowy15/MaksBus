@@ -310,7 +310,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".spinner-center{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 80%!important;\r\n}\r\nbody{\r\nmargin-top: 35px!important;\r\n}\r\nhtml{\r\n    height: 100%!important;\r\n}\r\n.menu-bus-item button{\r\n    width: 33%;\r\n    font-family: 'Kalam'!important;\r\n}\r\n.menu-bus-item{\r\n    position: fixed;\r\n    top: 0px;\r\n    z-index: 1300;\r\n    height: 35px\r\n}\r\n.progressInfo{\r\n    text-align: center;\r\n    margin: 5px;\r\n   color:#5255e0;\r\n}\r\n.example-container {\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n  }\r\n.imgNav{\r\n      width: 250px;\r\n      font-size: 20px;\r\n  }\r\n.imgNav img{\r\n    max-width:100%;\r\n  }\r\n.imgNav p {\r\n      margin-top: 0px;\r\n      margin-bottom: 4px;\r\n  }\r\n.imgNav button{\r\n    width: 100%!important;\r\n    text-align: left!important;\r\n  }\r\n.odj button{\r\n    padding-left: 50px!important;\r\n    color: grey;\r\n    font-size: 14px!important;\r\n  }\r\n.activeLink{\r\n      color:#e57373;\r\n  }\r\n.imgNav i{\r\n    margin-right: 5px;\r\n  }\r\n.mat-button{\r\n      font-size:20px!important\r\n  }\r\n"
+module.exports = ".spinner-center{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 80%!important;\r\n}\r\nbody{\r\nmargin-top: 35px!important;\r\n}\r\nhtml{\r\n    height: 100%!important;\r\n}\r\n.menu-bus-item button{\r\n    width: 33%;\r\n    font-family: 'Kalam'!important;\r\n}\r\n.menu-bus-item{\r\n    position: fixed;\r\n    top: 0px;\r\n    z-index: 1300;\r\n    height: 35px\r\n}\r\n.progressInfo{\r\n    text-align: center;\r\n    margin: 5px;\r\n    color:#e57373;\r\n}\r\n.example-container {\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n  }\r\n.imgNav{\r\n      width: 250px;\r\n      font-size: 20px;\r\n  }\r\n.imgNav img{\r\n    max-width:100%;\r\n  }\r\n.imgNav p {\r\n      margin-top: 0px;\r\n      margin-bottom: 4px;\r\n  }\r\n.imgNav button{\r\n    width: 100%!important;\r\n    text-align: left!important;\r\n  }\r\n.odj button{\r\n    padding-left: 50px!important;\r\n    color: grey;\r\n    font-size: 14px!important;\r\n  }\r\n.activeLink{\r\n      color:#e57373;\r\n  }\r\n.imgNav i{\r\n    margin-right: 5px;\r\n  }\r\n.mat-button{\r\n      font-size:20px!important\r\n  }\r\n"
 
 /***/ }),
 
@@ -321,7 +321,7 @@ module.exports = ".spinner-center{\r\n    display: flex;\r\n    justify-content:
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!-- <mat-toolbar color=\"primary\"> -->\r\n<!--\r\n    <button (click)=\"checkStart()\" mat-button>\r\n        <mat-icon>explore</mat-icon>\r\n       Start</button>\r\n    <button [routerLink]=\"['/courses']\" mat-button>\r\n        <i class=\"material-icons\">\r\n            directions_bus\r\n        </i>Kursy\r\n        </button>\r\n    <button [routerLink]=\"['/timetable']\" mat-button>\r\n     <i class=\"material-icons\">\r\n            format_list_bulleted\r\n        </i>Rozkład</button>\r\n\r\n</mat-toolbar>\r\n<div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"spinner-center\">\r\n    <mat-spinner></mat-spinner>\r\n  \r\n</div>\r\n<div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"progressInfo\">{{progressInfo}}</div>\r\n<div *ngIf=\"locationIsDetected && timetableIsActual\">\r\n</div> -->\r\n\r\n<mat-sidenav-container class=\"example-container\" (backdropClick)=\"close('backdrop')\">\r\n\r\n    <mat-sidenav class=\"imgNav\" #sidenav (keydown.escape)=\"close('escape')\" disableClose>\r\n        <img src=\"images/Limanowa.jpg\">\r\n\r\n        <p style=\"margin-top:-4px\"><button [ngClass]=\"{'activeLink': active=='Znajdź najbliższy'}\"  [routerLink]=\"['/start']\" (click)=\"activate('Znajdź najbliższy')\" mat-button>\r\n                <mat-icon>explore</mat-icon>\r\n                Znajdź najbliższy\r\n            </button></p>\r\n        <p>\r\n            <button mat-button [ngClass]=\"{'activeLink': active=='Rozkład'}\" [routerLink]=\"['/timetable']\" (click)=\"activate('Rozkład')\">\r\n                <i class=\"material-icons\">\r\n                    format_list_bulleted\r\n                </i>Rozkład</button></p>\r\n\r\n        <button [routerLink]=\"['/courses']\" mat-button [ngClass]=\"{'activeLink': active.includes('Odjazdy')}\">\r\n            <i class=\"material-icons\">\r\n                directions_bus\r\n            </i> Odjazdy\r\n        </button>\r\n        <br>\r\n        <div class=\"odj\">\r\n            <button [routerLink]=\"['/courses', 'Krk']\" (click)=\"activate('Odjazdy w strone Limanowej')\" mat-button>\r\n                W strone Limanowej\r\n            </button>\r\n            <br>\r\n            <button [routerLink]=\"['/courses', 'Lim']\" (click)=\"activate('Odjazdy w strone Krakowa')\" mat-button>\r\n                W strone Krakowa\r\n            </button>\r\n        </div>\r\n        <p>\r\n        <button mat-button [ngClass]=\"{'activeLink': active=='Mapa busów'}\" [routerLink]=\"['/maps']\" (click)=\"activate('Mapa busów')\">\r\n                    <i class=\"material-icons\">\r\n                        map\r\n                    </i>Mapa busów</button></p>\r\n      <div style=\"position:absolute; bottom:10px;right:10px;color:#e57373;font-family: Roboto, 'Helvetica Neue', sans-serif;\">\r\n        v{{appVersion}}\r\n        </div>\r\n    </mat-sidenav>\r\n\r\n    <mat-sidenav-content>\r\n        <mat-toolbar style=\"height:40px\" color=\"primary\">\r\n            <button style=\"padding-left:0px;padding-right:0px;min-width: unset;margin-right: 10px;\" (click)=\"sidenav.open()\" mat-button>\r\n                <i class=\"material-icons\">\r\n                    menu\r\n                </i></button>{{active}}\r\n        </mat-toolbar>\r\n        <router-outlet></router-outlet>\r\n    </mat-sidenav-content>\r\n</mat-sidenav-container>"
+module.exports = "<!-- <mat-toolbar color=\"primary\"> -->\r\n<!--\r\n    <button (click)=\"checkStart()\" mat-button>\r\n        <mat-icon>explore</mat-icon>\r\n       Start</button>\r\n    <button [routerLink]=\"['/courses']\" mat-button>\r\n        <i class=\"material-icons\">\r\n            directions_bus\r\n        </i>Kursy\r\n        </button>\r\n    <button [routerLink]=\"['/timetable']\" mat-button>\r\n     <i class=\"material-icons\">\r\n            format_list_bulleted\r\n        </i>Rozkład</button>\r\n\r\n</mat-toolbar>\r\n<div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"spinner-center\">\r\n    <mat-spinner></mat-spinner>\r\n  \r\n</div>\r\n<div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"progressInfo\">{{progressInfo}}</div>\r\n<div *ngIf=\"locationIsDetected && timetableIsActual\">\r\n</div> -->\r\n\r\n<mat-sidenav-container class=\"example-container\" (backdropClick)=\"close('backdrop')\">\r\n\r\n    <mat-sidenav class=\"imgNav\" #sidenav (keydown.escape)=\"close('escape')\" disableClose>\r\n        <img src=\"../assets/Limanowa.jpg\">\r\n\r\n        <p style=\"margin-top:-4px\"><button [ngClass]=\"{'activeLink': active=='Znajdź najbliższy'}\"  [routerLink]=\"['/start']\" (click)=\"activate('Znajdź najbliższy')\" mat-button>\r\n                <mat-icon>explore</mat-icon>\r\n                Znajdź najbliższy\r\n            </button></p>\r\n        <p>\r\n            <button mat-button [ngClass]=\"{'activeLink': active=='Rozkład'}\" [routerLink]=\"['/timetable']\" (click)=\"activate('Rozkład')\">\r\n                <i class=\"material-icons\">\r\n                    format_list_bulleted\r\n                </i>Rozkład</button></p>\r\n\r\n        <button style=\"color: black!important;\" [disabled]=\"true\" mat-button [ngClass]=\"{'activeLink': active.includes('Odjazdy')}\">\r\n            <i class=\"material-icons\">\r\n                directions_bus\r\n            </i> Odjazdy\r\n        </button>\r\n        <br>\r\n        <div class=\"odj\">\r\n            <button [routerLink]=\"['/courses', 'Krk']\" (click)=\"activate('Odjazdy w strone Limanowej')\" mat-button>\r\n                W strone Limanowej\r\n            </button>\r\n            <br>\r\n            <button [routerLink]=\"['/courses', 'Lim']\" (click)=\"activate('Odjazdy w strone Krakowa')\" mat-button>\r\n                W strone Krakowa\r\n            </button>\r\n        </div>\r\n        <p>\r\n        <!-- <button mat-button [ngClass]=\"{'activeLink': active=='Mapa busów'}\" [routerLink]=\"['/maps']\" (click)=\"activate('Mapa busów')\">\r\n                    <i class=\"material-icons\">\r\n                        map\r\n                    </i>Mapa busów</button></p> -->\r\n      <div style=\"position:absolute; bottom:10px;right:10px;color:#e57373;font-family: Roboto, 'Helvetica Neue', sans-serif;\">\r\n        v{{appVersion}}\r\n        </div>\r\n    </mat-sidenav>\r\n\r\n    <mat-sidenav-content>\r\n        <mat-toolbar style=\"height:40px\" color=\"primary\">\r\n            <button style=\"padding-left:0px;padding-right:0px;min-width: unset;margin-right: 10px;\" (click)=\"sidenav.open()\" mat-button>\r\n                <i  style=\"font-size: 36px;\" class=\"material-icons\">\r\n                    menu\r\n                </i></button><div style=\"width: 100%;text-align: left\">{{active}}</div>\r\n        </mat-toolbar>\r\n        <div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"spinner-center\">\r\n            <mat-spinner></mat-spinner>\r\n          \r\n        </div>\r\n        <div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"progressInfo\">{{progressInfo}}</div>\r\n        <div *ngIf=\"locationIsDetected && timetableIsActual\">\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n    </mat-sidenav-content>\r\n</mat-sidenav-container>\r\n"
 
 /***/ }),
 
@@ -396,16 +396,18 @@ var AppComponent = /** @class */ (function () {
         this.active = "Znajdź najbliższy";
         this.eventSubscriptionInit();
         var that = this;
-        document.addEventListener('deviceready', function () {
-            console.log("deviceIsReady");
-            that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]("Uruchamianie aplikacji"));
-            that.notService.updateNotification();
-        });
+        //  document.addEventListener('deviceready', () => {
+        console.log("deviceIsReady");
+        that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]("Uruchamianie aplikacji"));
+        that.notService.updateNotification();
+        //});
         document.addEventListener("online", this.connected, false);
     }
     AppComponent.prototype.close = function (reason) {
         this.reason = reason;
         this.sidenav.close();
+    };
+    AppComponent.prototype.ngOnInit = function () {
     };
     AppComponent.prototype.activate = function (activeState) {
         this.active = activeState;
@@ -511,6 +513,46 @@ var AppComponent = /** @class */ (function () {
         this.allCourses = this.timetableService.getTimetable();
         this.appState.timetable = this.allCourses;
         this.appState.allCourses = this.allCourses.Where(function (x) { return _this.legendService.courseIsInThisDay(x) == true; }).ToList();
+        this.initSwip();
+    };
+    AppComponent.prototype.initSwip = function () {
+        var that = this;
+        window.addEventListener('load', function () {
+            var touchsurface = document.getElementById('touchsurface'), startX, startY, dist, threshold = 100, //required min distance traveled to be considered swipe
+            allowedTime = 300, // maximum time allowed to travel that distance
+            elapsedTime, startTime;
+            function handleswipe(isrightswipe, event) {
+                if (isrightswipe) {
+                    {
+                        that.sidenav.open();
+                    }
+                }
+                else {
+                }
+            }
+            touchsurface.addEventListener('touchstart', function (e) {
+                var touchobj = e.changedTouches[0];
+                dist = 0;
+                startX = touchobj.pageX;
+                startY = touchobj.pageY;
+                startTime = new Date().getTime(); // record time when finger first makes contact with surface
+            }, false);
+            touchsurface.addEventListener('touchmove', function (e) {
+            }, false);
+            touchsurface.addEventListener('touchend', function (e) {
+                var touchobj = e.changedTouches[0];
+                dist = touchobj.pageX - startX; // get total dist traveled by finger while in contact with surface
+                elapsedTime = new Date().getTime() - startTime; // get time elapsed
+                // check that elapsed time is within specified, horizontal dist traveled >= threshold, and vertical dist traveled <= 100
+                var swipeLeftBol = (elapsedTime <= allowedTime && dist <= threshold && Math.abs(touchobj.pageY - startY) <= 100);
+                var swiperightBol = (elapsedTime <= allowedTime && dist >= threshold && Math.abs(touchobj.pageY - startY) <= 100);
+                if (swiperightBol)
+                    handleswipe(swiperightBol, e);
+                else if (swipeLeftBol) {
+                    that.sidenav.close();
+                }
+            }, false);
+        }, false); // end window.onload
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('sidenav'),
@@ -722,7 +764,7 @@ var AppModule = /** @class */ (function () {
                 _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatTreeModule"],
                 _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"]
             ],
-            entryComponents: [_timetable_components_stopsSheets_component__WEBPACK_IMPORTED_MODULE_23__["StopsSheets"], _start_components_mapSheet_component__WEBPACK_IMPORTED_MODULE_24__["MapSheet"], _start_components_options_sheets_component__WEBPACK_IMPORTED_MODULE_27__["OptionsSheets"]],
+            entryComponents: [_timetable_components_stopsSheets_component__WEBPACK_IMPORTED_MODULE_23__["StopsSheets"], _start_components_mapSheet_component__WEBPACK_IMPORTED_MODULE_24__["MapSheet"], _start_components_options_sheets_component__WEBPACK_IMPORTED_MODULE_27__["OptionsSheets"], _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_28__["SingleCourseComponent"]],
             providers: [_services_NotificationService__WEBPACK_IMPORTED_MODULE_9__["NotificationService"], _services_AppState__WEBPACK_IMPORTED_MODULE_21__["AppState"], _services_LegendServices__WEBPACK_IMPORTED_MODULE_17__["LegendService"], _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_10__["LocalStorageHelper"], _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_12__["TimetableUpdateService"], _services_LocationService__WEBPACK_IMPORTED_MODULE_13__["LocationService"], _services_TraficService__WEBPACK_IMPORTED_MODULE_14__["TraficService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_11__["EventService"], _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_26__["BusLocationServices"]],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_0__["AppComponent"]]
         })
@@ -752,7 +794,7 @@ module.exports = ".mat-expansion-indicator::after{\r\n    display: none!importan
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\r\n  <div *ngIf=\"!coursesExist()\" style=\"width: 100%;text-align: center\">\r\n    <h3>Brak kursów</h3>\r\n  </div>\r\n  <div *ngIf=\"coursesExist()\">\r\n    <div *ngFor=\"let course of nearCourses\">\r\n      <mat-card style=\"padding: 5px;margin:3px\">\r\n        <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\r\n\r\n          <mat-grid-tile style=\"flex-direction:column\">\r\n            {{directionResolve(course.direction)}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Przez</p>\r\n          </mat-grid-tile>\r\n          <!-- <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n            Kraków\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Z</p>\r\n          </mat-grid-tile> -->\r\n          <mat-grid-tile style=\"flex-direction:column\">\r\n            {{course.courseFirstStop.timeString}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n          </mat-grid-tile>\r\n          <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n            {{calculateTime(course.courseFirstStop)}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Za</p>\r\n          </mat-grid-tile>\r\n        </mat-grid-list>\r\n      </mat-card>\r\n    </div>\r\n  </div>\r\n  </div>"
+module.exports = "<div>\r\n  <div *ngIf=\"!coursesExist()\" style=\"width: 100%;text-align: center\">\r\n    <h3>Brak kursów</h3>\r\n  </div>\r\n  <div *ngIf=\"coursesExist()\">\r\n    <div *ngFor=\"let course of nearCourses\">\r\n      <mat-card (click)=\"showDetails(course)\" style=\"padding: 5px;margin:3px\">\r\n        <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\r\n\r\n          <mat-grid-tile style=\"flex-direction:column\">\r\n            {{directionResolve(course.direction)}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Przez</p>\r\n          </mat-grid-tile>\r\n          <!-- <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n            Kraków\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Z</p>\r\n          </mat-grid-tile> -->\r\n          <mat-grid-tile style=\"flex-direction:column\">\r\n            {{course.courseFirstStop.timeString}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n          </mat-grid-tile>\r\n          <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n            {{calculateTime(course.courseFirstStop)}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Za</p>\r\n          </mat-grid-tile>\r\n        </mat-grid-list>\r\n      </mat-card>\r\n    </div>\r\n  </div>\r\n  </div>"
 
 /***/ }),
 
@@ -776,6 +818,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
 /* harmony import */ var _events_LocationChanged__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../events/LocationChanged */ "./src/app/events/LocationChanged.ts");
 /* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -795,11 +838,13 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
+
 var CourseComponent = /** @class */ (function () {
-    function CourseComponent(traffic, matSnackBar, locationService, eventService) {
+    function CourseComponent(traffic, matSnackBar, bottomSheet, locationService, eventService) {
         var _this = this;
         this.traffic = traffic;
         this.matSnackBar = matSnackBar;
+        this.bottomSheet = bottomSheet;
         this.locationService = locationService;
         this.eventService = eventService;
         this.timetableIsActual = true;
@@ -892,6 +937,9 @@ var CourseComponent = /** @class */ (function () {
         }
         return false;
     };
+    CourseComponent.prototype.showDetails = function (course) {
+        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_10__["SingleCourseComponent"], { data: { course: course, fullMode: true } });
+    };
     CourseComponent.prototype.getStopForLocation = function (stops) {
         var _this = this;
         var stop = null;
@@ -972,7 +1020,7 @@ var CourseComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./course.component.html */ "./src/app/course/course.component.html"),
             styles: [__webpack_require__(/*! ./course.component.css */ "./src/app/course/course.component.css")]
         }),
-        __metadata("design:paramtypes", [_services_TraficService__WEBPACK_IMPORTED_MODULE_4__["TraficService"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSnackBar"], _services_LocationService__WEBPACK_IMPORTED_MODULE_2__["LocationService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_6__["EventService"]])
+        __metadata("design:paramtypes", [_services_TraficService__WEBPACK_IMPORTED_MODULE_4__["TraficService"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSnackBar"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatBottomSheet"], _services_LocationService__WEBPACK_IMPORTED_MODULE_2__["LocationService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_6__["EventService"]])
     ], CourseComponent);
     return CourseComponent;
 }());
@@ -999,7 +1047,7 @@ module.exports = ".herb{\r\n    width: 70px;height: 85px;\r\n    margin: 0 auto;
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\r\n        <mat-toolbar style=\"height:50px\" color=\"primary\">\r\n                <div class=\"subTolbar\">\r\n                  <mat-form-field style=\"width: 100px;\r\n                  font-size: 14px;\">\r\n                    <mat-select placeholder=\"Z przystanku\" [(ngModel)]=\"firstStop\">\r\n                      <mat-option *ngFor=\"let stop of stops\" [value]=\"stop.city\">\r\n                        {{stop.city}}\r\n                      </mat-option>\r\n                    </mat-select>\r\n                  </mat-form-field>\r\n                  <mat-form-field style=\"margin-left:20px;width: 70px;\r\n                  font-size: 14px;\">\r\n                    <input matInput type=\"time\" placeholder=\"O godzinie\" [(ngModel)]=\"now\" [ngxTimepicker]=\"picker\" [format]=\"24\">\r\n                    <ngx-material-timepicker #picker [defaultTime]=\"now\"></ngx-material-timepicker>\r\n                </mat-form-field>\r\n                <button (click)=\"setNow()\"  mat-button><i\r\n                    class=\"material-icons\">\r\n                    access_time\r\n                  </i>Teraz</button>\r\n                </div>\r\n              </mat-toolbar>\r\n    <div style=\"height: 87px;width: 100%;font-size: 20px; margin-top: 10px; display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    text-align: center;\">\r\n        <img src=\"{{imgSrc}}\" class=\"herb\">\r\n    </div>\r\n    <app-course [allCourses]=\"limCourses\" [firstStop]=\"firstStop\" [date]=\"now\"></app-course>\r\n\r\n</div>"
+module.exports = "<div>\r\n        <mat-toolbar style=\"height:50px\" color=\"primary\">\r\n                <div class=\"subTolbar\">\r\n                  <mat-form-field style=\"width: 100px;\r\n                  font-size: 14px;\">\r\n                    <mat-select placeholder=\"Z przystanku\" [(ngModel)]=\"firstStop\">\r\n                      <mat-option *ngFor=\"let stop of stops\" [value]=\"stop.city\">\r\n                        {{stop.city}}\r\n                      </mat-option>\r\n                    </mat-select>\r\n                  </mat-form-field>\r\n                  <mat-form-field style=\"margin-left:20px;width: 70px;\r\n                  font-size: 14px;\">\r\n                    <input matInput type=\"time\" placeholder=\"O godzinie\" [(ngModel)]=\"now\">\r\n                </mat-form-field>\r\n                <button (click)=\"setNow()\"  mat-button><i\r\n                    class=\"material-icons\">\r\n                    access_time\r\n                  </i>Teraz</button>\r\n                </div>\r\n              </mat-toolbar>\r\n    <div style=\"height: 87px;width: 100%;font-size: 20px; margin-top: 10px; display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    text-align: center;\">\r\n        <img src=\"{{imgSrc}}\" class=\"herb\">\r\n    </div>\r\n    <app-course [allCourses]=\"limCourses\" [firstStop]=\"firstStop\" [date]=\"now\"></app-course>\r\n\r\n</div>"
 
 /***/ }),
 
@@ -1050,11 +1098,11 @@ var CoursesComponent = /** @class */ (function () {
             _this.zone.run(function () {
                 if (_this.direction == "Krk") {
                     _this.firstStop = "Kraków";
-                    _this.imgSrc = "images/LimHerb.png";
+                    _this.imgSrc = "../../assets/LimHerb.png";
                 }
                 if (_this.direction == "Lim") {
                     _this.firstStop == "Limanowa";
-                    _this.imgSrc = "images/KrkHerb.png";
+                    _this.imgSrc = "../../assets/KrkHerb.png";
                 }
                 _this.getCourseForDirection();
             });
@@ -2744,16 +2792,19 @@ var TraficService = /** @class */ (function () {
             timeTo.setHours(nextStop.time.hours);
             timeTo.setMinutes(nextStop.time.minutes);
             _this.oldTimeTo = moment__WEBPACK_IMPORTED_MODULE_2__(timeTo);
-            _this.send(stopNameInGoogle[stop.city], stopNameInGoogle[nextStop.city], time).then(function (resolve5) {
-                _this.calculateTime(nextStop, time, timeTo, resolve5);
-                _this.calculateDurrationForStop(cours, i + 1).then(function (end) {
-                    resolve();
+            var that = _this;
+            setTimeout(function () {
+                that.send(stopNameInGoogle[stop.city], stopNameInGoogle[nextStop.city], time).then(function (resolve5) {
+                    that.calculateTime(nextStop, time, timeTo, resolve5);
+                    that.calculateDurrationForStop(cours, i + 1).then(function (end) {
+                        resolve();
+                    }, function (error) {
+                        reject();
+                    });
                 }, function (error) {
                     reject();
                 });
-            }, function (error) {
-                reject();
-            });
+            }, 500);
         });
     };
     TraficService.prototype.calculateProgress = function (cours, i) {
@@ -2785,11 +2836,15 @@ var TraficService = /** @class */ (function () {
             }, function (data) {
                 if (data == null) {
                     resolve(null);
-                    console.log(start);
-                    console.log(end);
-                    console.log(time);
+                    console.log("Error");
                 }
-                var duration = data.routes["0"].legs["0"].duration_in_traffic.value;
+                try {
+                    var duration = data.routes["0"].legs["0"].duration_in_traffic.value;
+                }
+                catch (_a) {
+                    var durationWithoutTraffic = data.routes["0"].legs["0"].duration.value;
+                    resolve(durationWithoutTraffic);
+                }
                 resolve(duration);
             });
         });
@@ -2842,7 +2897,7 @@ var TraficService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = ":host /deep/ .mat-figure{\r\n    flex-direction: column;\r\n}\r\n\r\n::ng-deep .mat-bottom-sheet-container{\r\n    max-height: 100vh!important;\r\n    height: 100vh!important;\r\n}"
 
 /***/ }),
 
@@ -2853,7 +2908,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "   <mat-card style=\"padding: 0px;margin:3px\">\n    <div id=\"mapStart\" style=\"height:300px\" class=\"row content flex-map\"></div>\n    <mat-grid-list *ngIf=\"searchEnd\" cols=\"2\" rowHeight=\"3:1\">\n  \n      <mat-grid-tile style=\"flex-direction:column\">\n        {{nearStop.city}}\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Najbliższy przystanek</p>\n      </mat-grid-tile>\n      <mat-grid-tile style=\"flex-direction:column\">\n        {{nearStop.data.duration.text}}\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Czas dojścia</p>\n      </mat-grid-tile>\n    </mat-grid-list>\n    <mat-grid-list *ngIf=\"!searchEnd\" cols=\"1\" rowHeight=\"3:1\">\n  \n      <mat-grid-tile style=\"flex-direction:column\">\n        Znajdź odjazdy z najbliższego przystanku\n        <p style=\"margin:2px;font-size: 12px;color: grey\">określ kierunek i sposób dotarcia</p>\n      </mat-grid-tile>\n    </mat-grid-list>\n  \n  </mat-card>\n  <div *ngIf=\"progressWidth > 0 && progressWidth < 100\">\n    <mat-progress-bar color=\"warn\" mode=\"determinate\" value=\"{{progressWidth}}\"></mat-progress-bar>\n  </div>\n  <div *ngIf=\"searchEnd\">\n    <h3 style=\"text-align: center;font-family: Roboto, 'Helvetica Neue', sans-serif;\">Odjazdy z <span style=\"color:#e57373\">{{nearStop.city}}\n      </span></h3>\n    <div *ngFor=\"let course of displayCourses\">\n      <mat-card style=\"padding: 5px;margin:3px\">\n        <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\n  \n          <mat-grid-tile style=\"flex-direction:column-reverse\">\n            {{course.direction}}\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Kierunek</p>\n          </mat-grid-tile>\n          <mat-grid-tile style=\"flex-direction:column\">\n            {{course.firstStop.timeString}}\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\n          </mat-grid-tile>\n          <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\n            {{calculateTimeString(course.firstStop)}}\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Za</p>\n          </mat-grid-tile>\n        </mat-grid-list>\n      </mat-card>\n    </div>\n  </div>\n  \n  "
+module.exports = "<mat-toolbar style=\"position: fixed;\nheight: 50px;\ntop: 0px;\nleft: 0px;\" color=\"primary\">\n  <div class=\"subTolbar\">\n    <button (click)=\"back()\" mat-button><i\n        class=\"material-icons\">\n        arrow_back\n      </i></button>\n    <button *ngIf=\"fullMode\" [disabled]=\"course.traficIsCalculate\" (click)=\"calculateTraffic()\" mat-button><i\n        class=\"material-icons\">\n        update\n      </i> Oblicz czas w korkach</button>\n  </div>\n</mat-toolbar>\n<mat-nav-list style=\"margin-top:40px\">\n  <h3 style=\"text-align: center;\">{{resolveDirection(course)}}</h3>\n  <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\n      <mat-grid-tile style=\"flex-direction:column-reverse\">\n          {{course.stops[0].timeString}}\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\n      </mat-grid-tile>\n      <mat-grid-tile style=\"flex-direction:column\">\n          {{course.stops[course.stops.length-1].timeString}}\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Przyjazd</p>\n      </mat-grid-tile>\n      <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\n          {{calculateTravelTime(course)}}\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Czas</p>\n      </mat-grid-tile>\n    </mat-grid-list>\n  <br>\n  <mat-grid-list *ngIf=\"!fullMode\" cols=\"2\" rowHeight=\"20:3\">\n          <mat-grid-tile style=\"background-color:#e57373\">Przystanek</mat-grid-tile>\n          <mat-grid-tile style=\"background-color:#e57373\">Czas</mat-grid-tile>\n          <div *ngFor=\"let stop of course.stops\">\n            <mat-grid-tile>{{stop.city}}</mat-grid-tile>\n            <mat-grid-tile>{{stop.timeString}}</mat-grid-tile>\n          </div>\n  </mat-grid-list>\n  <mat-grid-list *ngIf=\"fullMode\" cols=\"3\" rowHeight=\"12:3\">\n    <mat-grid-tile style=\"background-color:#e57373\">Przystanek</mat-grid-tile>\n    <mat-grid-tile style=\"background-color:#e57373\">Czas</mat-grid-tile>\n    <mat-grid-tile style=\"background-color:#e57373\">Za</mat-grid-tile>\n    <div *ngFor=\"let stop of course.stops\">\n      <mat-grid-tile>{{stop.city}}</mat-grid-tile>\n      <mat-grid-tile>{{stop.timeString}}</mat-grid-tile>\n      <mat-grid-tile>{{calculateTimeString(stop)}}</mat-grid-tile>\n    </div>\n</mat-grid-list>\n  <div *ngIf=\"calculateInProgress\" style=\"height: 15px;margin-top: 10px; text-align: center;\">\n      <mat-progress-bar color=\"primary\" value=\"{{testEmitter | async}}\"></mat-progress-bar>\n  </div>\n  <div style=\"position: absolute; bottom: 0px;width: 90%;\">\n  <hr>\n  <div style=\"text-align: center;\" class=\"legend\" *ngFor=\"let legend of legends\">\n      <div>{{legend}} - {{symbolLegend[legend]}}</div>\n  </div>\n</div>\n</mat-nav-list>\n  \n  "
 
 /***/ }),
 
@@ -2868,6 +2923,11 @@ module.exports = "   <mat-card style=\"padding: 0px;margin:3px\">\n    <div id=\
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SingleCourseComponent", function() { return SingleCourseComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/TraficService */ "./src/app/services/TraficService.ts");
+/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
+/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -2877,19 +2937,169 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
 
 var SingleCourseComponent = /** @class */ (function () {
-    function SingleCourseComponent() {
+    function SingleCourseComponent(traffic, eventServ, zone, matSnackBar, bottomSheetRef, data) {
+        var _this = this;
+        this.traffic = traffic;
+        this.eventServ = eventServ;
+        this.zone = zone;
+        this.matSnackBar = matSnackBar;
+        this.bottomSheetRef = bottomSheetRef;
+        this.data = data;
+        this.fullMode = true;
+        this.progressW = 0;
+        this.calculateInProgress = false;
+        this.testEmitter = new rxjs__WEBPACK_IMPORTED_MODULE_5__["BehaviorSubject"](this.progressW);
+        this.symbolLegend = {
+            "F": "kursuje w dni robocze",
+            "7": "kursuje w niedzielę",
+            "S": "nie kursuje w dni wolne od nauki szkolnej",
+            "P": "kursuje tylko w piątek",
+            "6": "kursuje w soboty"
+        };
+        this.course = data.course;
+        this.fullMode = data.fullMode;
+        this.subscription = this.eventServ.getMessage(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__["ProgressUpdated"]).subscribe(function (message) {
+            _this.progressW = message.progress;
+            _this.testEmitter.next(_this.progressW);
+            console.log(message.progress);
+        });
+        this.legends = this.course.legends.split(" ");
     }
+    SingleCourseComponent.prototype.openLink = function (event) {
+        this.bottomSheetRef.dismiss();
+        event.preventDefault();
+    };
+    SingleCourseComponent.prototype.calculateTimeString = function (stop) {
+        if (stop.time == null)
+            return "";
+        var now = new Date();
+        var stopDate = new Date();
+        stopDate.setHours(stop.time.hours);
+        stopDate.setMinutes(stop.time.minutes);
+        var difference = stopDate.getTime() - now.getTime();
+        var resultInMinutes = Math.round(difference / 60000);
+        if (resultInMinutes >= 60) {
+            var hourResult = Number.parseInt((resultInMinutes / 60).toString());
+            var minResult = resultInMinutes % 60;
+            return hourResult.toString() + " h " + minResult.toString() + " min";
+        }
+        else
+            return resultInMinutes.toString() + " min";
+    };
     SingleCourseComponent.prototype.ngOnInit = function () {
+    };
+    SingleCourseComponent.prototype.calculateTravelTime = function (course) {
+        var firstStop = course.stops[0];
+        var lastStop = course.stops[course.stops.length - 1];
+        if (firstStop.time == null)
+            return "";
+        var lastStopDate = new Date();
+        var firstStopDate = new Date();
+        firstStopDate.setHours(firstStop.time.hours);
+        firstStopDate.setMinutes(firstStop.time.minutes);
+        lastStopDate.setHours(lastStop.time.hours);
+        lastStopDate.setMinutes(lastStop.time.minutes);
+        var difference = lastStopDate.getTime() - firstStopDate.getTime();
+        var resultInMinutes = Math.round(difference / 60000);
+        if (resultInMinutes >= 60) {
+            var hourResult = Number.parseInt((resultInMinutes / 60).toString());
+            var minResult = resultInMinutes % 60;
+            return hourResult.toString() + " h " + minResult.toString() + " min";
+        }
+        else
+            return resultInMinutes.toString() + " min";
+    };
+    SingleCourseComponent.prototype.resolveDirection = function (course) {
+        switch (course.direction) {
+            case "Krk-Że-Lim":
+                return "Kraków - Zegocina - Limanowa";
+            case "Krk-Ry-Lim":
+                return "Kraków - Stare rybie - Limanowa";
+            case "Krk-Sz-Lim":
+                return "Kraków - Szyk - Limanowa";
+            case "Lim-Sz-Krk":
+                return "Limanowa - Szyk - Kraków";
+            case "Lim-Że-Krk":
+                return "Limanowa - Zegocina - Kraków";
+            case "Lim-Ry-Krk":
+                return "Limanowa - Stare rybie - Kraków";
+            case "Lim-Ty-Krk":
+                return "Limanowa - Tymbark - Kraków";
+            case "Krk-Ty-Lim":
+                return "Kraków - Tymbark - Limanowa";
+            default:
+                break;
+        }
+    };
+    SingleCourseComponent.prototype.back = function () {
+        this.bottomSheetRef.dismiss();
+    };
+    SingleCourseComponent.prototype.calculateTraffic = function () {
+        var _this = this;
+        this.calculateInProgress = true;
+        var courseTmp = this.course;
+        var connection = navigator.connection.type;
+        console.log(connection);
+        if (connection == "none") {
+            this.matSnackBar.open("Brak połączenia z siecią!", "", {
+                duration: 2000,
+            });
+            this.calculateInProgress = false;
+            return;
+        }
+        if (this.dateIsPasst(courseTmp.stops[0])) {
+            this.matSnackBar.open("Informacje o ruchu drogowym są dostępne tylko dla przyszłych i bieżących kursów!", "", {
+                duration: 2000,
+            });
+            this.calculateInProgress = false;
+            return;
+        }
+        courseTmp.traficIsCalculate = true;
+        this.traffic.calculateDurrationForStop(courseTmp, 0).then(function (data) {
+            _this.course = courseTmp;
+            _this.calculateInProgress = false;
+        }, function (error) {
+            courseTmp.traficIsCalculate = false;
+            _this.calculateInProgress = false;
+        });
+    };
+    SingleCourseComponent.prototype.dateIsPasst = function (stop) {
+        if (stop.time == null)
+            return false;
+        var now = new Date();
+        var stopDate = new Date();
+        stopDate.setHours(stop.time.hours);
+        stopDate.setMinutes(stop.time.minutes);
+        var difference = stopDate.getTime() - now.getTime();
+        var resultInMinutes = Math.round(difference / 60000);
+        if (resultInMinutes > 0)
+            return false;
+        else
+            return true;
+    };
+    SingleCourseComponent.prototype.ngOnDestroy = function () {
+        this.subscription.unsubscribe();
     };
     SingleCourseComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-single-course',
+            selector: 'single-course',
             template: __webpack_require__(/*! ./single-course.component.html */ "./src/app/single-course/single-course.component.html"),
             styles: [__webpack_require__(/*! ./single-course.component.css */ "./src/app/single-course/single-course.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __param(5, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_BOTTOM_SHEET_DATA"])),
+        __metadata("design:paramtypes", [_services_TraficService__WEBPACK_IMPORTED_MODULE_2__["TraficService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_4__["EventService"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSnackBar"], _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatBottomSheetRef"], Object])
     ], SingleCourseComponent);
     return SingleCourseComponent;
 }());
@@ -3404,7 +3614,7 @@ module.exports = ".notification{\r\n    position: fixed;\r\n    bottom: 0px;\r\n
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-toolbar style=\"height:50px\" color=\"primary\">\r\n  <div class=\"subTolbar\">\r\n    <mat-form-field style=\"width: 100px;\r\n    font-size: 14px;\">\r\n      <mat-select placeholder=\"Kierunek\">\r\n        <mat-option (click)=\"changeDirection()\" *ngFor=\"let dir of directions\" [value]=\"dir.value\">\r\n          {{dir.viewValue}}\r\n        </mat-option>\r\n      </mat-select>\r\n    </mat-form-field>\r\n    <button (click)=\"changeTravelMode('WALKING')\" [ngClass]=\"{'activeDirection': travelMode =='WALKING'}\" mat-button><i\r\n        class=\"material-icons\">\r\n        directions_walk\r\n      </i></button>\r\n    <button (click)=\"changeTravelMode('BICYCLING')\" [ngClass]=\"{'activeDirection': travelMode =='BICYCLING'}\"\r\n      mat-button><i class=\"material-icons\">\r\n        directions_bike\r\n      </i></button>\r\n    <button (click)=\"changeTravelMode('DRIVING')\" [ngClass]=\"{'activeDirection': travelMode =='DRIVING'}\" mat-button><i\r\n        class=\"material-icons\">\r\n        directions_car\r\n      </i></button>\r\n  </div>\r\n</mat-toolbar>\r\n<mat-card style=\"padding: 0px;margin:3px\">\r\n  <div id=\"mapStart\" style=\"height:300px\" class=\"row content flex-map\"></div>\r\n  <mat-grid-list *ngIf=\"searchEnd\" cols=\"2\" rowHeight=\"3:1\">\r\n\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      {{nearStop.city}}\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">Najbliższy przystanek</p>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      {{nearStop.data.duration.text}}\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">Czas dojścia</p>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n  <mat-grid-list *ngIf=\"!searchEnd\" cols=\"1\" rowHeight=\"3:1\">\r\n\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      Znajdź odjazdy z najbliższego przystanku\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">określ kierunek i sposób dotarcia</p>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n\r\n</mat-card>\r\n<div *ngIf=\"progressWidth > 0 && progressWidth < 100\">\r\n  <mat-progress-bar color=\"warn\" mode=\"determinate\" value=\"{{progressWidth}}\"></mat-progress-bar>\r\n</div>\r\n<div *ngIf=\"searchEnd\">\r\n  <h3 style=\"text-align: center;font-family: Roboto, 'Helvetica Neue', sans-serif;\">Odjazdy z <span style=\"color:#e57373\">{{nearStop.city}}\r\n    </span></h3>\r\n  <div *ngFor=\"let course of displayCourses\">\r\n    <mat-card style=\"padding: 5px;margin:3px\">\r\n      <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\r\n\r\n        <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n          {{course.direction}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Kierunek</p>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile style=\"flex-direction:column\">\r\n          {{course.firstStop.timeString}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n          {{calculateTimeString(course.firstStop)}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Za</p>\r\n        </mat-grid-tile>\r\n      </mat-grid-list>\r\n    </mat-card>\r\n  </div>\r\n</div>\r\n\r\n<!-- <div class=\"search-course button-center\">\r\n\r\n  <img (click)=\"searchCourse()\" width=\"150\" height=\"120\" src=\"../../assets/busStop.svg\">\r\n \r\n</div> \r\n<div *ngIf=\"watchCourse\">\r\n  <watched-course (endWatch)=\"onWatchEnd()\"></watched-course>\r\n</div>\r\n<div *ngIf=\"!watchCourse\">\r\n  <button *ngIf=\"searchEnd && checkPrev()\" (click)=\"getPrevCourse()\" color=\"primary\" style=\"position:fixed;left:2px;top:140px\"\r\n    mat-mini-fab><mat-icon>chevron_left</mat-icon></button>\r\n  <button *ngIf=\"searchEnd && checkNext()\" (click)=\"getNextCourse()\" color=\"primary\" style=\"position:fixed;right:2px;top:140px\"\r\n    mat-mini-fab><mat-icon>chevron_right</mat-icon></button>\r\n  <div class=\"box\">\r\n    <div class=\"row header\">\r\n      <div class=\"direction-menu\">\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" (click)=\"changeDirection()\">\r\n          <img *ngIf=\"direction == 'Lim'\" src=\"images/Krk.png\" width=\"25px\" height=\"25px\">\r\n          <img *ngIf=\"direction == 'Krk'\" src=\"images/Lim.png\" width=\"25px\" height=\"25px\">\r\n        </button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'WALKING'}\" (click)=\"changeTravelMode('WALKING')\"><img\r\n            src=\"images/walk.png\" width=\"25px\" height=\"25px\"></button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'BICYCLING'}\" (click)=\"changeTravelMode('BICYCLING')\"><img\r\n            src=\"images/bike.png\" width=\"25px\" height=\"25px\"></button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'DRIVING'}\" (click)=\"changeTravelMode('DRIVING')\"><img\r\n            src=\"images/auto.png\" width=\"25px\" height=\"25px\"></button>\r\n      </div>\r\n      <div style=\"padding-top:10px;text-align: center;font-size: 14px; background-color: #5255e0; height: 110px;\">\r\n        <div *ngIf=\"!searchEnd\">Wybierz kierunek\r\n          <div style=\"color:white\">(LIM - do Limanowej, KRK - w strone Krakowa)</div>\r\n          <div>oraz sposób dotarcia na przystanek</div>\r\n          <div>Wymagana jest lokalizacja oraz połączenie z internetem</div>\r\n        </div>\r\n        <div *ngIf=\"searchEnd\">\r\n          <div>Czas dojścia na przystanek: <span style=\"color:white\">{{nearStop.data.duration.text}}</span></div>\r\n          <div style=\"height:35px\">Bus będzie o <span style=\"color:white\" class='time'>{{nearCourse.firstStop.timeString}}</span></div>\r\n          <div>na przystanku <span style=\"color:white\" class='place'>{{nearStop.city}}</span></div>\r\n          <div><span style=\"color:white;font-size: 13px\">{{resolveDirection()}}</span></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div id=\"mapStart\" class=\"row content flex-map\">\r\n    </div>\r\n  </div>\r\n  <div *ngIf=\"this.nearCourse\" (click)=\"showOptions()\" style=\"width:35px;position:fixed;bottom:0px;left:47%;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;background-color: #5255e0\"> <i class=\"material-icons\">\r\n    more_horiz</i> </div>\r\n</div>\r\n-->"
+module.exports = "<mat-toolbar style=\"height:50px\" color=\"primary\">\r\n  <div class=\"subTolbar\">\r\n    <mat-form-field style=\"width: 100px;\r\n    font-size: 14px;\">\r\n      <mat-select placeholder=\"Kierunek\">\r\n        <mat-option (click)=\"changeDirection()\" *ngFor=\"let dir of directions\" [value]=\"dir.value\">\r\n          {{dir.viewValue}}\r\n        </mat-option>\r\n      </mat-select>\r\n    </mat-form-field>\r\n    <button (click)=\"changeTravelMode('WALKING')\" [ngClass]=\"{'activeDirection': travelMode =='WALKING'}\" mat-button><i\r\n        class=\"material-icons\">\r\n        directions_walk\r\n      </i></button>\r\n    <button (click)=\"changeTravelMode('BICYCLING')\" [ngClass]=\"{'activeDirection': travelMode =='BICYCLING'}\"\r\n      mat-button><i class=\"material-icons\">\r\n        directions_bike\r\n      </i></button>\r\n    <button (click)=\"changeTravelMode('DRIVING')\" [ngClass]=\"{'activeDirection': travelMode =='DRIVING'}\" mat-button><i\r\n        class=\"material-icons\">\r\n        directions_car\r\n      </i></button>\r\n  </div>\r\n</mat-toolbar>\r\n<mat-card style=\"padding: 0px;margin:3px\">\r\n  <div *ngIf=\"progressWidth > 0 && progressWidth < 100\">\r\n    <mat-progress-bar color=\"warn\" mode=\"determinate\" value=\"{{progressWidth}}\"></mat-progress-bar>\r\n  </div>\r\n  <div id=\"mapStart\" style=\"height:300px\" class=\"row content flex-map\"></div>\r\n  <mat-grid-list *ngIf=\"searchEnd\" cols=\"2\" rowHeight=\"3:1\">\r\n\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      {{nearStop.city}}\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">Najbliższy przystanek</p>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      {{nearStop.data.duration.text}}\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">Czas dojścia</p>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n  <mat-grid-list *ngIf=\"!searchEnd\" cols=\"1\" rowHeight=\"3:1\">\r\n\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      Znajdź odjazdy z najbliższego przystanku\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">określ kierunek i sposób dotarcia</p>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n\r\n</mat-card>\r\n<mat-card style=\"padding: 0px;margin:3px;margin-top:10px;text-align: center;\">\r\n  <mat-grid-list *ngIf=\"!searchEnd && message !=undefined\" cols=\"1\" rowHeight=\"3:1\">\r\n\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      {{message.text}}\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">{{message.timestamp}}</p>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n</mat-card>\r\n\r\n<div *ngIf=\"searchEnd\">\r\n  <h3 style=\"text-align: center;font-family: Roboto, 'Helvetica Neue', sans-serif;\">Odjazdy z <span style=\"color:#e57373\">{{nearStop.city}}\r\n    </span></h3>\r\n  <div *ngFor=\"let course of displayCourses\">\r\n    <mat-card (click)=\"showDetails(course)\" style=\"padding: 5px;margin:3px\">\r\n      <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\r\n\r\n        <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n          {{course.direction}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Kierunek</p>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile style=\"flex-direction:column\">\r\n          {{course.firstStop.timeString}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n          {{calculateTimeString(course.firstStop)}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Za</p>\r\n        </mat-grid-tile>\r\n      </mat-grid-list>\r\n    </mat-card>\r\n  </div>\r\n</div>\r\n\r\n<!-- <div class=\"search-course button-center\">\r\n\r\n  <img (click)=\"searchCourse()\" width=\"150\" height=\"120\" src=\"../../assets/busStop.svg\">\r\n \r\n</div> \r\n<div *ngIf=\"watchCourse\">\r\n  <watched-course (endWatch)=\"onWatchEnd()\"></watched-course>\r\n</div>\r\n<div *ngIf=\"!watchCourse\">\r\n  <button *ngIf=\"searchEnd && checkPrev()\" (click)=\"getPrevCourse()\" color=\"primary\" style=\"position:fixed;left:2px;top:140px\"\r\n    mat-mini-fab><mat-icon>chevron_left</mat-icon></button>\r\n  <button *ngIf=\"searchEnd && checkNext()\" (click)=\"getNextCourse()\" color=\"primary\" style=\"position:fixed;right:2px;top:140px\"\r\n    mat-mini-fab><mat-icon>chevron_right</mat-icon></button>\r\n  <div class=\"box\">\r\n    <div class=\"row header\">\r\n      <div class=\"direction-menu\">\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" (click)=\"changeDirection()\">\r\n          <img *ngIf=\"direction == 'Lim'\" src=\"images/Krk.png\" width=\"25px\" height=\"25px\">\r\n          <img *ngIf=\"direction == 'Krk'\" src=\"images/Lim.png\" width=\"25px\" height=\"25px\">\r\n        </button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'WALKING'}\" (click)=\"changeTravelMode('WALKING')\"><img\r\n            src=\"images/walk.png\" width=\"25px\" height=\"25px\"></button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'BICYCLING'}\" (click)=\"changeTravelMode('BICYCLING')\"><img\r\n            src=\"images/bike.png\" width=\"25px\" height=\"25px\"></button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'DRIVING'}\" (click)=\"changeTravelMode('DRIVING')\"><img\r\n            src=\"images/auto.png\" width=\"25px\" height=\"25px\"></button>\r\n      </div>\r\n      <div style=\"padding-top:10px;text-align: center;font-size: 14px; background-color: #5255e0; height: 110px;\">\r\n        <div *ngIf=\"!searchEnd\">Wybierz kierunek\r\n          <div style=\"color:white\">(LIM - do Limanowej, KRK - w strone Krakowa)</div>\r\n          <div>oraz sposób dotarcia na przystanek</div>\r\n          <div>Wymagana jest lokalizacja oraz połączenie z internetem</div>\r\n        </div>\r\n        <div *ngIf=\"searchEnd\">\r\n          <div>Czas dojścia na przystanek: <span style=\"color:white\">{{nearStop.data.duration.text}}</span></div>\r\n          <div style=\"height:35px\">Bus będzie o <span style=\"color:white\" class='time'>{{nearCourse.firstStop.timeString}}</span></div>\r\n          <div>na przystanku <span style=\"color:white\" class='place'>{{nearStop.city}}</span></div>\r\n          <div><span style=\"color:white;font-size: 13px\">{{resolveDirection()}}</span></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div id=\"mapStart\" class=\"row content flex-map\">\r\n    </div>\r\n  </div>\r\n  <div *ngIf=\"this.nearCourse\" (click)=\"showOptions()\" style=\"width:35px;position:fixed;bottom:0px;left:47%;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;background-color: #5255e0\"> <i class=\"material-icons\">\r\n    more_horiz</i> </div>\r\n</div>\r\n-->"
 
 /***/ }),
 
@@ -3433,6 +3643,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
 /* harmony import */ var _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../services/BusLocationServices */ "./src/app/services/BusLocationServices.ts");
 /* harmony import */ var _components_options_sheets_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/options-sheets.component */ "./src/app/start/components/options-sheets.component.ts");
+/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3442,6 +3653,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -3483,6 +3695,7 @@ var StartComponent = /** @class */ (function () {
         this.directions = [{ value: 'krk', viewValue: 'Do Krakowa' },
             { value: 'lim', viewValue: 'Do Limanowej' }];
         this.allCourses = this.appState.allCourses;
+        this.message = this.notService.getMessage();
         this.travelModeEnum = google.maps.TravelMode.WALKING;
         this.eventServ.getMessage(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_2__["LocationDetected"]).subscribe(function (message) {
             _this.direction = _this.locationService.getDirection();
@@ -3729,7 +3942,17 @@ var StartComponent = /** @class */ (function () {
         this.getCourseForDirection(false);
         this.appVersion = this.notService.getAppVersion();
         this.message = this.notService.getMessage();
-        this.hideNotification = !this.message.unread;
+        // this.hideNotification = !this.message.unread;
+        var mapDiv = document.getElementById('mapStart');
+        mapDiv.addEventListener('touchstart', function (e) {
+            e.stopPropagation();
+        }, false);
+        mapDiv.addEventListener('touchmove', function (e) {
+            e.stopPropagation();
+        }, false);
+        mapDiv.addEventListener('touchend', function (e) {
+            e.stopPropagation();
+        }, false);
         var origin = new google.maps.LatLng(this.appState.yourCord.lat, this.appState.yourCord.lng);
         this.map = new google.maps.Map(document.getElementById('mapStart'), {
             zoom: 11,
@@ -3875,6 +4098,9 @@ var StartComponent = /** @class */ (function () {
         }
         return true;
     };
+    StartComponent.prototype.showDetails = function (course) {
+        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_15__["SingleCourseComponent"], { data: { course: course, fullMode: true } });
+    };
     StartComponent.prototype.getNextCourse = function () {
         console.log(this.nearCourses.Count());
         this.courseSkip++;
@@ -3991,7 +4217,7 @@ module.exports = ":host /deep/ .mat-tab-label{\r\n    width: 50%!important;\r\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-toolbar style=\"height:50px\" color=\"primary\">\r\n  <mat-form-field style=\"width: 120px;\r\n        font-size: 14px;\">\r\n    <mat-select placeholder=\"Kierunek\">\r\n      <mat-option (click) = \"getCoursesForDirection(dir.value)\" *ngFor=\"let dir of directions\" [value]=\"dir.value\">\r\n        {{dir.viewValue}}\r\n      </mat-option>\r\n    </mat-select>\r\n  </mat-form-field>\r\n<div style=\"margin-left:20px;\"></div>\r\n  <mat-form-field style=\"width: 120px;\r\n        font-size: 14px;\">\r\n    <mat-select placeholder=\"Przez\">\r\n      <mat-option (click)=\"filterCourses(stop.value)\" *ngFor=\"let stop of stopsView\" [value]=\"stop.value\">\r\n        {{stop.viewValue}}\r\n      </mat-option>\r\n    </mat-select>\r\n  </mat-form-field>\r\n</mat-toolbar>\r\n\r\n<div *ngFor=\"let course of timetableView\">\r\n  <mat-card style=\"padding: 5px;margin:3px\">\r\n    <mat-grid-list cols=\"3\" [rowHeight]=\"breakpoint\" (window:resize)=\"onResize($event)\">\r\n\r\n      <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n        {{course.direction}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Kierunek</p>\r\n      </mat-grid-tile>\r\n      <mat-grid-tile style=\"flex-direction:column\">\r\n        {{course.firstStop.timeString}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n      </mat-grid-tile>\r\n      <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n        {{course.legends}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Legenda</p>\r\n      </mat-grid-tile>\r\n    </mat-grid-list>\r\n  </mat-card>\r\n</div>\r\n<!-- <div>\r\n  <mat-tab-group (selectedTabChange)=\"onTabClick($event)\" style=\"padding-bottom: 40px\">\r\n    <mat-tab label=\"Do Krakowa\" style=\"margin-bottom: 10px;\">\r\n      <div (click)=\"showStops(course)\" class=\"timetable-course\" *ngFor=\"let course of limCourses;let isOdd=odd\" [class.odd]=\"isOdd\" style=\"margin-bottom: 10px\">\r\n        <mat-grid-list cols=\"3\" rowHeight=\"20:3\">\r\n          <mat-grid-tile>{{course.direction}}</mat-grid-tile>\r\n          <mat-grid-tile>{{course.firstStop.timeString}}</mat-grid-tile>\r\n          <mat-grid-tile>{{course.legends}}</mat-grid-tile>\r\n        </mat-grid-list>\r\n      </div>\r\n    </mat-tab>\r\n    <mat-tab label=\"Do Limanowej\">\r\n        <div (click)=\"showStops(courseKrk)\" class=\"timetable-course\" *ngFor=\"let courseKrk of krkCourses;let isOddKrk=odd\" [class.odd]=\"isOddKrk\" style=\"margin-bottom: 10px\">\r\n            <mat-grid-list cols=\"3\" rowHeight=\"20:3\">\r\n              <mat-grid-tile>{{courseKrk.direction}}</mat-grid-tile>\r\n              <mat-grid-tile>{{courseKrk.firstStop.timeString}}</mat-grid-tile>\r\n              <mat-grid-tile>{{courseKrk.legends}}</mat-grid-tile>\r\n            </mat-grid-list>\r\n          </div>\r\n    </mat-tab>\r\n  </mat-tab-group>\r\n  <div [ngClass]=\"{'filter-bar-hidden' : hideFilterBar}\" class=\"filter-bar\">\r\n    <div *ngIf=\"!hideFilterBar\">\r\n      <mat-grid-list cols=\"5\" rowHeight=\"8:3\">\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"zegocinaCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"szykCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"rybieCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"tymbarkCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile (click)=\"filterBarClick()\" style=\"margin-top: 7px!important\">\r\n          <i class=\"material-icons\">\r\n            arrow_forward\r\n          </i>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>Żegocina</mat-grid-tile>\r\n        <mat-grid-tile>Szyk</mat-grid-tile>\r\n        <mat-grid-tile>Rybie</mat-grid-tile>\r\n        <mat-grid-tile>Tymbark</mat-grid-tile>\r\n      </mat-grid-list>\r\n    </div>\r\n    <div (click)=\"filterBarClick()\" class=\"filter-options\" *ngIf=\"hideFilterBar\">\r\n      <i class=\"material-icons\">\r\n        filter_list\r\n      </i>\r\n    </div>\r\n  </div>\r\n</div> -->"
+module.exports = "<mat-toolbar style=\"height:50px\" color=\"primary\">\r\n  <mat-form-field style=\"width: 120px;\r\n        font-size: 14px;\">\r\n    <mat-select placeholder=\"Kierunek\">\r\n      <mat-option (click) = \"getCoursesForDirection(dir.value)\" *ngFor=\"let dir of directions\" [value]=\"dir.value\">\r\n        {{dir.viewValue}}\r\n      </mat-option>\r\n    </mat-select>\r\n  </mat-form-field>\r\n<div style=\"margin-left:20px;\"></div>\r\n  <mat-form-field style=\"width: 120px;\r\n        font-size: 14px;\">\r\n    <mat-select placeholder=\"Przez\">\r\n      <mat-option (click)=\"filterCourses(stop.value)\" *ngFor=\"let stop of stopsView\" [value]=\"stop.value\">\r\n        {{stop.viewValue}}\r\n      </mat-option>\r\n    </mat-select>\r\n  </mat-form-field>\r\n</mat-toolbar>\r\n\r\n<div *ngFor=\"let course of timetableView\">\r\n  <mat-card (click)=\"showDetails(course)\" style=\"padding: 5px;margin:3px\">\r\n    <mat-grid-list cols=\"3\" [rowHeight]=\"breakpoint\" (window:resize)=\"onResize($event)\">\r\n\r\n      <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n        {{course.direction}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Kierunek</p>\r\n      </mat-grid-tile>\r\n      <mat-grid-tile style=\"flex-direction:column\">\r\n        {{course.firstStop.timeString}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n      </mat-grid-tile>\r\n      <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n        {{course.legends}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Legenda</p>\r\n      </mat-grid-tile>\r\n    </mat-grid-list>\r\n  </mat-card>\r\n</div>\r\n<!-- <div>\r\n  <mat-tab-group (selectedTabChange)=\"onTabClick($event)\" style=\"padding-bottom: 40px\">\r\n    <mat-tab label=\"Do Krakowa\" style=\"margin-bottom: 10px;\">\r\n      <div (click)=\"showStops(course)\" class=\"timetable-course\" *ngFor=\"let course of limCourses;let isOdd=odd\" [class.odd]=\"isOdd\" style=\"margin-bottom: 10px\">\r\n        <mat-grid-list cols=\"3\" rowHeight=\"20:3\">\r\n          <mat-grid-tile>{{course.direction}}</mat-grid-tile>\r\n          <mat-grid-tile>{{course.firstStop.timeString}}</mat-grid-tile>\r\n          <mat-grid-tile>{{course.legends}}</mat-grid-tile>\r\n        </mat-grid-list>\r\n      </div>\r\n    </mat-tab>\r\n    <mat-tab label=\"Do Limanowej\">\r\n        <div (click)=\"showStops(courseKrk)\" class=\"timetable-course\" *ngFor=\"let courseKrk of krkCourses;let isOddKrk=odd\" [class.odd]=\"isOddKrk\" style=\"margin-bottom: 10px\">\r\n            <mat-grid-list cols=\"3\" rowHeight=\"20:3\">\r\n              <mat-grid-tile>{{courseKrk.direction}}</mat-grid-tile>\r\n              <mat-grid-tile>{{courseKrk.firstStop.timeString}}</mat-grid-tile>\r\n              <mat-grid-tile>{{courseKrk.legends}}</mat-grid-tile>\r\n            </mat-grid-list>\r\n          </div>\r\n    </mat-tab>\r\n  </mat-tab-group>\r\n  <div [ngClass]=\"{'filter-bar-hidden' : hideFilterBar}\" class=\"filter-bar\">\r\n    <div *ngIf=\"!hideFilterBar\">\r\n      <mat-grid-list cols=\"5\" rowHeight=\"8:3\">\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"zegocinaCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"szykCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"rybieCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"tymbarkCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile (click)=\"filterBarClick()\" style=\"margin-top: 7px!important\">\r\n          <i class=\"material-icons\">\r\n            arrow_forward\r\n          </i>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>Żegocina</mat-grid-tile>\r\n        <mat-grid-tile>Szyk</mat-grid-tile>\r\n        <mat-grid-tile>Rybie</mat-grid-tile>\r\n        <mat-grid-tile>Tymbark</mat-grid-tile>\r\n      </mat-grid-list>\r\n    </div>\r\n    <div (click)=\"filterBarClick()\" class=\"filter-options\" *ngIf=\"hideFilterBar\">\r\n      <i class=\"material-icons\">\r\n        filter_list\r\n      </i>\r\n    </div>\r\n  </div>\r\n</div> -->"
 
 /***/ }),
 
@@ -4009,6 +4235,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/AppState */ "./src/app/services/AppState.ts");
 /* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
 /* harmony import */ var _components_stopsSheets_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/stopsSheets.component */ "./src/app/timetable/components/stopsSheets.component.ts");
+/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -4018,6 +4245,7 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -4065,6 +4293,9 @@ var TimetableComponent = /** @class */ (function () {
         else {
             this.hideFilterBar = true;
         }
+    };
+    TimetableComponent.prototype.showDetails = function (course) {
+        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_4__["SingleCourseComponent"], { data: { course: course, fullMode: false } });
     };
     TimetableComponent.prototype.filterCourses = function (stops) {
         this.activeStop = stops;
