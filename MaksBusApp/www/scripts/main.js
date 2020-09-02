@@ -1,5 +1,28 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["main"],{
 
+/***/ "./$$_lazy_route_resource lazy recursive":
+/*!******************************************************!*\
+  !*** ./$$_lazy_route_resource lazy namespace object ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncaught exception popping up in devtools
+	return Promise.resolve().then(function() {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
+
+/***/ }),
+
 /***/ "./node_modules/moment/locale sync recursive ^\\.\\/.*$":
 /*!**************************************************!*\
   !*** ./node_modules/moment/locale sync ^\.\/.*$ ***!
@@ -70,8 +93,12 @@ var map = {
 	"./en-ie.js": "./node_modules/moment/locale/en-ie.js",
 	"./en-il": "./node_modules/moment/locale/en-il.js",
 	"./en-il.js": "./node_modules/moment/locale/en-il.js",
+	"./en-in": "./node_modules/moment/locale/en-in.js",
+	"./en-in.js": "./node_modules/moment/locale/en-in.js",
 	"./en-nz": "./node_modules/moment/locale/en-nz.js",
 	"./en-nz.js": "./node_modules/moment/locale/en-nz.js",
+	"./en-sg": "./node_modules/moment/locale/en-sg.js",
+	"./en-sg.js": "./node_modules/moment/locale/en-sg.js",
 	"./eo": "./node_modules/moment/locale/eo.js",
 	"./eo.js": "./node_modules/moment/locale/eo.js",
 	"./es": "./node_modules/moment/locale/es.js",
@@ -88,6 +115,8 @@ var map = {
 	"./fa.js": "./node_modules/moment/locale/fa.js",
 	"./fi": "./node_modules/moment/locale/fi.js",
 	"./fi.js": "./node_modules/moment/locale/fi.js",
+	"./fil": "./node_modules/moment/locale/fil.js",
+	"./fil.js": "./node_modules/moment/locale/fil.js",
 	"./fo": "./node_modules/moment/locale/fo.js",
 	"./fo.js": "./node_modules/moment/locale/fo.js",
 	"./fr": "./node_modules/moment/locale/fr.js",
@@ -98,10 +127,14 @@ var map = {
 	"./fr.js": "./node_modules/moment/locale/fr.js",
 	"./fy": "./node_modules/moment/locale/fy.js",
 	"./fy.js": "./node_modules/moment/locale/fy.js",
+	"./ga": "./node_modules/moment/locale/ga.js",
+	"./ga.js": "./node_modules/moment/locale/ga.js",
 	"./gd": "./node_modules/moment/locale/gd.js",
 	"./gd.js": "./node_modules/moment/locale/gd.js",
 	"./gl": "./node_modules/moment/locale/gl.js",
 	"./gl.js": "./node_modules/moment/locale/gl.js",
+	"./gom-deva": "./node_modules/moment/locale/gom-deva.js",
+	"./gom-deva.js": "./node_modules/moment/locale/gom-deva.js",
 	"./gom-latn": "./node_modules/moment/locale/gom-latn.js",
 	"./gom-latn.js": "./node_modules/moment/locale/gom-latn.js",
 	"./gu": "./node_modules/moment/locale/gu.js",
@@ -121,6 +154,8 @@ var map = {
 	"./is": "./node_modules/moment/locale/is.js",
 	"./is.js": "./node_modules/moment/locale/is.js",
 	"./it": "./node_modules/moment/locale/it.js",
+	"./it-ch": "./node_modules/moment/locale/it-ch.js",
+	"./it-ch.js": "./node_modules/moment/locale/it-ch.js",
 	"./it.js": "./node_modules/moment/locale/it.js",
 	"./ja": "./node_modules/moment/locale/ja.js",
 	"./ja.js": "./node_modules/moment/locale/ja.js",
@@ -136,6 +171,8 @@ var map = {
 	"./kn.js": "./node_modules/moment/locale/kn.js",
 	"./ko": "./node_modules/moment/locale/ko.js",
 	"./ko.js": "./node_modules/moment/locale/ko.js",
+	"./ku": "./node_modules/moment/locale/ku.js",
+	"./ku.js": "./node_modules/moment/locale/ku.js",
 	"./ky": "./node_modules/moment/locale/ky.js",
 	"./ky.js": "./node_modules/moment/locale/ky.js",
 	"./lb": "./node_modules/moment/locale/lb.js",
@@ -176,6 +213,8 @@ var map = {
 	"./nl.js": "./node_modules/moment/locale/nl.js",
 	"./nn": "./node_modules/moment/locale/nn.js",
 	"./nn.js": "./node_modules/moment/locale/nn.js",
+	"./oc-lnc": "./node_modules/moment/locale/oc-lnc.js",
+	"./oc-lnc.js": "./node_modules/moment/locale/oc-lnc.js",
 	"./pa-in": "./node_modules/moment/locale/pa-in.js",
 	"./pa-in.js": "./node_modules/moment/locale/pa-in.js",
 	"./pl": "./node_modules/moment/locale/pl.js",
@@ -220,6 +259,8 @@ var map = {
 	"./tg.js": "./node_modules/moment/locale/tg.js",
 	"./th": "./node_modules/moment/locale/th.js",
 	"./th.js": "./node_modules/moment/locale/th.js",
+	"./tk": "./node_modules/moment/locale/tk.js",
+	"./tk.js": "./node_modules/moment/locale/tk.js",
 	"./tl-ph": "./node_modules/moment/locale/tl-ph.js",
 	"./tl-ph.js": "./node_modules/moment/locale/tl-ph.js",
 	"./tlh": "./node_modules/moment/locale/tlh.js",
@@ -252,6 +293,8 @@ var map = {
 	"./zh-cn.js": "./node_modules/moment/locale/zh-cn.js",
 	"./zh-hk": "./node_modules/moment/locale/zh-hk.js",
 	"./zh-hk.js": "./node_modules/moment/locale/zh-hk.js",
+	"./zh-mo": "./node_modules/moment/locale/zh-mo.js",
+	"./zh-mo.js": "./node_modules/moment/locale/zh-mo.js",
 	"./zh-tw": "./node_modules/moment/locale/zh-tw.js",
 	"./zh-tw.js": "./node_modules/moment/locale/zh-tw.js"
 };
@@ -259,17 +302,15 @@ var map = {
 
 function webpackContext(req) {
 	var id = webpackContextResolve(req);
-	var module = __webpack_require__(id);
-	return module;
+	return __webpack_require__(id);
 }
 function webpackContextResolve(req) {
-	var id = map[req];
-	if(!(id + 1)) { // check for number or string
-		var e = new Error('Cannot find module "' + req + '".');
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	}
-	return id;
+	return map[req];
 }
 webpackContext.keys = function webpackContextKeys() {
 	return Object.keys(map);
@@ -280,48 +321,47 @@ webpackContext.id = "./node_modules/moment/locale sync recursive ^\\.\\/.*$";
 
 /***/ }),
 
-/***/ "./src/$$_lazy_route_resource lazy recursive":
-/*!**********************************************************!*\
-  !*** ./src/$$_lazy_route_resource lazy namespace object ***!
-  \**********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/***/ "./src/app/app-routing.module.ts":
+/*!***************************************!*\
+  !*** ./src/app/app-routing.module.ts ***!
+  \***************************************/
+/*! exports provided: AppRoutingModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-function webpackEmptyAsyncContext(req) {
-	// Here Promise.resolve().then() is used instead of new Promise() to prevent
-	// uncaught exception popping up in devtools
-	return Promise.resolve().then(function() {
-		var e = new Error('Cannot find module "' + req + '".');
-		e.code = 'MODULE_NOT_FOUND';
-		throw e;
-	});
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppRoutingModule", function() { return AppRoutingModule; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _courses_courses_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./courses/courses.component */ "./src/app/courses/courses.component.ts");
+/* harmony import */ var _start_start_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./start/start.component */ "./src/app/start/start.component.ts");
+/* harmony import */ var _timetable_timetable_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./timetable/timetable.component */ "./src/app/timetable/timetable.component.ts");
+
+
+
+
+
+
+
+const routes = [
+    { path: '', redirectTo: "start", pathMatch: 'full' },
+    { path: "courses/:direction", component: _courses_courses_component__WEBPACK_IMPORTED_MODULE_2__["CoursesComponent"] },
+    { path: "start", component: _start_start_component__WEBPACK_IMPORTED_MODULE_3__["StartComponent"] },
+    { path: "timetable", component: _timetable_timetable_component__WEBPACK_IMPORTED_MODULE_4__["TimetableComponent"] }
+];
+class AppRoutingModule {
 }
-webpackEmptyAsyncContext.keys = function() { return []; };
-webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
-module.exports = webpackEmptyAsyncContext;
-webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
+AppRoutingModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineNgModule"]({ type: AppRoutingModule });
+AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({ factory: function AppRoutingModule_Factory(t) { return new (t || AppRoutingModule)(); }, imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppRoutingModule, { imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]], exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppRoutingModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
+        args: [{
+                imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes)],
+                exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
+            }]
+    }], null, null); })();
 
-/***/ }),
-
-/***/ "./src/app/app.component.css":
-/*!***********************************!*\
-  !*** ./src/app/app.component.css ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".spinner-center{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 80%!important;\r\n}\r\nbody{\r\nmargin-top: 35px!important;\r\n}\r\nhtml{\r\n    height: 100%!important;\r\n}\r\n.menu-bus-item button{\r\n    width: 33%;\r\n    font-family: 'Kalam'!important;\r\n}\r\n.menu-bus-item{\r\n    position: fixed;\r\n    top: 0px;\r\n    z-index: 1300;\r\n    height: 35px\r\n}\r\n.progressInfo{\r\n    text-align: center;\r\n    margin: 5px;\r\n    color:#e57373;\r\n}\r\n.example-container {\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n  }\r\n.imgNav{\r\n      width: 250px;\r\n      font-size: 20px;\r\n  }\r\n.imgNav img{\r\n    max-width:100%;\r\n  }\r\n.imgNav p {\r\n      margin-top: 0px;\r\n      margin-bottom: 4px;\r\n  }\r\n.imgNav button{\r\n    width: 100%!important;\r\n    text-align: left!important;\r\n  }\r\n.odj button{\r\n    padding-left: 50px!important;\r\n    color: grey;\r\n    font-size: 14px!important;\r\n  }\r\n.activeLink{\r\n      color:#e57373;\r\n  }\r\n.imgNav i{\r\n    margin-right: 5px;\r\n  }\r\n.mat-button{\r\n      font-size:20px!important\r\n  }\r\n"
-
-/***/ }),
-
-/***/ "./src/app/app.component.html":
-/*!************************************!*\
-  !*** ./src/app/app.component.html ***!
-  \************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<!-- <mat-toolbar color=\"primary\"> -->\r\n<!--\r\n    <button (click)=\"checkStart()\" mat-button>\r\n        <mat-icon>explore</mat-icon>\r\n       Start</button>\r\n    <button [routerLink]=\"['/courses']\" mat-button>\r\n        <i class=\"material-icons\">\r\n            directions_bus\r\n        </i>Kursy\r\n        </button>\r\n    <button [routerLink]=\"['/timetable']\" mat-button>\r\n     <i class=\"material-icons\">\r\n            format_list_bulleted\r\n        </i>Rozkład</button>\r\n\r\n</mat-toolbar>\r\n<div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"spinner-center\">\r\n    <mat-spinner></mat-spinner>\r\n  \r\n</div>\r\n<div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"progressInfo\">{{progressInfo}}</div>\r\n<div *ngIf=\"locationIsDetected && timetableIsActual\">\r\n</div> -->\r\n\r\n<mat-sidenav-container class=\"example-container\" (backdropClick)=\"close('backdrop')\">\r\n\r\n    <mat-sidenav class=\"imgNav\" #sidenav (keydown.escape)=\"close('escape')\" disableClose>\r\n        <img src=\"../assets/Limanowa.jpg\">\r\n\r\n        <p style=\"margin-top:-4px\"><button [ngClass]=\"{'activeLink': active=='Znajdź najbliższy'}\"  [routerLink]=\"['/start']\" (click)=\"activate('Znajdź najbliższy')\" mat-button>\r\n                <mat-icon>explore</mat-icon>\r\n                Znajdź najbliższy\r\n            </button></p>\r\n        <p>\r\n            <button mat-button [ngClass]=\"{'activeLink': active=='Rozkład'}\" [routerLink]=\"['/timetable']\" (click)=\"activate('Rozkład')\">\r\n                <i class=\"material-icons\">\r\n                    format_list_bulleted\r\n                </i>Rozkład</button></p>\r\n\r\n        <button style=\"color: black!important;\" [disabled]=\"true\" mat-button [ngClass]=\"{'activeLink': active.includes('Odjazdy')}\">\r\n            <i class=\"material-icons\">\r\n                directions_bus\r\n            </i> Odjazdy\r\n        </button>\r\n        <br>\r\n        <div class=\"odj\">\r\n            <button [routerLink]=\"['/courses', 'Krk']\" (click)=\"activate('Odjazdy w strone Limanowej')\" mat-button>\r\n                W strone Limanowej\r\n            </button>\r\n            <br>\r\n            <button [routerLink]=\"['/courses', 'Lim']\" (click)=\"activate('Odjazdy w strone Krakowa')\" mat-button>\r\n                W strone Krakowa\r\n            </button>\r\n        </div>\r\n        <p>\r\n        <!-- <button mat-button [ngClass]=\"{'activeLink': active=='Mapa busów'}\" [routerLink]=\"['/maps']\" (click)=\"activate('Mapa busów')\">\r\n                    <i class=\"material-icons\">\r\n                        map\r\n                    </i>Mapa busów</button></p> -->\r\n      <div style=\"position:absolute; bottom:10px;right:10px;color:#e57373;font-family: Roboto, 'Helvetica Neue', sans-serif;\">\r\n        v{{appVersion}}\r\n        </div>\r\n    </mat-sidenav>\r\n\r\n    <mat-sidenav-content>\r\n        <mat-toolbar style=\"height:40px\" color=\"primary\">\r\n            <button style=\"padding-left:0px;padding-right:0px;min-width: unset;margin-right: 10px;\" (click)=\"sidenav.open()\" mat-button>\r\n                <i  style=\"font-size: 36px;\" class=\"material-icons\">\r\n                    menu\r\n                </i></button><div style=\"width: 100%;text-align: left\">{{active}}</div>\r\n        </mat-toolbar>\r\n        <div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"spinner-center\">\r\n            <mat-spinner></mat-spinner>\r\n          \r\n        </div>\r\n        <div *ngIf=\"!locationIsDetected || !timetableIsActual\" class=\"progressInfo\">{{progressInfo}}</div>\r\n        <div *ngIf=\"locationIsDetected && timetableIsActual\">\r\n            <router-outlet></router-outlet>\r\n        </div>\r\n    </mat-sidenav-content>\r\n</mat-sidenav-container>\r\n"
 
 /***/ }),
 
@@ -335,31 +375,27 @@ module.exports = "<!-- <mat-toolbar color=\"primary\"> -->\r\n<!--\r\n    <butto
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppComponent", function() { return AppComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./services/NotificationService */ "./src/app/services/NotificationService.ts");
-/* harmony import */ var _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./services/TimetableUpdateService */ "./src/app/services/TimetableUpdateService.ts");
-/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./services/LocationService */ "./src/app/services/LocationService.ts");
-/* harmony import */ var _events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./events/TimetableUpdated */ "./src/app/events/TimetableUpdated.ts");
-/* harmony import */ var _events_TimetableVersionChanged__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./events/TimetableVersionChanged */ "./src/app/events/TimetableVersionChanged.ts");
-/* harmony import */ var _events_LocationDetected__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./events/LocationDetected */ "./src/app/events/LocationDetected.ts");
-/* harmony import */ var _services_LegendServices__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./services/LegendServices */ "./src/app/services/LegendServices.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./services/AppState */ "./src/app/services/AppState.ts");
-/* harmony import */ var _events_NoInternet__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./events/NoInternet */ "./src/app/events/NoInternet.ts");
-/* harmony import */ var _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./events/AppVersionUpdated */ "./src/app/events/AppVersionUpdated.ts");
-/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./services/EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./events/ProgressInfo */ "./src/app/events/ProgressInfo.ts");
-/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/esm5/sidenav.es5.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./events/TimetableUpdated */ "./src/app/events/TimetableUpdated.ts");
+/* harmony import */ var _events_TimetableVersionChanged__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./events/TimetableVersionChanged */ "./src/app/events/TimetableVersionChanged.ts");
+/* harmony import */ var _events_LocationDetected__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./events/LocationDetected */ "./src/app/events/LocationDetected.ts");
+/* harmony import */ var _events_NoInternet__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./events/NoInternet */ "./src/app/events/NoInternet.ts");
+/* harmony import */ var _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./events/AppVersionUpdated */ "./src/app/events/AppVersionUpdated.ts");
+/* harmony import */ var _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./events/ProgressInfo */ "./src/app/events/ProgressInfo.ts");
+/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./services/AppState */ "./src/app/services/AppState.ts");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/snack-bar.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./services/NotificationService */ "./src/app/services/NotificationService.ts");
+/* harmony import */ var _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./services/TimetableUpdateService */ "./src/app/services/TimetableUpdateService.ts");
+/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./services/LocationService */ "./src/app/services/LocationService.ts");
+/* harmony import */ var _services_LegendServices__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./services/LegendServices */ "./src/app/services/LegendServices.ts");
+/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./services/EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/sidenav.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/icon.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/toolbar.js");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/progress-spinner.js");
 
 
 
@@ -376,8 +412,39 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var AppComponent = /** @class */ (function () {
-    function AppComponent(appState, snackBar, zone, router, notService, timetableService, locationService, legendService, eventService) {
+
+
+
+
+
+
+const _c0 = ["sidenav"];
+function AppComponent_div_35_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "mat-spinner");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function AppComponent_div_36_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r2.progressInfo);
+} }
+function AppComponent_div_37_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "router-outlet");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+const _c1 = function (a0) { return { "activeLink": a0 }; };
+const _c2 = function () { return ["/start"]; };
+const _c3 = function () { return ["/timetable"]; };
+const _c4 = function () { return ["/courses", "Krk"]; };
+const _c5 = function () { return ["/courses", "Lim"]; };
+class AppComponent {
+    constructor(appState, snackBar, zone, router, notService, timetableService, locationService, legendService, eventService) {
         this.appState = appState;
         this.snackBar = snackBar;
         this.zone = zone;
@@ -396,126 +463,104 @@ var AppComponent = /** @class */ (function () {
         this.active = "Znajdź najbliższy";
         this.eventSubscriptionInit();
         var that = this;
-        //  document.addEventListener('deviceready', () => {
-        console.log("deviceIsReady");
-        that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]("Uruchamianie aplikacji"));
-        that.notService.updateNotification();
-        //});
+        document.addEventListener('deviceready', () => {
+            console.log("deviceIsReady");
+            that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Uruchamianie aplikacji"));
+            that.notService.updateNotification();
+        });
         document.addEventListener("online", this.connected, false);
     }
-    AppComponent.prototype.close = function (reason) {
+    close(reason) {
         this.reason = reason;
         this.sidenav.close();
-    };
-    AppComponent.prototype.ngOnInit = function () {
-    };
-    AppComponent.prototype.activate = function (activeState) {
+    }
+    ngOnInit() {
+    }
+    activate(activeState) {
         this.active = activeState;
+        console.log(this.active);
+        console.log(this.active.includes("Odjazdy"));
         this.close('escape');
-    };
-    AppComponent.prototype.eventSubscriptionInit = function () {
-        var _this = this;
-        this.eventService.getMessage(_events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_4__["TimetableUpdated"]).subscribe(function (message) {
+    }
+    eventSubscriptionInit() {
+        this.eventService.getMessage(_events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_1__["TimetableUpdated"]).subscribe(message => {
             console.log("timetable update catch");
-            _this.setTimetable();
-            _this.timetableIsActual = true;
+            this.setTimetable();
+            this.timetableIsActual = true;
         });
-        this.eventService.getMessage(_events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_11__["AppVersionUpdated"]).subscribe(function (message) {
-            _this.afterNotificationUpdate();
+        this.eventService.getMessage(_events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_5__["AppVersionUpdated"]).subscribe(message => {
+            this.afterNotificationUpdate();
         });
-        this.eventService.getMessage(_events_TimetableVersionChanged__WEBPACK_IMPORTED_MODULE_5__["TimetableVersionChanged"]).subscribe(function (message) {
-            _this.timetableIsActual = false;
+        this.eventService.getMessage(_events_TimetableVersionChanged__WEBPACK_IMPORTED_MODULE_2__["TimetableVersionChanged"]).subscribe(message => {
+            this.timetableIsActual = false;
         });
-        this.eventService.getMessage(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_6__["LocationDetected"]).subscribe(function (message) {
+        this.eventService.getMessage(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_3__["LocationDetected"]).subscribe(message => {
             console.log("locationIsDetected so navigate to:");
-            _this.zone.run(function () {
-                _this.locationIsDetected = true;
-                _this.appState.currentLocation = message.currentLocation;
+            this.zone.run(() => {
+                this.locationIsDetected = true;
+                this.appState.currentLocation = message.currentLocation;
                 if (message.currentLocation == null) {
-                    _this.router.navigate(["courses"]);
+                    this.router.navigate(["courses"]);
                 }
                 else {
-                    _this.appState.noLocation = false;
-                    _this.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]("Znaleźono lokalizacje użytkownika:" + message.currentLocation));
-                    _this.appState.direction = _this.locationService.getDirection();
-                    _this.router.navigate(["start"]);
+                    this.appState.noLocation = false;
+                    this.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Znaleźono lokalizacje użytkownika:" + message.currentLocation));
+                    this.appState.direction = this.locationService.getDirection();
+                    this.router.navigate(["start"]);
                 }
             });
         });
-        this.eventService.getMessage(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]).subscribe(function (message) {
-            _this.progressInfo = message.message;
+        this.eventService.getMessage(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]).subscribe(message => {
+            this.progressInfo = message.message;
         });
-        this.eventService.getMessage(_events_NoInternet__WEBPACK_IMPORTED_MODULE_10__["NoInternet"]).subscribe(function (message) {
+        this.eventService.getMessage(_events_NoInternet__WEBPACK_IMPORTED_MODULE_4__["NoInternet"]).subscribe(message => {
             console.log("NoInternet catch or app no change");
-            _this.afterNotificationUpdate();
+            this.afterNotificationUpdate();
         });
-    };
-    AppComponent.prototype.connected = function () {
+    }
+    connected() {
         // this.timetableIsActual = false;
         console.log("Connection return");
-    };
-    AppComponent.prototype.checkStart = function () {
-        var connection = navigator.connection.type;
-        console.log(connection);
-        if (connection == "none") {
-            this.snackBar.open("Brak połączenia z siecią!", "", {
-                duration: 2000,
-            });
-        }
-        else {
-            this.router.navigate(["start"]);
-        }
-        // navigator.permissions.query({ 'name': 'geolocation' })
-        //   .then(permission => {
-        //     if (permission.state == "denied"){
-        //       this.snackBar.open("Udostpnij lokalizacje!", "", {
-        //         duration: 2000,
-        //       });
-        //     }
-        //   }
-        //   )
-    };
-    AppComponent.prototype.afterNotificationUpdate = function () {
-        var _this = this;
+    }
+    afterNotificationUpdate() {
         this.message = this.notService.getMessage();
         this.appVersion = this.notService.getAppVersion();
         this.setTimetable();
         this.timetableIsActual = true;
         var that = this;
-        that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]("Sprawdzanie lokalizacji"));
-        this.locationService.locationIsEnabled().then(function (data) {
-            _this.zone.run(function () {
+        that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Sprawdzanie lokalizacji"));
+        this.locationService.locationIsEnabled().then(data => {
+            this.zone.run(() => {
                 if (data == true) {
-                    that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]("Sprawdzanie lokalizacji"));
-                    _this.locationService.getLocationForLatAndLeng();
-                    var i = 1;
-                    setTimeout(function () {
-                        if (_this.locationIsDetected != true) {
-                            that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]("Nie można znaleźć lokalizacji, poczekaj"));
-                            var locationEvent = new _events_LocationDetected__WEBPACK_IMPORTED_MODULE_6__["LocationDetected"]();
+                    that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Sprawdzanie lokalizacji"));
+                    this.locationService.getLocationForLatAndLeng();
+                    let i = 1;
+                    setTimeout(() => {
+                        if (this.locationIsDetected != true) {
+                            that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Nie można znaleźć lokalizacji, poczekaj"));
+                            var locationEvent = new _events_LocationDetected__WEBPACK_IMPORTED_MODULE_3__["LocationDetected"]();
                             locationEvent.currentLocation = null;
                             that.appState.noLocation = true;
-                            that.eventService.sendEvent(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_6__["LocationDetected"], locationEvent);
+                            that.eventService.sendEvent(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_3__["LocationDetected"], locationEvent);
                         }
                     }, 6000);
                 }
                 else {
-                    that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_14__["ProgressInfo"]("Brak lokalizcji"));
-                    _this.locationIsDetected = true;
+                    that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Brak lokalizcji"));
+                    this.locationIsDetected = true;
                     console.log("location is disable");
-                    _this.router.navigate(["courses"]);
+                    this.router.navigate(["courses"]);
                 }
             });
         });
-    };
-    AppComponent.prototype.setTimetable = function () {
-        var _this = this;
+    }
+    setTimetable() {
         this.allCourses = this.timetableService.getTimetable();
         this.appState.timetable = this.allCourses;
-        this.appState.allCourses = this.allCourses.Where(function (x) { return _this.legendService.courseIsInThisDay(x) == true; }).ToList();
+        this.appState.allCourses = this.allCourses.Where(x => this.legendService.courseIsInThisDay(x) == true).ToList();
         this.initSwip();
-    };
-    AppComponent.prototype.initSwip = function () {
+    }
+    initSwip() {
         var that = this;
         window.addEventListener('load', function () {
             var touchsurface = document.getElementById('touchsurface'), startX, startY, dist, threshold = 100, //required min distance traveled to be considered swipe
@@ -553,24 +598,112 @@ var AppComponent = /** @class */ (function () {
                 }
             }, false);
         }, false); // end window.onload
-    };
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])('sidenav'),
-        __metadata("design:type", _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_15__["MatSidenav"])
-    ], AppComponent.prototype, "sidenav", void 0);
-    AppComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-root',
-            template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
-            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css")]
-        }),
-        __metadata("design:paramtypes", [_services_AppState__WEBPACK_IMPORTED_MODULE_9__["AppState"], _angular_material__WEBPACK_IMPORTED_MODULE_13__["MatSnackBar"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _angular_router__WEBPACK_IMPORTED_MODULE_8__["Router"], _services_NotificationService__WEBPACK_IMPORTED_MODULE_1__["NotificationService"],
-            _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_2__["TimetableUpdateService"], _services_LocationService__WEBPACK_IMPORTED_MODULE_3__["LocationService"],
-            _services_LegendServices__WEBPACK_IMPORTED_MODULE_7__["LegendService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_12__["EventService"]])
-    ], AppComponent);
-    return AppComponent;
-}());
-
+    }
+}
+AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_AppState__WEBPACK_IMPORTED_MODULE_7__["AppState"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_8__["MatSnackBar"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_9__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_NotificationService__WEBPACK_IMPORTED_MODULE_10__["NotificationService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_11__["TimetableUpdateService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_LocationService__WEBPACK_IMPORTED_MODULE_12__["LocationService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_LegendServices__WEBPACK_IMPORTED_MODULE_13__["LegendService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_EventServices__WEBPACK_IMPORTED_MODULE_14__["EventService"])); };
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], viewQuery: function AppComponent_Query(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵstaticViewQuery"](_c0, true);
+    } if (rf & 2) {
+        var _t;
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵqueryRefresh"](_t = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵloadQuery"]()) && (ctx.sidenav = _t.first);
+    } }, decls: 38, vars: 23, consts: [[1, "example-container", 3, "backdropClick"], ["disableClose", "", 1, "imgNav", 3, "keydown.escape"], ["sidenav", ""], ["src", "./images/Limanowa.jpg"], [2, "margin-top", "-4px"], ["mat-button", "", 3, "ngClass", "routerLink", "click"], [1, "material-icons"], ["mat-button", "", 2, "color", "black", 3, "disabled", "ngClass"], [1, "odj"], ["mat-button", "", 3, "routerLink", "click"], [2, "position", "absolute", "bottom", "10px", "right", "10px", "color", "#e57373", "font-family", "Roboto, 'Helvetica Neue', sans-serif"], ["color", "primary", 2, "height", "40px", "position", "fixed", "z-index", "2000"], ["mat-button", "", 2, "padding-left", "0px", "padding-right", "0px", "min-width", "unset", "margin-right", "10px", 3, "click"], [1, "material-icons", 2, "font-size", "36px"], [2, "width", "100%", "text-align", "left"], ["class", "spinner-center", 4, "ngIf"], ["class", "progressInfo", 4, "ngIf"], [4, "ngIf"], [1, "spinner-center"], [1, "progressInfo"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+        const _r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-sidenav-container", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("backdropClick", function AppComponent_Template_mat_sidenav_container_backdropClick_0_listener() { return ctx.close("backdrop"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-sidenav", 1, 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("keydown.escape", function AppComponent_Template_mat_sidenav_keydown_escape_1_listener() { return ctx.close("escape"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "img", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "p", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_button_click_5_listener() { return ctx.activate("Znajd\u017A najbli\u017Cszy"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-icon");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "explore");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Znajd\u017A najbli\u017Cszy ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_button_click_10_listener() { return ctx.activate("Rozk\u0142ad"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, " format_list_bulleted ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Rozk\u0142ad");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "button", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " directions_bus ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, " Odjazdy ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](18, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "button", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_button_click_20_listener() { return ctx.activate("Odjazdy w strone Limanowej"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " W strone Limanowej ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](22, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "button", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_button_click_23_listener() { return ctx.activate("Odjazdy w strone Krakowa"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " W strone Krakowa ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](25, "p");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "mat-sidenav-content");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "mat-toolbar", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "button", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function AppComponent_Template_button_click_30_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r4); const _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](2); return _r0.open(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "i", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, " menu ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](35, AppComponent_div_35_Template, 2, 0, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](36, AppComponent_div_36_Template, 2, 1, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](37, AppComponent_div_37_Template, 2, 0, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](13, _c1, ctx.active == "Znajd\u017A najbli\u017Cszy"))("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](15, _c2));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](16, _c1, ctx.active == "Rozk\u0142ad"))("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](18, _c3));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("disabled", true)("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](19, _c1, ctx.active == "Odjazdy w strone Limanowej" || ctx.active == "Odjazdy w strone Krakowa"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](21, _c4));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](22, _c5));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" v", ctx.appVersion, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.active);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.locationIsDetected || !ctx.timetableIsActual);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.locationIsDetected || !ctx.timetableIsActual);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.locationIsDetected && ctx.timetableIsActual);
+    } }, directives: [_angular_material_sidenav__WEBPACK_IMPORTED_MODULE_15__["MatSidenavContainer"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_15__["MatSidenav"], _angular_material_button__WEBPACK_IMPORTED_MODULE_16__["MatButton"], _angular_common__WEBPACK_IMPORTED_MODULE_17__["NgClass"], _angular_router__WEBPACK_IMPORTED_MODULE_9__["RouterLink"], _angular_material_icon__WEBPACK_IMPORTED_MODULE_18__["MatIcon"], _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_15__["MatSidenavContent"], _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_19__["MatToolbar"], _angular_common__WEBPACK_IMPORTED_MODULE_17__["NgIf"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_20__["MatSpinner"], _angular_router__WEBPACK_IMPORTED_MODULE_9__["RouterOutlet"]], styles: [".spinner-center[_ngcontent-%COMP%] {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 80%!important;\r\n}\r\n\r\nbody[_ngcontent-%COMP%] {\r\n    margin-top: 35px!important;\r\n}\r\n\r\nhtml[_ngcontent-%COMP%] {\r\n    height: 100%!important;\r\n}\r\n\r\n.menu-bus-item[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\r\n    width: 33%;\r\n    font-family: 'Kalam'!important;\r\n}\r\n\r\n.menu-bus-item[_ngcontent-%COMP%] {\r\n    position: fixed;\r\n    top: 0px;\r\n    z-index: 1300;\r\n    height: 35px\r\n}\r\n\r\n.progressInfo[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n    margin: 5px;\r\n    color: #e57373;\r\n}\r\n\r\n.example-container[_ngcontent-%COMP%] {\r\n    position: absolute;\r\n    top: 0;\r\n    bottom: 0;\r\n    left: 0;\r\n    right: 0;\r\n}\r\n\r\n.imgNav[_ngcontent-%COMP%] {\r\n    width: 250px;\r\n    font-size: 20px;\r\n}\r\n\r\n.imgNav[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\r\n    max-width: 100%;\r\n}\r\n\r\n.imgNav[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\r\n    margin-top: 0px;\r\n    margin-bottom: 4px;\r\n}\r\n\r\n.imgNav[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\r\n    width: 100%!important;\r\n    text-align: left!important;\r\n}\r\n\r\n.odj[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\r\n    padding-left: 50px!important;\r\n    color: grey;\r\n    font-size: 14px!important;\r\n}\r\n\r\n.activeLink[_ngcontent-%COMP%] {\r\n    color: #e57373!important;\r\n}\r\n\r\n.imgNav[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\r\n    margin-right: 5px;\r\n}\r\n\r\n.mat-button[_ngcontent-%COMP%] {\r\n    font-size: 20px!important\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxhQUFhO0lBQ2IsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtJQUNuQixxQkFBcUI7QUFDekI7O0FBRUE7SUFDSSwwQkFBMEI7QUFDOUI7O0FBRUE7SUFDSSxzQkFBc0I7QUFDMUI7O0FBRUE7SUFDSSxVQUFVO0lBQ1YsOEJBQThCO0FBQ2xDOztBQUVBO0lBQ0ksZUFBZTtJQUNmLFFBQVE7SUFDUixhQUFhO0lBQ2I7QUFDSjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixXQUFXO0lBQ1gsY0FBYztBQUNsQjs7QUFFQTtJQUNJLGtCQUFrQjtJQUNsQixNQUFNO0lBQ04sU0FBUztJQUNULE9BQU87SUFDUCxRQUFRO0FBQ1o7O0FBRUE7SUFDSSxZQUFZO0lBQ1osZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxlQUFlO0lBQ2Ysa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0kscUJBQXFCO0lBQ3JCLDBCQUEwQjtBQUM5Qjs7QUFFQTtJQUNJLDRCQUE0QjtJQUM1QixXQUFXO0lBQ1gseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksd0JBQXdCO0FBQzVCOztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0k7QUFDSiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnNwaW5uZXItY2VudGVyIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgICBoZWlnaHQ6IDgwJSFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbmJvZHkge1xyXG4gICAgbWFyZ2luLXRvcDogMzVweCFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbmh0bWwge1xyXG4gICAgaGVpZ2h0OiAxMDAlIWltcG9ydGFudDtcclxufVxyXG5cclxuLm1lbnUtYnVzLWl0ZW0gYnV0dG9uIHtcclxuICAgIHdpZHRoOiAzMyU7XHJcbiAgICBmb250LWZhbWlseTogJ0thbGFtJyFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tZW51LWJ1cy1pdGVtIHtcclxuICAgIHBvc2l0aW9uOiBmaXhlZDtcclxuICAgIHRvcDogMHB4O1xyXG4gICAgei1pbmRleDogMTMwMDtcclxuICAgIGhlaWdodDogMzVweFxyXG59XHJcblxyXG4ucHJvZ3Jlc3NJbmZvIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIG1hcmdpbjogNXB4O1xyXG4gICAgY29sb3I6ICNlNTczNzM7XHJcbn1cclxuXHJcbi5leGFtcGxlLWNvbnRhaW5lciB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBib3R0b206IDA7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgcmlnaHQ6IDA7XHJcbn1cclxuXHJcbi5pbWdOYXYge1xyXG4gICAgd2lkdGg6IDI1MHB4O1xyXG4gICAgZm9udC1zaXplOiAyMHB4O1xyXG59XHJcblxyXG4uaW1nTmF2IGltZyB7XHJcbiAgICBtYXgtd2lkdGg6IDEwMCU7XHJcbn1cclxuXHJcbi5pbWdOYXYgcCB7XHJcbiAgICBtYXJnaW4tdG9wOiAwcHg7XHJcbiAgICBtYXJnaW4tYm90dG9tOiA0cHg7XHJcbn1cclxuXHJcbi5pbWdOYXYgYnV0dG9uIHtcclxuICAgIHdpZHRoOiAxMDAlIWltcG9ydGFudDtcclxuICAgIHRleHQtYWxpZ246IGxlZnQhaW1wb3J0YW50O1xyXG59XHJcblxyXG4ub2RqIGJ1dHRvbiB7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDUwcHghaW1wb3J0YW50O1xyXG4gICAgY29sb3I6IGdyZXk7XHJcbiAgICBmb250LXNpemU6IDE0cHghaW1wb3J0YW50O1xyXG59XHJcblxyXG4uYWN0aXZlTGluayB7XHJcbiAgICBjb2xvcjogI2U1NzM3MyFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5pbWdOYXYgaSB7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDVweDtcclxufVxyXG5cclxuLm1hdC1idXR0b24ge1xyXG4gICAgZm9udC1zaXplOiAyMHB4IWltcG9ydGFudFxyXG59Il19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-root',
+                templateUrl: './app.component.html',
+                styleUrls: ['./app.component.css']
+            }]
+    }], function () { return [{ type: _services_AppState__WEBPACK_IMPORTED_MODULE_7__["AppState"] }, { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_8__["MatSnackBar"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_9__["Router"] }, { type: _services_NotificationService__WEBPACK_IMPORTED_MODULE_10__["NotificationService"] }, { type: _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_11__["TimetableUpdateService"] }, { type: _services_LocationService__WEBPACK_IMPORTED_MODULE_12__["LocationService"] }, { type: _services_LegendServices__WEBPACK_IMPORTED_MODULE_13__["LegendService"] }, { type: _services_EventServices__WEBPACK_IMPORTED_MODULE_14__["EventService"] }]; }, { sidenav: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"],
+            args: ['sidenav', { static: true }]
+        }] }); })();
 
 
 /***/ }),
@@ -605,7 +738,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var EVENTS = [
+const EVENTS = [
     _events_NoInternet__WEBPACK_IMPORTED_MODULE_0__["NoInternet"],
     _events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__["LocationDetected"],
     _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__["AppVersionUpdated"],
@@ -631,41 +764,61 @@ var EVENTS = [
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _course_course_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./course/course.component */ "./src/app/course/course.component.ts");
-/* harmony import */ var _angular_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/http */ "./node_modules/@angular/http/fesm5/http.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/fesm5/animations.js");
-/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./services/NotificationService */ "./src/app/services/NotificationService.ts");
-/* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
-/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./services/EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./services/TimetableUpdateService */ "./src/app/services/TimetableUpdateService.ts");
-/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./services/LocationService */ "./src/app/services/LocationService.ts");
-/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./services/TraficService */ "./src/app/services/TraficService.ts");
-/* harmony import */ var _start_start_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./start/start.component */ "./src/app/start/start.component.ts");
-/* harmony import */ var _timetable_timetable_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./timetable/timetable.component */ "./src/app/timetable/timetable.component.ts");
-/* harmony import */ var _services_LegendServices__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./services/LegendServices */ "./src/app/services/LegendServices.ts");
-/* harmony import */ var ngx_material_timepicker__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ngx-material-timepicker */ "./node_modules/ngx-material-timepicker/fesm5/ngx-material-timepicker.js");
-/* harmony import */ var _courses_courses_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./courses/courses.component */ "./src/app/courses/courses.component.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./services/AppState */ "./src/app/services/AppState.ts");
-/* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _timetable_components_stopsSheets_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./timetable/components/stopsSheets.component */ "./src/app/timetable/components/stopsSheets.component.ts");
-/* harmony import */ var _start_components_mapSheet_component__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./start/components/mapSheet.component */ "./src/app/start/components/mapSheet.component.ts");
-/* harmony import */ var _start_components_watchedCourse_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./start/components/watchedCourse.component */ "./src/app/start/components/watchedCourse.component.ts");
-/* harmony import */ var _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./services/BusLocationServices */ "./src/app/services/BusLocationServices.ts");
-/* harmony import */ var _start_components_options_sheets_component__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./start/components/options-sheets.component */ "./src/app/start/components/options-sheets.component.ts");
-/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
+/* harmony import */ var _app_routing_module__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app-routing.module */ "./src/app/app-routing.module.ts");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/platform-browser/animations */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/animations.js");
+/* harmony import */ var _timetable_timetable_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./timetable/timetable.component */ "./src/app/timetable/timetable.component.ts");
+/* harmony import */ var _start_start_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./start/start.component */ "./src/app/start/start.component.ts");
+/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
+/* harmony import */ var _course_course_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./course/course.component */ "./src/app/course/course.component.ts");
+/* harmony import */ var _courses_courses_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./courses/courses.component */ "./src/app/courses/courses.component.ts");
+/* harmony import */ var _services_LegendServices__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./services/LegendServices */ "./src/app/services/LegendServices.ts");
+/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./services/AppState */ "./src/app/services/AppState.ts");
+/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./services/TraficService */ "./src/app/services/TraficService.ts");
+/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./services/NotificationService */ "./src/app/services/NotificationService.ts");
+/* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
+/* harmony import */ var _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./services/BusLocationServices */ "./src/app/services/BusLocationServices.ts");
+/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./services/EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./services/TimetableUpdateService */ "./src/app/services/TimetableUpdateService.ts");
+/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./services/LocationService */ "./src/app/services/LocationService.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/autocomplete */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/autocomplete.js");
+/* harmony import */ var _angular_material_badge__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/badge */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/badge.js");
+/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/bottom-sheet.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+/* harmony import */ var _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! @angular/material/button-toggle */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button-toggle.js");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
+/* harmony import */ var _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! @angular/material/checkbox */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/checkbox.js");
+/* harmony import */ var _angular_material_chips__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! @angular/material/chips */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/chips.js");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! @angular/material/datepicker */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/datepicker.js");
+/* harmony import */ var _angular_material_dialog__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! @angular/material/dialog */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/dialog.js");
+/* harmony import */ var _angular_material_divider__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! @angular/material/divider */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/divider.js");
+/* harmony import */ var _angular_material_expansion__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! @angular/material/expansion */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/expansion.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/grid-list.js");
+/* harmony import */ var _angular_material_icon__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! @angular/material/icon */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/icon.js");
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/input.js");
+/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! @angular/material/list */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/list.js");
+/* harmony import */ var _angular_material_menu__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! @angular/material/menu */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/menu.js");
+/* harmony import */ var _angular_material_paginator__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! @angular/material/paginator */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/paginator.js");
+/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/progress-bar.js");
+/* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! @angular/material/progress-spinner */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/progress-spinner.js");
+/* harmony import */ var _angular_material_radio__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! @angular/material/radio */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/radio.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
+/* harmony import */ var _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! @angular/material/sidenav */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/sidenav.js");
+/* harmony import */ var _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! @angular/material/slide-toggle */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/slide-toggle.js");
+/* harmony import */ var _angular_material_slider__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! @angular/material/slider */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/slider.js");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/snack-bar.js");
+/* harmony import */ var _angular_material_sort__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! @angular/material/sort */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/sort.js");
+/* harmony import */ var _angular_material_stepper__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! @angular/material/stepper */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/stepper.js");
+/* harmony import */ var _angular_material_table__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! @angular/material/table */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/table.js");
+/* harmony import */ var _angular_material_tabs__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! @angular/material/tabs */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tabs.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/toolbar.js");
+/* harmony import */ var _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! @angular/material/tooltip */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tooltip.js");
+/* harmony import */ var _angular_material_tree__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! @angular/material/tree */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/tree.js");
 
 
 
@@ -695,106 +848,188 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 
 
-var path = [
-    { path: '', redirectTo: "home", pathMatch: 'full' },
-    { path: "courses/:direction", component: _courses_courses_component__WEBPACK_IMPORTED_MODULE_19__["CoursesComponent"] },
-    { path: "start", component: _start_start_component__WEBPACK_IMPORTED_MODULE_15__["StartComponent"] },
-    { path: "timetable", component: _timetable_timetable_component__WEBPACK_IMPORTED_MODULE_16__["TimetableComponent"] },
-    { path: "home", component: _home_home_component__WEBPACK_IMPORTED_MODULE_22__["HomeComponent"] }
-];
-var AppModule = /** @class */ (function () {
-    function AppModule() {
-    }
-    AppModule = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_4__["NgModule"])({
-            declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_0__["AppComponent"],
-                _course_course_component__WEBPACK_IMPORTED_MODULE_1__["CourseComponent"],
-                _start_start_component__WEBPACK_IMPORTED_MODULE_15__["StartComponent"],
-                _start_components_watchedCourse_component__WEBPACK_IMPORTED_MODULE_25__["watchedCourseComponent"],
-                _timetable_timetable_component__WEBPACK_IMPORTED_MODULE_16__["TimetableComponent"],
-                _courses_courses_component__WEBPACK_IMPORTED_MODULE_19__["CoursesComponent"],
-                _home_home_component__WEBPACK_IMPORTED_MODULE_22__["HomeComponent"],
-                _timetable_components_stopsSheets_component__WEBPACK_IMPORTED_MODULE_23__["StopsSheets"],
-                _start_components_options_sheets_component__WEBPACK_IMPORTED_MODULE_27__["OptionsSheets"],
-                _start_components_mapSheet_component__WEBPACK_IMPORTED_MODULE_24__["MapSheet"],
-                _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_28__["SingleCourseComponent"]
-            ],
-            imports: [
-                _angular_router__WEBPACK_IMPORTED_MODULE_20__["RouterModule"].forRoot(path),
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_7__["BrowserModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatAutocompleteModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatBadgeModule"],
-                [ngx_material_timepicker__WEBPACK_IMPORTED_MODULE_18__["NgxMaterialTimepickerModule"].forRoot()],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatBottomSheetModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatButtonModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatButtonToggleModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatCardModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatCheckboxModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatChipsModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatStepperModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatDatepickerModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatDialogModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatDividerModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatExpansionModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatGridListModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatIconModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatInputModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatListModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatMenuModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatNativeDateModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatPaginatorModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatProgressBarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatProgressSpinnerModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatRadioModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatRippleModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSelectModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSidenavModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSliderModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSlideToggleModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSnackBarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatSortModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatTableModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatTabsModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatToolbarModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatTooltipModule"],
-                _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClientModule"],
-                _angular_http__WEBPACK_IMPORTED_MODULE_2__["HttpModule"],
-                _angular_material__WEBPACK_IMPORTED_MODULE_6__["MatTreeModule"],
-                _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_8__["BrowserAnimationsModule"]
-            ],
-            entryComponents: [_timetable_components_stopsSheets_component__WEBPACK_IMPORTED_MODULE_23__["StopsSheets"], _start_components_mapSheet_component__WEBPACK_IMPORTED_MODULE_24__["MapSheet"], _start_components_options_sheets_component__WEBPACK_IMPORTED_MODULE_27__["OptionsSheets"], _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_28__["SingleCourseComponent"]],
-            providers: [_services_NotificationService__WEBPACK_IMPORTED_MODULE_9__["NotificationService"], _services_AppState__WEBPACK_IMPORTED_MODULE_21__["AppState"], _services_LegendServices__WEBPACK_IMPORTED_MODULE_17__["LegendService"], _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_10__["LocalStorageHelper"], _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_12__["TimetableUpdateService"], _services_LocationService__WEBPACK_IMPORTED_MODULE_13__["LocationService"], _services_TraficService__WEBPACK_IMPORTED_MODULE_14__["TraficService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_11__["EventService"], _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_26__["BusLocationServices"]],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_0__["AppComponent"]]
-        })
-    ], AppModule);
-    return AppModule;
-}());
 
 
 
-/***/ }),
 
-/***/ "./src/app/course/course.component.css":
-/*!*********************************************!*\
-  !*** ./src/app/course/course.component.css ***!
-  \*********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
 
-module.exports = ".mat-expansion-indicator::after{\r\n    display: none!important;\r\n}\r\n.mat-expansion-panel{\r\n    padding-left: 4px!important;\r\n    padding-right: 4px!important;\r\n}\r\n.mat-expansion-panel-header{\r\n    padding-left: 2px!important;\r\n    padding-right: 2px!important;\r\n}\r\n.mat-expansion-panel-header span {\r\n    display: none!important;    \r\n}\r\n:host /deep/ .mat-expansion-panel-header-description{\r\n    flex-grow: 1!important;\r\n}\r\n.mat-grid-tile{\r\n}\r\n.gridHeader{\r\n    background-color:#5255e0;\r\n}\r\n:host /deep/ .mat-expansion-panel-body{\r\n    padding-left: 0px!important;\r\n    padding-right: 0px!important;\r\n}\r\n.colored-time{\r\n    color: #5255e0!important;\r\n    font-weight: bold;\r\n}\r\n.telesforColor{\r\n    background-color: #984444!important;\r\n}\r\n@-webkit-keyframes MyAnimation {\r\n    0% {\r\n\r\n      opacity: 0;\r\n    }\r\n    100% {\r\n        opacity: 1;\r\n    } \r\n  }\r\n@keyframes MyAnimation {\r\n    0% {\r\n\r\n      opacity: 0;\r\n    }\r\n    100% {\r\n        opacity: 1;\r\n    } \r\n  }\r\n.my-animation {\r\n    -webkit-animation: MyAnimation 1s;\r\n            animation: MyAnimation 1s;\r\n  }\r\n.rotate-animation{\r\n    transition-duration: 1s;\r\n    -webkit-transform: rotate(180deg);\r\n            transform: rotate(180deg);\r\n  }\r\n.rotate-back-animation{\r\n    transition-duration: 1s;\r\n    -webkit-transform: rotate(0deg);\r\n            transform: rotate(0deg);\r\n  }\r\n.first-stop{\r\n      border-bottom: solid 2px #5255e0;\r\n  }\r\n.more-less-text{\r\n      color: #e57373;\r\n      width: 100%;\r\n      text-align: center;\r\n      font-family: Roboto, \"Helvetica Neue\", sans-serif;\r\n  }\r\n.more-less-text span{\r\n    position: relative;\r\n    top: -7px;\r\n  }\r\n.blue-button{\r\n      background-color: #5255e0;\r\n  }\r\n:host /deep/ .mat-figure{\r\n    flex-direction: column;\r\n}"
 
-/***/ }),
 
-/***/ "./src/app/course/course.component.html":
-/*!**********************************************!*\
-  !*** ./src/app/course/course.component.html ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
 
-module.exports = "<div>\r\n  <div *ngIf=\"!coursesExist()\" style=\"width: 100%;text-align: center\">\r\n    <h3>Brak kursów</h3>\r\n  </div>\r\n  <div *ngIf=\"coursesExist()\">\r\n    <div *ngFor=\"let course of nearCourses\">\r\n      <mat-card (click)=\"showDetails(course)\" style=\"padding: 5px;margin:3px\">\r\n        <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\r\n\r\n          <mat-grid-tile style=\"flex-direction:column\">\r\n            {{directionResolve(course.direction)}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Przez</p>\r\n          </mat-grid-tile>\r\n          <!-- <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n            Kraków\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Z</p>\r\n          </mat-grid-tile> -->\r\n          <mat-grid-tile style=\"flex-direction:column\">\r\n            {{course.courseFirstStop.timeString}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n          </mat-grid-tile>\r\n          <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n            {{calculateTime(course.courseFirstStop)}}\r\n            <p style=\"margin:2px;font-size: 12px;color: grey\">Za</p>\r\n          </mat-grid-tile>\r\n        </mat-grid-list>\r\n      </mat-card>\r\n    </div>\r\n  </div>\r\n  </div>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class AppModule {
+}
+AppModule.ɵmod = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineNgModule"]({ type: AppModule, bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]] });
+AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({ factory: function AppModule_Factory(t) { return new (t || AppModule)(); }, providers: [_services_NotificationService__WEBPACK_IMPORTED_MODULE_14__["NotificationService"], _services_AppState__WEBPACK_IMPORTED_MODULE_12__["AppState"], _services_LegendServices__WEBPACK_IMPORTED_MODULE_11__["LegendService"], _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_15__["LocalStorageHelper"], _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_18__["TimetableUpdateService"], _services_LocationService__WEBPACK_IMPORTED_MODULE_19__["LocationService"], _services_TraficService__WEBPACK_IMPORTED_MODULE_13__["TraficService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_17__["EventService"], _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_16__["BusLocationServices"]], imports: [[
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+            _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+            _angular_material_icon__WEBPACK_IMPORTED_MODULE_35__["MatIconModule"],
+            _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_47__["MatSnackBarModule"],
+            _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"],
+            _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_21__["MatAutocompleteModule"],
+            _angular_material_badge__WEBPACK_IMPORTED_MODULE_22__["MatBadgeModule"],
+            _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_23__["MatBottomSheetModule"],
+            _angular_material_button__WEBPACK_IMPORTED_MODULE_24__["MatButtonModule"],
+            _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"],
+            _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_25__["MatButtonToggleModule"],
+            _angular_forms__WEBPACK_IMPORTED_MODULE_20__["FormsModule"],
+            _angular_material_card__WEBPACK_IMPORTED_MODULE_26__["MatCardModule"],
+            _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_27__["MatCheckboxModule"],
+            _angular_material_chips__WEBPACK_IMPORTED_MODULE_28__["MatChipsModule"],
+            _angular_material_stepper__WEBPACK_IMPORTED_MODULE_49__["MatStepperModule"],
+            _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_30__["MatDatepickerModule"],
+            _angular_material_dialog__WEBPACK_IMPORTED_MODULE_31__["MatDialogModule"],
+            _angular_material_divider__WEBPACK_IMPORTED_MODULE_32__["MatDividerModule"],
+            _angular_material_expansion__WEBPACK_IMPORTED_MODULE_33__["MatExpansionModule"],
+            _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_34__["MatGridListModule"],
+            _angular_material_icon__WEBPACK_IMPORTED_MODULE_35__["MatIconModule"],
+            _angular_material_input__WEBPACK_IMPORTED_MODULE_36__["MatInputModule"],
+            _angular_material_list__WEBPACK_IMPORTED_MODULE_37__["MatListModule"],
+            _angular_material_menu__WEBPACK_IMPORTED_MODULE_38__["MatMenuModule"],
+            _angular_material_core__WEBPACK_IMPORTED_MODULE_29__["MatNativeDateModule"],
+            _angular_material_paginator__WEBPACK_IMPORTED_MODULE_39__["MatPaginatorModule"],
+            _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_40__["MatProgressBarModule"],
+            _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_41__["MatProgressSpinnerModule"],
+            _angular_material_radio__WEBPACK_IMPORTED_MODULE_42__["MatRadioModule"],
+            _angular_material_core__WEBPACK_IMPORTED_MODULE_29__["MatRippleModule"],
+            _angular_material_select__WEBPACK_IMPORTED_MODULE_43__["MatSelectModule"],
+            _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_44__["MatSidenavModule"],
+            _angular_material_slider__WEBPACK_IMPORTED_MODULE_46__["MatSliderModule"],
+            _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_45__["MatSlideToggleModule"],
+            _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_47__["MatSnackBarModule"],
+            _angular_material_sort__WEBPACK_IMPORTED_MODULE_48__["MatSortModule"],
+            _angular_material_table__WEBPACK_IMPORTED_MODULE_50__["MatTableModule"],
+            _angular_material_tabs__WEBPACK_IMPORTED_MODULE_51__["MatTabsModule"],
+            _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_52__["MatToolbarModule"],
+            _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_53__["MatTooltipModule"],
+            _angular_material_tree__WEBPACK_IMPORTED_MODULE_54__["MatTreeModule"]
+        ]] });
+(function () { (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppModule, { declarations: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+        _timetable_timetable_component__WEBPACK_IMPORTED_MODULE_6__["TimetableComponent"],
+        _start_start_component__WEBPACK_IMPORTED_MODULE_7__["StartComponent"],
+        _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_8__["SingleCourseComponent"],
+        _course_course_component__WEBPACK_IMPORTED_MODULE_9__["CourseComponent"],
+        _courses_courses_component__WEBPACK_IMPORTED_MODULE_10__["CoursesComponent"]], imports: [_angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+        _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+        _angular_material_icon__WEBPACK_IMPORTED_MODULE_35__["MatIconModule"],
+        _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_47__["MatSnackBarModule"],
+        _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"],
+        _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_21__["MatAutocompleteModule"],
+        _angular_material_badge__WEBPACK_IMPORTED_MODULE_22__["MatBadgeModule"],
+        _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_23__["MatBottomSheetModule"],
+        _angular_material_button__WEBPACK_IMPORTED_MODULE_24__["MatButtonModule"],
+        _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"],
+        _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_25__["MatButtonToggleModule"],
+        _angular_forms__WEBPACK_IMPORTED_MODULE_20__["FormsModule"],
+        _angular_material_card__WEBPACK_IMPORTED_MODULE_26__["MatCardModule"],
+        _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_27__["MatCheckboxModule"],
+        _angular_material_chips__WEBPACK_IMPORTED_MODULE_28__["MatChipsModule"],
+        _angular_material_stepper__WEBPACK_IMPORTED_MODULE_49__["MatStepperModule"],
+        _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_30__["MatDatepickerModule"],
+        _angular_material_dialog__WEBPACK_IMPORTED_MODULE_31__["MatDialogModule"],
+        _angular_material_divider__WEBPACK_IMPORTED_MODULE_32__["MatDividerModule"],
+        _angular_material_expansion__WEBPACK_IMPORTED_MODULE_33__["MatExpansionModule"],
+        _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_34__["MatGridListModule"],
+        _angular_material_icon__WEBPACK_IMPORTED_MODULE_35__["MatIconModule"],
+        _angular_material_input__WEBPACK_IMPORTED_MODULE_36__["MatInputModule"],
+        _angular_material_list__WEBPACK_IMPORTED_MODULE_37__["MatListModule"],
+        _angular_material_menu__WEBPACK_IMPORTED_MODULE_38__["MatMenuModule"],
+        _angular_material_core__WEBPACK_IMPORTED_MODULE_29__["MatNativeDateModule"],
+        _angular_material_paginator__WEBPACK_IMPORTED_MODULE_39__["MatPaginatorModule"],
+        _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_40__["MatProgressBarModule"],
+        _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_41__["MatProgressSpinnerModule"],
+        _angular_material_radio__WEBPACK_IMPORTED_MODULE_42__["MatRadioModule"],
+        _angular_material_core__WEBPACK_IMPORTED_MODULE_29__["MatRippleModule"],
+        _angular_material_select__WEBPACK_IMPORTED_MODULE_43__["MatSelectModule"],
+        _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_44__["MatSidenavModule"],
+        _angular_material_slider__WEBPACK_IMPORTED_MODULE_46__["MatSliderModule"],
+        _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_45__["MatSlideToggleModule"],
+        _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_47__["MatSnackBarModule"],
+        _angular_material_sort__WEBPACK_IMPORTED_MODULE_48__["MatSortModule"],
+        _angular_material_table__WEBPACK_IMPORTED_MODULE_50__["MatTableModule"],
+        _angular_material_tabs__WEBPACK_IMPORTED_MODULE_51__["MatTabsModule"],
+        _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_52__["MatToolbarModule"],
+        _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_53__["MatTooltipModule"],
+        _angular_material_tree__WEBPACK_IMPORTED_MODULE_54__["MatTreeModule"]] }); })();
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](AppModule, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"],
+        args: [{
+                declarations: [
+                    _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                    _timetable_timetable_component__WEBPACK_IMPORTED_MODULE_6__["TimetableComponent"],
+                    _start_start_component__WEBPACK_IMPORTED_MODULE_7__["StartComponent"],
+                    _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_8__["SingleCourseComponent"],
+                    _course_course_component__WEBPACK_IMPORTED_MODULE_9__["CourseComponent"],
+                    _courses_courses_component__WEBPACK_IMPORTED_MODULE_10__["CoursesComponent"]
+                ],
+                imports: [
+                    _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+                    _app_routing_module__WEBPACK_IMPORTED_MODULE_3__["AppRoutingModule"],
+                    _angular_material_icon__WEBPACK_IMPORTED_MODULE_35__["MatIconModule"],
+                    _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_47__["MatSnackBarModule"],
+                    _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_5__["BrowserAnimationsModule"],
+                    _angular_material_autocomplete__WEBPACK_IMPORTED_MODULE_21__["MatAutocompleteModule"],
+                    _angular_material_badge__WEBPACK_IMPORTED_MODULE_22__["MatBadgeModule"],
+                    _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_23__["MatBottomSheetModule"],
+                    _angular_material_button__WEBPACK_IMPORTED_MODULE_24__["MatButtonModule"],
+                    _angular_common_http__WEBPACK_IMPORTED_MODULE_2__["HttpClientModule"],
+                    _angular_material_button_toggle__WEBPACK_IMPORTED_MODULE_25__["MatButtonToggleModule"],
+                    _angular_forms__WEBPACK_IMPORTED_MODULE_20__["FormsModule"],
+                    _angular_material_card__WEBPACK_IMPORTED_MODULE_26__["MatCardModule"],
+                    _angular_material_checkbox__WEBPACK_IMPORTED_MODULE_27__["MatCheckboxModule"],
+                    _angular_material_chips__WEBPACK_IMPORTED_MODULE_28__["MatChipsModule"],
+                    _angular_material_stepper__WEBPACK_IMPORTED_MODULE_49__["MatStepperModule"],
+                    _angular_material_datepicker__WEBPACK_IMPORTED_MODULE_30__["MatDatepickerModule"],
+                    _angular_material_dialog__WEBPACK_IMPORTED_MODULE_31__["MatDialogModule"],
+                    _angular_material_divider__WEBPACK_IMPORTED_MODULE_32__["MatDividerModule"],
+                    _angular_material_expansion__WEBPACK_IMPORTED_MODULE_33__["MatExpansionModule"],
+                    _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_34__["MatGridListModule"],
+                    _angular_material_icon__WEBPACK_IMPORTED_MODULE_35__["MatIconModule"],
+                    _angular_material_input__WEBPACK_IMPORTED_MODULE_36__["MatInputModule"],
+                    _angular_material_list__WEBPACK_IMPORTED_MODULE_37__["MatListModule"],
+                    _angular_material_menu__WEBPACK_IMPORTED_MODULE_38__["MatMenuModule"],
+                    _angular_material_core__WEBPACK_IMPORTED_MODULE_29__["MatNativeDateModule"],
+                    _angular_material_paginator__WEBPACK_IMPORTED_MODULE_39__["MatPaginatorModule"],
+                    _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_40__["MatProgressBarModule"],
+                    _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_41__["MatProgressSpinnerModule"],
+                    _angular_material_radio__WEBPACK_IMPORTED_MODULE_42__["MatRadioModule"],
+                    _angular_material_core__WEBPACK_IMPORTED_MODULE_29__["MatRippleModule"],
+                    _angular_material_select__WEBPACK_IMPORTED_MODULE_43__["MatSelectModule"],
+                    _angular_material_sidenav__WEBPACK_IMPORTED_MODULE_44__["MatSidenavModule"],
+                    _angular_material_slider__WEBPACK_IMPORTED_MODULE_46__["MatSliderModule"],
+                    _angular_material_slide_toggle__WEBPACK_IMPORTED_MODULE_45__["MatSlideToggleModule"],
+                    _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_47__["MatSnackBarModule"],
+                    _angular_material_sort__WEBPACK_IMPORTED_MODULE_48__["MatSortModule"],
+                    _angular_material_table__WEBPACK_IMPORTED_MODULE_50__["MatTableModule"],
+                    _angular_material_tabs__WEBPACK_IMPORTED_MODULE_51__["MatTabsModule"],
+                    _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_52__["MatToolbarModule"],
+                    _angular_material_tooltip__WEBPACK_IMPORTED_MODULE_53__["MatTooltipModule"],
+                    _angular_material_tree__WEBPACK_IMPORTED_MODULE_54__["MatTreeModule"]
+                ],
+                entryComponents: [_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_8__["SingleCourseComponent"]],
+                providers: [_services_NotificationService__WEBPACK_IMPORTED_MODULE_14__["NotificationService"], _services_AppState__WEBPACK_IMPORTED_MODULE_12__["AppState"], _services_LegendServices__WEBPACK_IMPORTED_MODULE_11__["LegendService"], _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_15__["LocalStorageHelper"], _services_TimetableUpdateService__WEBPACK_IMPORTED_MODULE_18__["TimetableUpdateService"], _services_LocationService__WEBPACK_IMPORTED_MODULE_19__["LocationService"], _services_TraficService__WEBPACK_IMPORTED_MODULE_13__["TraficService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_17__["EventService"], _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_16__["BusLocationServices"]],
+                bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
+            }]
+    }], null, null); })();
+
 
 /***/ }),
 
@@ -808,26 +1043,20 @@ module.exports = "<div>\r\n  <div *ngIf=\"!coursesExist()\" style=\"width: 100%;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CourseComponent", function() { return CourseComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var linqts__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! linqts */ "./node_modules/linqts/dist/linqts.es.js");
-/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/LocationService */ "./src/app/services/LocationService.ts");
-/* harmony import */ var _helpers_TimeEnum__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/TimeEnum */ "./src/app/helpers/TimeEnum.ts");
-/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/TraficService */ "./src/app/services/TraficService.ts");
-/* harmony import */ var _events_CoursesFiltered__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../events/CoursesFiltered */ "./src/app/events/CoursesFiltered.ts");
-/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../services/EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
-/* harmony import */ var _events_LocationChanged__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../events/LocationChanged */ "./src/app/events/LocationChanged.ts");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _helpers_TimeEnum__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/TimeEnum */ "./src/app/helpers/TimeEnum.ts");
+/* harmony import */ var _events_CoursesFiltered__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../events/CoursesFiltered */ "./src/app/events/CoursesFiltered.ts");
+/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
+/* harmony import */ var _events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../events/LocationChanged */ "./src/app/events/LocationChanged.ts");
+/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
+/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../services/TraficService */ "./src/app/services/TraficService.ts");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/snack-bar.js");
+/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/bottom-sheet.js");
+/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../services/LocationService */ "./src/app/services/LocationService.ts");
+/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../services/EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/grid-list.js");
 
 
 
@@ -839,37 +1068,92 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var CourseComponent = /** @class */ (function () {
-    function CourseComponent(traffic, matSnackBar, bottomSheet, locationService, eventService) {
-        var _this = this;
+
+
+
+
+function CourseComponent_div_1_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Brak kurs\u00F3w");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function CourseComponent_div_2_div_1_Template(rf, ctx) { if (rf & 1) {
+    const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-card", 4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function CourseComponent_div_2_div_1_Template_mat_card_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r5); const course_r3 = ctx.$implicit; const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r4.showDetails(course_r3); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-grid-list", 5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-grid-tile", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Przez");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "mat-grid-tile", 6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Odjazd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "mat-grid-tile", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p", 7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Za");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const course_r3 = ctx.$implicit;
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r2.directionResolve(course_r3.direction), " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", course_r3.courseFirstStop.timeString, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r2.calculateTime(course_r3.courseFirstStop), " ");
+} }
+function CourseComponent_div_2_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CourseComponent_div_2_div_1_Template, 15, 3, "div", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r1.nearCourses);
+} }
+class CourseComponent {
+    constructor(traffic, matSnackBar, bottomSheet, locationService, eventService) {
         this.traffic = traffic;
         this.matSnackBar = matSnackBar;
         this.bottomSheet = bottomSheet;
         this.locationService = locationService;
         this.eventService = eventService;
         this.timetableIsActual = true;
-        this.timePlus = _helpers_TimeEnum__WEBPACK_IMPORTED_MODULE_3__["TimeEnum"].old;
-        this.timeMinus = _helpers_TimeEnum__WEBPACK_IMPORTED_MODULE_3__["TimeEnum"].veryNear;
+        this.timePlus = _helpers_TimeEnum__WEBPACK_IMPORTED_MODULE_1__["TimeEnum"].old;
+        this.timeMinus = _helpers_TimeEnum__WEBPACK_IMPORTED_MODULE_1__["TimeEnum"].veryNear;
         this.calculatingDuration = false;
         this.progressWidth = 0;
         this.mapShowed = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
         this.coursSelected = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
-        this.eventService.getMessage(_events_CoursesFiltered__WEBPACK_IMPORTED_MODULE_5__["CoursesFiltered"]).subscribe(function (message) {
-            _this.setTimetable();
+        this.eventService.getMessage(_events_CoursesFiltered__WEBPACK_IMPORTED_MODULE_2__["CoursesFiltered"]).subscribe(message => {
+            this.setTimetable();
         });
-        this.eventService.getMessage(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_7__["ProgressUpdated"]).subscribe(function (message) {
-            _this.progressWidth = message.progress;
+        this.eventService.getMessage(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__["ProgressUpdated"]).subscribe(message => {
+            this.progressWidth = message.progress;
         });
-        this.eventService.getMessage(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_8__["LocationChanged"]).subscribe(function (message) {
-            _this.setTimetable();
+        this.eventService.getMessage(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__["LocationChanged"]).subscribe(message => {
+            this.setTimetable();
         });
     }
-    CourseComponent.prototype.getNearCourse = function (courses, timePlus, timeMinus) {
-        var _this = this;
-        var cours = courses.Where(function (x) { return _this.timeIsNear(x, timePlus, timeMinus); }).ToList();
+    getNearCourse(courses, timePlus, timeMinus) {
+        var cours = courses.Where(x => this.timeIsNear(x, timePlus, timeMinus)).ToList();
         return cours.ToArray();
-    };
-    CourseComponent.prototype.ngOnChanges = function (changes) {
+    }
+    ngOnChanges(changes) {
         if ('allCourses' in changes) {
             this.setTimetable();
         }
@@ -888,10 +1172,10 @@ var CourseComponent = /** @class */ (function () {
             }
             this.setTimetable();
         }
-    };
-    CourseComponent.prototype.setTimetable = function () {
+    }
+    setTimetable() {
         this.nearCourses = this.getNearCourse(this.allCourses, this.timePlus, this.timeMinus);
-    };
+    }
     // calculateTraffic(course: Course) {
     //   var connection = navigator.connection.type;
     //   console.log(connection);
@@ -913,12 +1197,12 @@ var CourseComponent = /** @class */ (function () {
     //     this.progressWidth = 0;
     //   });
     // }
-    CourseComponent.prototype.isFirstStop = function (course, stop) {
+    isFirstStop(course, stop) {
         if (course.firstStop.city == stop.city)
             return true;
         return false;
-    };
-    CourseComponent.prototype.timeIsNear = function (cours, timePlus, timeMinus) {
+    }
+    timeIsNear(cours, timePlus, timeMinus) {
         var stop = this.getStopForLocation(cours.stops);
         if (stop == null)
             return false;
@@ -936,23 +1220,22 @@ var CourseComponent = /** @class */ (function () {
             return true;
         }
         return false;
-    };
-    CourseComponent.prototype.showDetails = function (course) {
-        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_10__["SingleCourseComponent"], { data: { course: course, fullMode: true } });
-    };
-    CourseComponent.prototype.getStopForLocation = function (stops) {
-        var _this = this;
+    }
+    showDetails(course) {
+        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_5__["SingleCourseComponent"], { data: { course: course, fullMode: true } });
+    }
+    getStopForLocation(stops) {
         var stop = null;
-        stops.forEach(function (element) {
-            if (element.city == _this.firstStop)
+        stops.forEach(element => {
+            if (element.city == this.firstStop)
                 stop = element;
         });
         return stop;
-    };
-    CourseComponent.prototype.ngOnInit = function () {
+    }
+    ngOnInit() {
         this.setTimetable();
-    };
-    CourseComponent.prototype.calculateTime = function (stop) {
+    }
+    calculateTime(stop) {
         if (stop.time == null)
             return "";
         var now = new Date();
@@ -968,8 +1251,8 @@ var CourseComponent = /** @class */ (function () {
         }
         else
             return resultInMinutes.toString() + " min";
-    };
-    CourseComponent.prototype.coursesExist = function () {
+    }
+    coursesExist() {
         if (this.nearCourses == undefined)
             return false;
         var courseCount = this.nearCourses.length;
@@ -977,14 +1260,14 @@ var CourseComponent = /** @class */ (function () {
             return false;
         }
         return true;
-    };
-    CourseComponent.prototype.showMap = function (course) {
+    }
+    showMap(course) {
         this.mapShowed.emit(course);
-    };
-    CourseComponent.prototype.go = function (course) {
+    }
+    go(course) {
         this.coursSelected.emit(course);
-    };
-    CourseComponent.prototype.directionResolve = function (direction) {
+    }
+    directionResolve(direction) {
         if (direction.includes("Ry"))
             return "Rybie";
         else if (direction.includes("Że"))
@@ -993,61 +1276,39 @@ var CourseComponent = /** @class */ (function () {
             return "Tymbark";
         else if (direction.includes("Sz"))
             return "Szyk";
-    };
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", String)
-    ], CourseComponent.prototype, "firstStop", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", linqts__WEBPACK_IMPORTED_MODULE_1__["List"])
-    ], CourseComponent.prototype, "allCourses", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
-        __metadata("design:type", Date)
-    ], CourseComponent.prototype, "date", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
-        __metadata("design:type", Object)
-    ], CourseComponent.prototype, "mapShowed", void 0);
-    __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
-        __metadata("design:type", Object)
-    ], CourseComponent.prototype, "coursSelected", void 0);
-    CourseComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-course',
-            template: __webpack_require__(/*! ./course.component.html */ "./src/app/course/course.component.html"),
-            styles: [__webpack_require__(/*! ./course.component.css */ "./src/app/course/course.component.css")]
-        }),
-        __metadata("design:paramtypes", [_services_TraficService__WEBPACK_IMPORTED_MODULE_4__["TraficService"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatSnackBar"], _angular_material__WEBPACK_IMPORTED_MODULE_9__["MatBottomSheet"], _services_LocationService__WEBPACK_IMPORTED_MODULE_2__["LocationService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_6__["EventService"]])
-    ], CourseComponent);
-    return CourseComponent;
-}());
+    }
+}
+CourseComponent.ɵfac = function CourseComponent_Factory(t) { return new (t || CourseComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_TraficService__WEBPACK_IMPORTED_MODULE_6__["TraficService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_7__["MatSnackBar"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_8__["MatBottomSheet"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_LocationService__WEBPACK_IMPORTED_MODULE_9__["LocationService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_EventServices__WEBPACK_IMPORTED_MODULE_10__["EventService"])); };
+CourseComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CourseComponent, selectors: [["app-course"]], inputs: { firstStop: "firstStop", allCourses: "allCourses", date: "date" }, outputs: { mapShowed: "mapShowed", coursSelected: "coursSelected" }, features: [_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵNgOnChangesFeature"]], decls: 3, vars: 2, consts: [["style", "width: 100%;text-align: center", 4, "ngIf"], [4, "ngIf"], [2, "width", "100%", "text-align", "center"], [4, "ngFor", "ngForOf"], [2, "padding", "5px", "margin", "3px", 3, "click"], ["cols", "3", "rowHeight", "3:1"], [2, "flex-direction", "column"], [2, "margin", "2px", "font-size", "12px", "color", "grey"], [2, "flex-direction", "column", "color", "#e57373"]], template: function CourseComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](1, CourseComponent_div_1_Template, 3, 0, "div", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](2, CourseComponent_div_2_Template, 2, 1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.coursesExist());
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.coursesExist());
+    } }, directives: [_angular_common__WEBPACK_IMPORTED_MODULE_11__["NgIf"], _angular_common__WEBPACK_IMPORTED_MODULE_11__["NgForOf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_12__["MatCard"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_13__["MatGridList"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_13__["MatGridTile"]], styles: [".mat-expansion-indicator[_ngcontent-%COMP%]::after {\r\n    display: none!important;\r\n}\r\n\r\n.mat-expansion-panel[_ngcontent-%COMP%] {\r\n    padding-left: 4px!important;\r\n    padding-right: 4px!important;\r\n}\r\n\r\n.mat-expansion-panel-header[_ngcontent-%COMP%] {\r\n    padding-left: 2px!important;\r\n    padding-right: 2px!important;\r\n}\r\n\r\n.mat-expansion-panel-header[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n    display: none!important;\r\n}\r\n\r\n[_nghost-%COMP%]     .mat-expansion-panel-header-description {\r\n    flex-grow: 1!important;\r\n}\r\n\r\n.mat-grid-tile[_ngcontent-%COMP%] {}\r\n\r\n.gridHeader[_ngcontent-%COMP%] {\r\n    background-color: #5255e0;\r\n}\r\n\r\n[_nghost-%COMP%]     .mat-expansion-panel-body {\r\n    padding-left: 0px!important;\r\n    padding-right: 0px!important;\r\n}\r\n\r\n.colored-time[_ngcontent-%COMP%] {\r\n    color: #5255e0!important;\r\n    font-weight: bold;\r\n}\r\n\r\n.telesforColor[_ngcontent-%COMP%] {\r\n    background-color: #984444!important;\r\n}\r\n\r\n@keyframes MyAnimation {\r\n    0% {\r\n        opacity: 0;\r\n    }\r\n    100% {\r\n        opacity: 1;\r\n    }\r\n}\r\n\r\n.my-animation[_ngcontent-%COMP%] {\r\n    animation: MyAnimation 1s;\r\n}\r\n\r\n.rotate-animation[_ngcontent-%COMP%] {\r\n    transition-duration: 1s;\r\n    transform: rotate(180deg);\r\n}\r\n\r\n.rotate-back-animation[_ngcontent-%COMP%] {\r\n    transition-duration: 1s;\r\n    transform: rotate(0deg);\r\n}\r\n\r\n.first-stop[_ngcontent-%COMP%] {\r\n    border-bottom: solid 2px #5255e0;\r\n}\r\n\r\n.more-less-text[_ngcontent-%COMP%] {\r\n    color: #e57373;\r\n    width: 100%;\r\n    text-align: center;\r\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\r\n}\r\n\r\n.more-less-text[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n    position: relative;\r\n    top: -7px;\r\n}\r\n\r\n.blue-button[_ngcontent-%COMP%] {\r\n    background-color: #5255e0;\r\n}\r\n\r\n[_nghost-%COMP%]     .mat-figure {\r\n    flex-direction: column;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY291cnNlL2NvdXJzZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksdUJBQXVCO0FBQzNCOztBQUVBO0lBQ0ksMkJBQTJCO0lBQzNCLDRCQUE0QjtBQUNoQzs7QUFFQTtJQUNJLDJCQUEyQjtJQUMzQiw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSx1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxzQkFBc0I7QUFDMUI7O0FBRUEsZ0JBQWdCOztBQUVoQjtJQUNJLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLDJCQUEyQjtJQUMzQiw0QkFBNEI7QUFDaEM7O0FBRUE7SUFDSSx3QkFBd0I7SUFDeEIsaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksbUNBQW1DO0FBQ3ZDOztBQUVBO0lBQ0k7UUFDSSxVQUFVO0lBQ2Q7SUFDQTtRQUNJLFVBQVU7SUFDZDtBQUNKOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksdUJBQXVCO0lBQ3ZCLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLHVCQUF1QjtJQUN2Qix1QkFBdUI7QUFDM0I7O0FBRUE7SUFDSSxnQ0FBZ0M7QUFDcEM7O0FBRUE7SUFDSSxjQUFjO0lBQ2QsV0FBVztJQUNYLGtCQUFrQjtJQUNsQixpREFBaUQ7QUFDckQ7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsU0FBUztBQUNiOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVDO0lBQ0csc0JBQXNCO0FBQzFCIiwiZmlsZSI6InNyYy9hcHAvY291cnNlL2NvdXJzZS5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm1hdC1leHBhbnNpb24taW5kaWNhdG9yOjphZnRlciB7XHJcbiAgICBkaXNwbGF5OiBub25lIWltcG9ydGFudDtcclxufVxyXG5cclxuLm1hdC1leHBhbnNpb24tcGFuZWwge1xyXG4gICAgcGFkZGluZy1sZWZ0OiA0cHghaW1wb3J0YW50O1xyXG4gICAgcGFkZGluZy1yaWdodDogNHB4IWltcG9ydGFudDtcclxufVxyXG5cclxuLm1hdC1leHBhbnNpb24tcGFuZWwtaGVhZGVyIHtcclxuICAgIHBhZGRpbmctbGVmdDogMnB4IWltcG9ydGFudDtcclxuICAgIHBhZGRpbmctcmlnaHQ6IDJweCFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tYXQtZXhwYW5zaW9uLXBhbmVsLWhlYWRlciBzcGFuIHtcclxuICAgIGRpc3BsYXk6IG5vbmUhaW1wb3J0YW50O1xyXG59XHJcblxyXG46aG9zdCAvZGVlcC8gLm1hdC1leHBhbnNpb24tcGFuZWwtaGVhZGVyLWRlc2NyaXB0aW9uIHtcclxuICAgIGZsZXgtZ3JvdzogMSFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5tYXQtZ3JpZC10aWxlIHt9XHJcblxyXG4uZ3JpZEhlYWRlciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNTI1NWUwO1xyXG59XHJcblxyXG46aG9zdCAvZGVlcC8gLm1hdC1leHBhbnNpb24tcGFuZWwtYm9keSB7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDBweCFpbXBvcnRhbnQ7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiAwcHghaW1wb3J0YW50O1xyXG59XHJcblxyXG4uY29sb3JlZC10aW1lIHtcclxuICAgIGNvbG9yOiAjNTI1NWUwIWltcG9ydGFudDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4udGVsZXNmb3JDb2xvciB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjOTg0NDQ0IWltcG9ydGFudDtcclxufVxyXG5cclxuQGtleWZyYW1lcyBNeUFuaW1hdGlvbiB7XHJcbiAgICAwJSB7XHJcbiAgICAgICAgb3BhY2l0eTogMDtcclxuICAgIH1cclxuICAgIDEwMCUge1xyXG4gICAgICAgIG9wYWNpdHk6IDE7XHJcbiAgICB9XHJcbn1cclxuXHJcbi5teS1hbmltYXRpb24ge1xyXG4gICAgYW5pbWF0aW9uOiBNeUFuaW1hdGlvbiAxcztcclxufVxyXG5cclxuLnJvdGF0ZS1hbmltYXRpb24ge1xyXG4gICAgdHJhbnNpdGlvbi1kdXJhdGlvbjogMXM7XHJcbiAgICB0cmFuc2Zvcm06IHJvdGF0ZSgxODBkZWcpO1xyXG59XHJcblxyXG4ucm90YXRlLWJhY2stYW5pbWF0aW9uIHtcclxuICAgIHRyYW5zaXRpb24tZHVyYXRpb246IDFzO1xyXG4gICAgdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7XHJcbn1cclxuXHJcbi5maXJzdC1zdG9wIHtcclxuICAgIGJvcmRlci1ib3R0b206IHNvbGlkIDJweCAjNTI1NWUwO1xyXG59XHJcblxyXG4ubW9yZS1sZXNzLXRleHQge1xyXG4gICAgY29sb3I6ICNlNTczNzM7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgIGZvbnQtZmFtaWx5OiBSb2JvdG8sIFwiSGVsdmV0aWNhIE5ldWVcIiwgc2Fucy1zZXJpZjtcclxufVxyXG5cclxuLm1vcmUtbGVzcy10ZXh0IHNwYW4ge1xyXG4gICAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gICAgdG9wOiAtN3B4O1xyXG59XHJcblxyXG4uYmx1ZS1idXR0b24ge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzUyNTVlMDtcclxufVxyXG5cclxuIDpob3N0IC9kZWVwLyAubWF0LWZpZ3VyZSB7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG59Il19 */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CourseComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-course',
+                templateUrl: './course.component.html',
+                styleUrls: ['./course.component.css']
+            }]
+    }], function () { return [{ type: _services_TraficService__WEBPACK_IMPORTED_MODULE_6__["TraficService"] }, { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_7__["MatSnackBar"] }, { type: _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_8__["MatBottomSheet"] }, { type: _services_LocationService__WEBPACK_IMPORTED_MODULE_9__["LocationService"] }, { type: _services_EventServices__WEBPACK_IMPORTED_MODULE_10__["EventService"] }]; }, { firstStop: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], allCourses: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], date: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"]
+        }], mapShowed: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }], coursSelected: [{
+            type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"]
+        }] }); })();
 
-
-
-/***/ }),
-
-/***/ "./src/app/courses/courses.component.css":
-/*!***********************************************!*\
-  !*** ./src/app/courses/courses.component.css ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".herb{\r\n    width: 70px;height: 85px;\r\n    margin: 0 auto;\r\n    opacity: 0.8;\r\n}\r\ndiv{\r\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\r\n}\r\n:host /deep/ .timepicker__header{\r\n    background-color: #e57373!important;\r\n}\r\n:host /deep/ .timepicker-button{\r\n    color: #e57373!important;\r\n}\r\n.subTolbar button{\r\n margin-left: 10px;\r\n}\r\n.subTolbar i{\r\n    margin-right: 5px;\r\n}"
-
-/***/ }),
-
-/***/ "./src/app/courses/courses.component.html":
-/*!************************************************!*\
-  !*** ./src/app/courses/courses.component.html ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div>\r\n        <mat-toolbar style=\"height:50px\" color=\"primary\">\r\n                <div class=\"subTolbar\">\r\n                  <mat-form-field style=\"width: 100px;\r\n                  font-size: 14px;\">\r\n                    <mat-select placeholder=\"Z przystanku\" [(ngModel)]=\"firstStop\">\r\n                      <mat-option *ngFor=\"let stop of stops\" [value]=\"stop.city\">\r\n                        {{stop.city}}\r\n                      </mat-option>\r\n                    </mat-select>\r\n                  </mat-form-field>\r\n                  <mat-form-field style=\"margin-left:20px;width: 70px;\r\n                  font-size: 14px;\">\r\n                    <input matInput type=\"time\" placeholder=\"O godzinie\" [(ngModel)]=\"now\">\r\n                </mat-form-field>\r\n                <button (click)=\"setNow()\"  mat-button><i\r\n                    class=\"material-icons\">\r\n                    access_time\r\n                  </i>Teraz</button>\r\n                </div>\r\n              </mat-toolbar>\r\n    <div style=\"height: 87px;width: 100%;font-size: 20px; margin-top: 10px; display: flex;\r\n    justify-content: center;\r\n    flex-direction: column;\r\n    text-align: center;\">\r\n        <img src=\"{{imgSrc}}\" class=\"herb\">\r\n    </div>\r\n    <app-course [allCourses]=\"limCourses\" [firstStop]=\"firstStop\" [date]=\"now\"></app-course>\r\n\r\n</div>"
 
 /***/ }),
 
@@ -1061,79 +1322,171 @@ module.exports = "<div>\r\n        <mat-toolbar style=\"height:50px\" color=\"pr
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoursesComponent", function() { return CoursesComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/AppState */ "./src/app/services/AppState.ts");
-/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
-/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../services/LocationService */ "./src/app/services/LocationService.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/AppState */ "./src/app/services/AppState.ts");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/LocationService */ "./src/app/services/LocationService.ts");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/toolbar.js");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/form-field.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/__ivy_ngcc__/fesm2015/forms.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_material_input__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/input */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/input.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+/* harmony import */ var _course_course_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../course/course.component */ "./src/app/course/course.component.ts");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
 
 
 
 
-var CoursesComponent = /** @class */ (function () {
-    function CoursesComponent(appState, route, router, zone, locationService) {
+
+
+
+
+
+
+
+
+
+
+
+function CoursesComponent_mat_option_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-option", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const stop_r1 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", stop_r1.city);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", stop_r1.city, " ");
+} }
+const secondsCounter = Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["interval"])(1000);
+class CoursesComponent {
+    constructor(appState, route, router, zone, locationService) {
         this.appState = appState;
         this.route = route;
         this.router = router;
         this.zone = zone;
         this.locationService = locationService;
         this.now = new Date();
+        this.dateString = "";
+        this.timeString = "";
         this.firstStop = "Kraków";
         this.allCourses = this.appState.allCourses;
         this.stops = this.locationService.stopsLatAndLng;
     }
-    CoursesComponent.prototype.ngOnInit = function () {
-        var _this = this;
+    ngOnInit() {
+        this.showTime();
         console.log("courses");
-        this.route.params.subscribe(function (params) {
-            _this.direction = params["direction"];
-            _this.zone.run(function () {
-                if (_this.direction == "Krk") {
-                    _this.firstStop = "Kraków";
-                    _this.imgSrc = "../../assets/LimHerb.png";
+        this.loadDateString();
+        this.interval = secondsCounter.subscribe(n => {
+            this.showTime();
+        });
+        this.route.params.subscribe(params => {
+            this.direction = params["direction"];
+            this.zone.run(() => {
+                if (this.direction == "Krk") {
+                    this.firstStop = "Kraków";
+                    this.imgSrc = "../../assets/LimHerb.png";
                 }
-                if (_this.direction == "Lim") {
-                    _this.firstStop == "Limanowa";
-                    _this.imgSrc = "../../assets/KrkHerb.png";
+                if (this.direction == "Lim") {
+                    this.firstStop == "Limanowa";
+                    this.imgSrc = "../../assets/KrkHerb.png";
                 }
-                _this.getCourseForDirection();
+                this.getCourseForDirection();
             });
         });
-    };
-    CoursesComponent.prototype.setNow = function () {
+    }
+    loadDateString() {
+        var today = new Date();
+        this.dateString = today.toISOString().substring(0, 10);
+    }
+    setNow() {
         this.now = new Date();
-    };
-    CoursesComponent.prototype.getCourseForDirection = function () {
-        var _this = this;
-        this.limCourses = this.allCourses.Where(function (x) { return x.direction.startsWith(_this.direction); })
-            .OrderBy(function (x) {
+    }
+    getCourseForDirection() {
+        this.limCourses = this.allCourses.Where(x => x.direction.startsWith(this.direction))
+            .OrderBy(x => {
             var now = new Date();
             now.setHours(x.firstStop.time.hours);
             now.setMinutes(x.firstStop.time.minutes);
             return now;
         })
             .ToList();
-    };
-    CoursesComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-courses',
-            template: __webpack_require__(/*! ./courses.component.html */ "./src/app/courses/courses.component.html"),
-            styles: [__webpack_require__(/*! ./courses.component.css */ "./src/app/courses/courses.component.css")]
-        }),
-        __metadata("design:paramtypes", [_services_AppState__WEBPACK_IMPORTED_MODULE_1__["AppState"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"],
-            _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _services_LocationService__WEBPACK_IMPORTED_MODULE_3__["LocationService"]])
-    ], CoursesComponent);
-    return CoursesComponent;
-}());
-
+    }
+    showTime() {
+        var date = new Date();
+        var h = date.getHours(); // 0 - 23
+        var m = date.getMinutes(); // 0 - 59
+        var s = date.getSeconds(); // 0 - 59
+        h = (h < 10) ? "0" + h : h;
+        m = (m < 10) ? "0" + m : m;
+        s = (s < 10) ? "0" + s : s;
+        var time = h + ":" + m + ":" + s + " ";
+        this.timeString = time;
+    }
+}
+CoursesComponent.ɵfac = function CoursesComponent_Factory(t) { return new (t || CoursesComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_AppState__WEBPACK_IMPORTED_MODULE_2__["AppState"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_LocationService__WEBPACK_IMPORTED_MODULE_4__["LocationService"])); };
+CoursesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: CoursesComponent, selectors: [["app-courses"]], decls: 20, vars: 8, consts: [["color", "primary", 2, "height", "50px", "top", "40px", "position", "fixed", "z-index", "2000"], [1, "subTolbar"], [2, "width", "100px", "font-size", "14px"], ["placeholder", "Z przystanku", 3, "ngModel", "ngModelChange"], [3, "value", 4, "ngFor", "ngForOf"], [2, "margin-left", "20px", "width", "70px", "font-size", "14px"], ["matInput", "", "type", "time", "placeholder", "O godzinie", 3, "ngModel", "ngModelChange"], ["mat-button", "", 3, "click"], [1, "material-icons"], [2, "text-align", "center", "font-size", "20px", "margin-top", "95px", "margin-left", "4px", "margin-right", "4px"], ["id", "MyClockDisplay", 1, "clock", 2, "height", "87px", "width", "100%", "font-size", "45px", "display", "flex", "justify-content", "center", "flex-direction", "column", "text-align", "center"], [2, "font-size", "16px", "color", "grey", "margin-top", "10px"], [3, "allCourses", "firstStop", "date"], [3, "value"]], template: function CoursesComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-toolbar", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-form-field", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](4, "mat-select", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function CoursesComponent_Template_mat_select_ngModelChange_4_listener($event) { return ctx.firstStop = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, CoursesComponent_mat_option_5_Template, 2, 2, "mat-option", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-form-field", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "input", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("ngModelChange", function CoursesComponent_Template_input_ngModelChange_7_listener($event) { return ctx.now = $event; });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "button", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function CoursesComponent_Template_button_click_8_listener() { return ctx.setNow(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "i", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " access_time ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Teraz");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "div", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "span", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](19, "app-course", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.firstStop);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.stops);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngModel", ctx.now);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx.timeString, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx.dateString);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("allCourses", ctx.limCourses)("firstStop", ctx.firstStop)("date", ctx.now);
+    } }, directives: [_angular_material_toolbar__WEBPACK_IMPORTED_MODULE_5__["MatToolbar"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_6__["MatFormField"], _angular_material_select__WEBPACK_IMPORTED_MODULE_7__["MatSelect"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["NgModel"], _angular_common__WEBPACK_IMPORTED_MODULE_9__["NgForOf"], _angular_material_input__WEBPACK_IMPORTED_MODULE_10__["MatInput"], _angular_forms__WEBPACK_IMPORTED_MODULE_8__["DefaultValueAccessor"], _angular_material_button__WEBPACK_IMPORTED_MODULE_11__["MatButton"], _course_course_component__WEBPACK_IMPORTED_MODULE_12__["CourseComponent"], _angular_material_core__WEBPACK_IMPORTED_MODULE_13__["MatOption"]], styles: [".herb[_ngcontent-%COMP%] {\r\n    width: 70px;\r\n    height: 85px;\r\n    margin: 0 auto;\r\n    opacity: 0.8;\r\n}\r\n\r\ndiv[_ngcontent-%COMP%] {\r\n    font-family: Roboto, \"Helvetica Neue\", sans-serif;\r\n}\r\n\r\n[_nghost-%COMP%]     .timepicker__header {\r\n    background-color: #e57373!important;\r\n}\r\n\r\n[_nghost-%COMP%]     .timepicker-button {\r\n    color: #e57373!important;\r\n}\r\n\r\n.subTolbar[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\r\n    margin-left: 10px;\r\n}\r\n\r\n.subTolbar[_ngcontent-%COMP%]   i[_ngcontent-%COMP%] {\r\n    margin-right: 5px;\r\n}\r\n\r\n@font-face {\r\n    font-family: 'digital-clock-font';\r\n    src: url('digital-7.ttf');\r\n}\r\n\r\n.clock[_ngcontent-%COMP%] {\r\n    font-size: 60px;\r\n    font-family: 'digital-clock-font'!important;\r\n    letter-spacing: 7px;\r\n    color: #e57373!important;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY291cnNlcy9jb3Vyc2VzLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxXQUFXO0lBQ1gsWUFBWTtJQUNaLGNBQWM7SUFDZCxZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksaURBQWlEO0FBQ3JEOztBQUVBO0lBQ0ksbUNBQW1DO0FBQ3ZDOztBQUVBO0lBQ0ksd0JBQXdCO0FBQzVCOztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksaUJBQWlCO0FBQ3JCOztBQUVBO0lBQ0ksaUNBQWlDO0lBQ2pDLHlCQUFzQztBQUMxQzs7QUFFQTtJQUNJLGVBQWU7SUFDZiwyQ0FBMkM7SUFDM0MsbUJBQW1CO0lBQ25CLHdCQUF3QjtBQUM1QiIsImZpbGUiOiJzcmMvYXBwL2NvdXJzZXMvY291cnNlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmhlcmIge1xyXG4gICAgd2lkdGg6IDcwcHg7XHJcbiAgICBoZWlnaHQ6IDg1cHg7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxuICAgIG9wYWNpdHk6IDAuODtcclxufVxyXG5cclxuZGl2IHtcclxuICAgIGZvbnQtZmFtaWx5OiBSb2JvdG8sIFwiSGVsdmV0aWNhIE5ldWVcIiwgc2Fucy1zZXJpZjtcclxufVxyXG5cclxuOmhvc3QgL2RlZXAvIC50aW1lcGlja2VyX19oZWFkZXIge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2U1NzM3MyFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbjpob3N0IC9kZWVwLyAudGltZXBpY2tlci1idXR0b24ge1xyXG4gICAgY29sb3I6ICNlNTczNzMhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uc3ViVG9sYmFyIGJ1dHRvbiB7XHJcbiAgICBtYXJnaW4tbGVmdDogMTBweDtcclxufVxyXG5cclxuLnN1YlRvbGJhciBpIHtcclxuICAgIG1hcmdpbi1yaWdodDogNXB4O1xyXG59XHJcblxyXG5AZm9udC1mYWNlIHtcclxuICAgIGZvbnQtZmFtaWx5OiAnZGlnaXRhbC1jbG9jay1mb250JztcclxuICAgIHNyYzogdXJsKCcuLi8uLi9hc3NldHMvZGlnaXRhbC03LnR0ZicpO1xyXG59XHJcblxyXG4uY2xvY2sge1xyXG4gICAgZm9udC1zaXplOiA2MHB4O1xyXG4gICAgZm9udC1mYW1pbHk6ICdkaWdpdGFsLWNsb2NrLWZvbnQnIWltcG9ydGFudDtcclxuICAgIGxldHRlci1zcGFjaW5nOiA3cHg7XHJcbiAgICBjb2xvcjogI2U1NzM3MyFpbXBvcnRhbnQ7XHJcbn0iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CoursesComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-courses',
+                templateUrl: './courses.component.html',
+                styleUrls: ['./courses.component.css']
+            }]
+    }], function () { return [{ type: _services_AppState__WEBPACK_IMPORTED_MODULE_2__["AppState"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["ActivatedRoute"] }, { type: _angular_router__WEBPACK_IMPORTED_MODULE_3__["Router"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }, { type: _services_LocationService__WEBPACK_IMPORTED_MODULE_4__["LocationService"] }]; }, null); })();
 
 
 /***/ }),
@@ -1148,12 +1501,10 @@ var CoursesComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppVersionUpdated", function() { return AppVersionUpdated; });
-var AppVersionUpdated = /** @class */ (function () {
-    function AppVersionUpdated() {
+class AppVersionUpdated {
+    constructor() {
     }
-    return AppVersionUpdated;
-}());
-
+}
 
 
 /***/ }),
@@ -1168,27 +1519,18 @@ var AppVersionUpdated = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoursesFiltered", function() { return CoursesFiltered; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-var CoursesFiltered = /** @class */ (function () {
-    function CoursesFiltered() {
+
+class CoursesFiltered {
+    constructor() {
     }
-    CoursesFiltered = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [])
-    ], CoursesFiltered);
-    return CoursesFiltered;
-}());
-
+}
+CoursesFiltered.ɵfac = function CoursesFiltered_Factory(t) { return new (t || CoursesFiltered)(); };
+CoursesFiltered.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: CoursesFiltered, factory: CoursesFiltered.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](CoursesFiltered, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return []; }, null); })();
 
 
 /***/ }),
@@ -1203,14 +1545,12 @@ var CoursesFiltered = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LatAndLngChanged", function() { return LatAndLngChanged; });
-var LatAndLngChanged = /** @class */ (function () {
-    function LatAndLngChanged(lat, lng) {
+class LatAndLngChanged {
+    constructor(lat, lng) {
         this.lat = lat;
         this.lng = lng;
     }
-    return LatAndLngChanged;
-}());
-
+}
 
 
 /***/ }),
@@ -1225,13 +1565,11 @@ var LatAndLngChanged = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocationChanged", function() { return LocationChanged; });
-var LocationChanged = /** @class */ (function () {
-    function LocationChanged(location) {
+class LocationChanged {
+    constructor(location) {
         this.location = location;
     }
-    return LocationChanged;
-}());
-
+}
 
 
 /***/ }),
@@ -1246,27 +1584,18 @@ var LocationChanged = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocationDetected", function() { return LocationDetected; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-var LocationDetected = /** @class */ (function () {
-    function LocationDetected() {
+
+class LocationDetected {
+    constructor() {
     }
-    LocationDetected = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [])
-    ], LocationDetected);
-    return LocationDetected;
-}());
-
+}
+LocationDetected.ɵfac = function LocationDetected_Factory(t) { return new (t || LocationDetected)(); };
+LocationDetected.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: LocationDetected, factory: LocationDetected.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](LocationDetected, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return []; }, null); })();
 
 
 /***/ }),
@@ -1281,23 +1610,16 @@ var LocationDetected = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NoInternet", function() { return NoInternet; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-var NoInternet = /** @class */ (function () {
-    function NoInternet() {
-    }
-    NoInternet = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])()
-    ], NoInternet);
-    return NoInternet;
-}());
 
+class NoInternet {
+}
+NoInternet.ɵfac = function NoInternet_Factory(t) { return new (t || NoInternet)(); };
+NoInternet.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: NoInternet, factory: NoInternet.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NoInternet, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], null, null); })();
 
 
 /***/ }),
@@ -1312,13 +1634,11 @@ var NoInternet = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressInfo", function() { return ProgressInfo; });
-var ProgressInfo = /** @class */ (function () {
-    function ProgressInfo(message) {
+class ProgressInfo {
+    constructor(message) {
         this.message = message;
     }
-    return ProgressInfo;
-}());
-
+}
 
 
 /***/ }),
@@ -1333,13 +1653,11 @@ var ProgressInfo = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProgressUpdated", function() { return ProgressUpdated; });
-var ProgressUpdated = /** @class */ (function () {
-    function ProgressUpdated(progress) {
+class ProgressUpdated {
+    constructor(progress) {
         this.progress = progress;
     }
-    return ProgressUpdated;
-}());
-
+}
 
 
 /***/ }),
@@ -1354,23 +1672,16 @@ var ProgressUpdated = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TimetableUpdated", function() { return TimetableUpdated; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-var TimetableUpdated = /** @class */ (function () {
-    function TimetableUpdated() {
-    }
-    TimetableUpdated = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])()
-    ], TimetableUpdated);
-    return TimetableUpdated;
-}());
 
+class TimetableUpdated {
+}
+TimetableUpdated.ɵfac = function TimetableUpdated_Factory(t) { return new (t || TimetableUpdated)(); };
+TimetableUpdated.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: TimetableUpdated, factory: TimetableUpdated.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TimetableUpdated, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], null, null); })();
 
 
 /***/ }),
@@ -1385,23 +1696,16 @@ var TimetableUpdated = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TimetableVersionChanged", function() { return TimetableVersionChanged; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-var TimetableVersionChanged = /** @class */ (function () {
-    function TimetableVersionChanged() {
-    }
-    TimetableVersionChanged = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])()
-    ], TimetableVersionChanged);
-    return TimetableVersionChanged;
-}());
 
+class TimetableVersionChanged {
+}
+TimetableVersionChanged.ɵfac = function TimetableVersionChanged_Factory(t) { return new (t || TimetableVersionChanged)(); };
+TimetableVersionChanged.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: TimetableVersionChanged, factory: TimetableVersionChanged.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TimetableVersionChanged, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], null, null); })();
 
 
 /***/ }),
@@ -1441,83 +1745,76 @@ var DirectionEnum;
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocalStorageHelper", function() { return LocalStorageHelper; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 
-var LocalStorageHelper = /** @class */ (function () {
-    function LocalStorageHelper() {
-    }
-    LocalStorageHelper.prototype.getWatchCourse = function () {
+
+class LocalStorageHelper {
+    getWatchCourse() {
         var courseString = localStorage.getItem("watchCourse");
         if (courseString == "undefined")
             return undefined;
         var course = JSON.parse(courseString);
         return course;
-    };
-    LocalStorageHelper.prototype.saveWatchCourse = function (watchCourse) {
+    }
+    saveWatchCourse(watchCourse) {
         localStorage.removeItem("watchCourse");
         localStorage.setItem("watchCourse", JSON.stringify(watchCourse));
-    };
-    LocalStorageHelper.prototype.saveTimetable = function (timetable) {
+    }
+    saveTimetable(timetable) {
         localStorage.removeItem("timetable");
         localStorage.setItem("timetable", JSON.stringify(timetable));
-    };
-    LocalStorageHelper.prototype.getTimetable = function () {
+    }
+    getTimetable() {
         var timetableString = localStorage.getItem("timetable");
         var timetable = JSON.parse(timetableString);
         return timetable;
-    };
-    LocalStorageHelper.prototype.saveAppVersion = function (appVersion) {
+    }
+    saveAppVersion(appVersion) {
         localStorage.removeItem("appVersion");
         localStorage.setItem("appVersion", appVersion.toString());
-    };
-    LocalStorageHelper.prototype.getAppVersion = function () {
+    }
+    getAppVersion() {
         var appVersion = localStorage.getItem("appVersion");
         if (!appVersion)
             return 0;
         return Number.parseFloat(appVersion);
-    };
-    LocalStorageHelper.prototype.getTimetableVersion = function () {
+    }
+    getTimetableVersion() {
         var version = localStorage.getItem("timetableVersion");
         if (!version)
             return 0;
         return Number.parseFloat(version);
-    };
-    LocalStorageHelper.prototype.saveTimetableVersion = function (timetableVersion) {
+    }
+    saveTimetableVersion(timetableVersion) {
         localStorage.removeItem("timetableVersion");
         localStorage.setItem("timetableVersion", timetableVersion.toString());
-    };
-    LocalStorageHelper.prototype.getMessage = function () {
+    }
+    getMessage() {
         var messageString = localStorage.getItem("message");
         var message = JSON.parse(messageString);
         return message;
-    };
-    LocalStorageHelper.prototype.saveMessage = function (message) {
+    }
+    saveMessage(message) {
         localStorage.removeItem("message");
         localStorage.setItem("message", JSON.stringify(message));
-    };
-    LocalStorageHelper.prototype.getSchoolFreeDay = function () {
+    }
+    getSchoolFreeDay() {
         var freeDayString = localStorage.getItem("freeDay");
         if (!freeDayString)
             return null;
         var freDays = freeDayString.split(";");
         return freDays;
-    };
-    LocalStorageHelper.prototype.saveSchoolFreeDay = function (from, to) {
+    }
+    saveSchoolFreeDay(from, to) {
         localStorage.removeItem("freeDay");
         localStorage.setItem("freeDay", from + ";" + to);
-    };
-    LocalStorageHelper = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])()
-    ], LocalStorageHelper);
-    return LocalStorageHelper;
-}());
-
+    }
+}
+LocalStorageHelper.ɵfac = function LocalStorageHelper_Factory(t) { return new (t || LocalStorageHelper)(); };
+LocalStorageHelper.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: LocalStorageHelper, factory: LocalStorageHelper.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](LocalStorageHelper, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], null, null); })();
 
 
 /***/ }),
@@ -1540,10 +1837,8 @@ var TimeEnum;
     TimeEnum[TimeEnum["far"] = 35] = "far";
     TimeEnum[TimeEnum["old"] = 90] = "old";
 })(TimeEnum || (TimeEnum = {}));
-var TimeEnumHelper = /** @class */ (function () {
-    function TimeEnumHelper() {
-    }
-    TimeEnumHelper.next = function (currentEnum) {
+class TimeEnumHelper {
+    static next(currentEnum) {
         switch (currentEnum) {
             case TimeEnum.near:
                 return TimeEnum.far;
@@ -1554,8 +1849,8 @@ var TimeEnumHelper = /** @class */ (function () {
             default:
                 return currentEnum;
         }
-    };
-    TimeEnumHelper.previous = function (currentEnum) {
+    }
+    static previous(currentEnum) {
         switch (currentEnum) {
             case TimeEnum.near:
                 return TimeEnum.veryNear;
@@ -1566,10 +1861,8 @@ var TimeEnumHelper = /** @class */ (function () {
             default:
                 return currentEnum;
         }
-    };
-    return TimeEnumHelper;
-}());
-
+    }
+}
 
 
 /***/ }),
@@ -1587,56 +1880,51 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _models_Stop__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../models/Stop */ "./src/app/models/Stop.ts");
 /* harmony import */ var _models_Course__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../models/Course */ "./src/app/models/Course.ts");
 /* harmony import */ var _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./DirectionEnum */ "./src/app/helpers/DirectionEnum.ts");
-/* harmony import */ var linqts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! linqts */ "./node_modules/linqts/dist/linqts.es.js");
+/* harmony import */ var linqts__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! linqts */ "./node_modules/linqts/dist/src/index.js");
 
 
 
 
-var TimetableBuilderHelper = /** @class */ (function () {
-    function TimetableBuilderHelper() {
-    }
-    TimetableBuilderHelper.convertTimetableToList = function (timetable) {
+class TimetableBuilderHelper {
+    static convertTimetableToList(timetable) {
         var timetableList = new linqts__WEBPACK_IMPORTED_MODULE_3__["List"]();
         if (timetable != undefined && timetable != null) {
-            timetable.forEach(function (coursAny) {
+            timetable.forEach(coursAny => {
                 var cours = coursAny;
                 var stops = cours.stops;
                 timetableList.Add(cours);
             });
         }
         return timetableList;
-    };
-    TimetableBuilderHelper.buildTimetableFromJson = function (timetableJson) {
-        var _this = this;
+    }
+    static buildTimetableFromJson(timetableJson) {
         var courses = new linqts__WEBPACK_IMPORTED_MODULE_3__["List"]();
-        timetableJson.forEach(function (element) {
+        timetableJson.forEach(element => {
             if (element.kurs == "Limanowa-Rybie") {
-                courses.AddRange(_this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].LRK, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].LSK));
+                courses.AddRange(this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].LRK, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].LSK));
             }
             if (element.kurs == "Rybie-Limanowa") {
-                courses.AddRange(_this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].KRL, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].KSL));
+                courses.AddRange(this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].KRL, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].KSL));
             }
             if (element.kurs == "Krakow-Zegocina") {
-                courses.AddRange(_this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].KZL));
+                courses.AddRange(this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].KZL));
             }
             if (element.kurs == "Zegocina-Krakow") {
-                courses.AddRange(_this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].LZK));
+                courses.AddRange(this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].LZK));
             }
             if (element.kurs == "Limanowa-Tymbark") {
-                courses.AddRange(_this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].KTL));
+                courses.AddRange(this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].KTL));
             }
             if (element.kurs == "Tymbark-Limanowa") {
-                courses.AddRange(_this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].LTK));
+                courses.AddRange(this.createCourses(element.kursy, _DirectionEnum__WEBPACK_IMPORTED_MODULE_2__["DirectionEnum"].LTK));
             }
         });
         return courses;
-    };
-    TimetableBuilderHelper.createCourses = function (coursesObject, direction, directionOr) {
-        var _this = this;
-        if (directionOr === void 0) { directionOr = null; }
+    }
+    static createCourses(coursesObject, direction, directionOr = null) {
         var courses = new Array();
-        coursesObject.forEach(function (kurs) {
-            var cours = new _models_Course__WEBPACK_IMPORTED_MODULE_1__["Course"]();
+        coursesObject.forEach(kurs => {
+            let cours = new _models_Course__WEBPACK_IMPORTED_MODULE_1__["Course"]();
             if (direction.toString().includes("Ty"))
                 cours.isTelesfor = true;
             if (directionOr == null)
@@ -1646,26 +1934,26 @@ var TimetableBuilderHelper = /** @class */ (function () {
             }
             cours.legends = kurs["legends"];
             var stops = new Array();
-            for (var name_1 in kurs) {
-                if (name_1 != "legends" && kurs[name_1] != "-") {
-                    var stopMinutes = Number.parseInt(kurs[name_1].substring(3));
-                    var stopHours = Number.parseInt(kurs[name_1].substring(0, 2));
-                    var time = { minutes: stopMinutes, hours: stopHours };
-                    stops.push(new _models_Stop__WEBPACK_IMPORTED_MODULE_0__["Stop"](name_1, kurs[name_1], time));
+            for (let name in kurs) {
+                if (name != "legends" && kurs[name] != "-") {
+                    let stopMinutes = Number.parseInt(kurs[name].substring(3));
+                    let stopHours = Number.parseInt(kurs[name].substring(0, 2));
+                    let time = { minutes: stopMinutes, hours: stopHours };
+                    stops.push(new _models_Stop__WEBPACK_IMPORTED_MODULE_0__["Stop"](name, kurs[name], time));
                 }
             }
-            cours.stops = stops.sort(_this.sortStops);
+            cours.stops = stops.sort(this.sortStops);
             cours.firstStop = stops[0];
-            _this.additinalStops(cours);
+            this.additinalStops(cours);
             courses.push(cours);
         });
         return courses;
-    };
-    TimetableBuilderHelper.additinalStops = function (course) {
+    }
+    static additinalStops(course) {
         var orderedList;
         var stops = new Array();
         if (course.direction.startsWith("Krk")) {
-            var dateNow = new Date();
+            let dateNow = new Date();
             dateNow.setHours(course.firstStop.time.hours);
             dateNow.setMinutes(course.firstStop.time.minutes);
             dateNow.setMinutes(dateNow.getMinutes() + 7);
@@ -1676,12 +1964,12 @@ var TimetableBuilderHelper = /** @class */ (function () {
             stops.push(new _models_Stop__WEBPACK_IMPORTED_MODULE_0__["Stop"]("Bonarka", this.pad(dateNow.getHours().toString(), 2) + ":" + this.pad(dateNow.getMinutes().toString(), 2), { minutes: dateNow.getMinutes(), hours: dateNow.getHours() }));
             dateNow.setMinutes(dateNow.getMinutes() + 6);
             stops.push(new _models_Stop__WEBPACK_IMPORTED_MODULE_0__["Stop"]("Bieżanów", this.pad(dateNow.getHours().toString(), 2) + ":" + this.pad(dateNow.getMinutes().toString(), 2), { minutes: dateNow.getMinutes(), hours: dateNow.getHours() }));
-            var stopsList = new linqts__WEBPACK_IMPORTED_MODULE_3__["List"](course.stops);
+            let stopsList = new linqts__WEBPACK_IMPORTED_MODULE_3__["List"](course.stops);
             stopsList.AddRange(stops);
-            orderedList = stopsList.OrderBy(function (x) { return x.timeString; }).ToArray();
+            orderedList = stopsList.OrderBy(x => x.timeString).ToArray();
         }
         if (course.direction.startsWith("Lim")) {
-            var dateLast = new Date();
+            let dateLast = new Date();
             dateLast.setMinutes(course.stops[course.stops.length - 2].time.minutes);
             dateLast.setHours(course.stops[course.stops.length - 2].time.hours);
             dateLast.setMinutes(dateLast.getMinutes() + 8);
@@ -1692,13 +1980,13 @@ var TimetableBuilderHelper = /** @class */ (function () {
             stops.push(new _models_Stop__WEBPACK_IMPORTED_MODULE_0__["Stop"]("Mateczne", this.pad(dateLast.getHours().toString(), 2) + ":" + this.pad(dateLast.getMinutes().toString(), 2), { minutes: dateLast.getMinutes(), hours: dateLast.getHours() }));
             dateLast.setMinutes(dateLast.getMinutes() + 6);
             stops.push(new _models_Stop__WEBPACK_IMPORTED_MODULE_0__["Stop"]("Plac inw.", this.pad(dateLast.getHours().toString(), 2) + ":" + this.pad(dateLast.getMinutes().toString(), 2), { minutes: dateLast.getMinutes(), hours: dateLast.getHours() }));
-            var stopsList = new linqts__WEBPACK_IMPORTED_MODULE_3__["List"](course.stops);
+            let stopsList = new linqts__WEBPACK_IMPORTED_MODULE_3__["List"](course.stops);
             stopsList.AddRange(stops);
-            orderedList = stopsList.OrderBy(function (x) { return x.timeString; }).ToArray();
+            orderedList = stopsList.OrderBy(x => x.timeString).ToArray();
         }
         course.stops = orderedList;
-    };
-    TimetableBuilderHelper.sortStops = function (a, b) {
+    }
+    static sortStops(a, b) {
         if (a.time.hours > b.time.hours)
             return 1;
         if (a.time.hours == b.time.hours && a.time.minutes > b.time.minutes)
@@ -1709,79 +1997,14 @@ var TimetableBuilderHelper = /** @class */ (function () {
             return -1;
         if (a.time.hours == b.time.hours && a.time.minutes < b.time.minutes)
             return -1;
-    };
-    TimetableBuilderHelper.pad = function (num, size) {
+    }
+    static pad(num, size) {
         var s = num + "";
         while (s.length < size)
             s = "0" + s;
         return s;
-    };
-    return TimetableBuilderHelper;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/home/home.component.css":
-/*!*****************************************!*\
-  !*** ./src/app/home/home.component.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/home/home.component.html":
-/*!******************************************!*\
-  !*** ./src/app/home/home.component.html ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ""
-
-/***/ }),
-
-/***/ "./src/app/home/home.component.ts":
-/*!****************************************!*\
-  !*** ./src/app/home/home.component.ts ***!
-  \****************************************/
-/*! exports provided: HomeComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "HomeComponent", function() { return HomeComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-var HomeComponent = /** @class */ (function () {
-    function HomeComponent() {
     }
-    HomeComponent.prototype.ngOnInit = function () {
-    };
-    HomeComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-home',
-            template: __webpack_require__(/*! ./home.component.html */ "./src/app/home/home.component.html"),
-            styles: [__webpack_require__(/*! ./home.component.css */ "./src/app/home/home.component.css")]
-        }),
-        __metadata("design:paramtypes", [])
-    ], HomeComponent);
-    return HomeComponent;
-}());
-
+}
 
 
 /***/ }),
@@ -1796,13 +2019,11 @@ var HomeComponent = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Course", function() { return Course; });
-var Course = /** @class */ (function () {
-    function Course() {
+class Course {
+    constructor() {
         this.stops = new Array();
     }
-    return Course;
-}());
-
+}
 
 
 /***/ }),
@@ -1817,15 +2038,13 @@ var Course = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Stop", function() { return Stop; });
-var Stop = /** @class */ (function () {
-    function Stop(city, timeString, time) {
+class Stop {
+    constructor(city, timeString, time) {
         this.city = city;
         this.timeString = timeString;
         this.time = time;
     }
-    return Stop;
-}());
-
+}
 
 
 /***/ }),
@@ -1840,21 +2059,13 @@ var Stop = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppState", function() { return AppState; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
 
 
-var AppState = /** @class */ (function () {
-    function AppState(localDb) {
+
+class AppState {
+    constructor(localDb) {
         this.localDb = localDb;
         this.noLocation = false;
         this.yourCord = {
@@ -1862,21 +2073,20 @@ var AppState = /** @class */ (function () {
             lng: 0
         };
     }
-    AppState.prototype.saveWatchCourse = function () {
+    saveWatchCourse() {
         this.localDb.saveWatchCourse(this.watchCourse);
-    };
-    AppState.prototype.getWatchCourse = function () {
+    }
+    getWatchCourse() {
         var watchCourse = this.localDb.getWatchCourse();
         this.watchCourse = watchCourse;
         return watchCourse;
-    };
-    AppState = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_1__["LocalStorageHelper"]])
-    ], AppState);
-    return AppState;
-}());
-
+    }
+}
+AppState.ɵfac = function AppState_Factory(t) { return new (t || AppState)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_1__["LocalStorageHelper"])); };
+AppState.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: AppState, factory: AppState.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppState, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return [{ type: _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_1__["LocalStorageHelper"] }]; }, null); })();
 
 
 /***/ }),
@@ -1891,42 +2101,34 @@ var AppState = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "BusLocationServices", function() { return BusLocationServices; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _node_modules_angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/@angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _node_modules_angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/@angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
 
 
-var httpOptions = {
+
+
+const httpOptions = {
     headers: new _node_modules_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
         'Content-Type': 'application/json',
         'Authorization': 'my-auth-token'
     })
 };
-var BusLocationServices = /** @class */ (function () {
-    function BusLocationServices(http) {
+class BusLocationServices {
+    constructor(http) {
         this.http = http;
     }
-    BusLocationServices.prototype.getLocation = function (data) {
+    getLocation(data) {
         return this.http.post("https://solidarnosclukowica.pl/MaxBus/getLocation.php", data, httpOptions);
-    };
-    BusLocationServices.prototype.insertLocation = function (command) {
+    }
+    insertLocation(command) {
         return this.http.post("https://solidarnosclukowica.pl/MaxBus/insertLocation.php", command, httpOptions);
-    };
-    BusLocationServices = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_node_modules_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]])
-    ], BusLocationServices);
-    return BusLocationServices;
-}());
-
+    }
+}
+BusLocationServices.ɵfac = function BusLocationServices_Factory(t) { return new (t || BusLocationServices)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_node_modules_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"])); };
+BusLocationServices.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: BusLocationServices, factory: BusLocationServices.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](BusLocationServices, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return [{ type: _node_modules_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }]; }, null); })();
 
 
 /***/ }),
@@ -1942,76 +2144,63 @@ var BusLocationServices = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EventSet", function() { return EventSet; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "EventService", function() { return EventService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
 /* harmony import */ var _app_constants__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../app.constants */ "./src/app/app.constants.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
 
 
 
-var EventSet = /** @class */ (function () {
-    function EventSet(subject, evenType) {
+
+class EventSet {
+    constructor(subject, evenType) {
         this.subject = subject;
         this.evenType = evenType;
     }
-    return EventSet;
-}());
-
-var EventService = /** @class */ (function () {
-    function EventService() {
+}
+class EventService {
+    constructor() {
         this.events = new Array();
         this.subscribeEvents(_app_constants__WEBPACK_IMPORTED_MODULE_2__["EVENTS"]);
     }
-    EventService.prototype.subscribeEvents = function (events) {
-        var _this = this;
-        events.forEach(function (event) {
-            _this.events.push(new EventSet(new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"](), event.name));
+    subscribeEvents(events) {
+        events.forEach(event => {
+            this.events.push(new EventSet(new rxjs__WEBPACK_IMPORTED_MODULE_1__["Subject"](), event.name));
         });
-    };
-    EventService.prototype.sendEvent = function (x, message) {
-        if (message === void 0) { message = null; }
+    }
+    sendEvent(x, message = null) {
         var type = x.name;
         var nextEvent;
-        this.events.forEach(function (event) {
+        this.events.forEach(event => {
             if (event.evenType == type)
                 nextEvent = event.subject;
         });
         nextEvent.next(message);
-    };
-    EventService.prototype.getMessage = function (x) {
+    }
+    getMessage(x) {
         var subscribeEvent;
         var type = x.name;
-        this.events.forEach(function (event) {
+        this.events.forEach(event => {
             if (event.evenType == type) {
                 subscribeEvent = event.subject;
             }
         });
         return subscribeEvent.asObservable();
-    };
-    EventService.prototype.clearMessage = function (x) {
+    }
+    clearMessage(x) {
         var type = x.name;
         var nextEvent;
-        this.events.forEach(function (event) {
+        this.events.forEach(event => {
             if (event.evenType == type)
                 nextEvent = event.subject;
         });
         nextEvent.next();
-    };
-    EventService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [])
-    ], EventService);
-    return EventService;
-}());
-
+    }
+}
+EventService.ɵfac = function EventService_Factory(t) { return new (t || EventService)(); };
+EventService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: EventService, factory: EventService.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EventService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return []; }, null); })();
 
 
 /***/ }),
@@ -2026,45 +2215,36 @@ var EventService = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LegendService", function() { return LegendService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../events/AppVersionUpdated */ "./src/app/events/AppVersionUpdated.ts");
-/* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
-/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
 
 
 
 
 
-var LegendService = /** @class */ (function () {
-    function LegendService(eventService, localDb) {
-        var _this = this;
+
+class LegendService {
+    constructor(eventService, localDb) {
         this.eventService = eventService;
         this.localDb = localDb;
-        this.eventService.getMessage(_events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__["AppVersionUpdated"]).subscribe(function (message) {
-            _this.schoolFreeDayFrom = message.schoolFreeDayFrom;
-            _this.schoolFreeDayTo = message.schoolFreeDayTo;
+        this.eventService.getMessage(_events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__["AppVersionUpdated"]).subscribe(message => {
+            this.schoolFreeDayFrom = message.schoolFreeDayFrom;
+            this.schoolFreeDayTo = message.schoolFreeDayTo;
         });
         this.getSchoolFreeDay();
     }
-    LegendService.prototype.getSchoolFreeDay = function () {
+    getSchoolFreeDay() {
         var freeDays = this.localDb.getSchoolFreeDay();
         if (freeDays == null)
             return;
         this.schoolFreeDayFrom = freeDays[0];
         this.schoolFreeDayTo = freeDays[1];
-    };
-    LegendService.prototype.courseIsInThisDay = function (course) {
+    }
+    courseIsInThisDay(course) {
         var result = false;
         var result2 = false;
         var result3 = false;
@@ -2072,7 +2252,7 @@ var LegendService = /** @class */ (function () {
         var result5 = false;
         var legends = course.legends.split(" ");
         var dayOfWeek = moment__WEBPACK_IMPORTED_MODULE_1__().weekday();
-        for (var i = 0; i < legends.length; i++) {
+        for (let i = 0; i < legends.length; i++) {
             if (legends[i] === "S") {
                 result = this.isNotShoolFreeDay(moment__WEBPACK_IMPORTED_MODULE_1__());
             }
@@ -2094,42 +2274,41 @@ var LegendService = /** @class */ (function () {
             return true;
         else
             return false;
-    };
-    LegendService.prototype.isWorkDay = function (dayOfWeek) {
+    }
+    isWorkDay(dayOfWeek) {
         if (dayOfWeek < 6 && dayOfWeek > 0)
             return true;
         return false;
-    };
-    LegendService.prototype.isSunnday = function (dayOfWeek) {
+    }
+    isSunnday(dayOfWeek) {
         console.log(dayOfWeek);
         if (dayOfWeek == 0)
             return true;
         return false;
-    };
-    LegendService.prototype.isSaturday = function (dayOfWeek) {
+    }
+    isSaturday(dayOfWeek) {
         if (dayOfWeek == 6)
             return true;
         return false;
-    };
-    LegendService.prototype.isOnlyFriday = function (dayOfWeek) {
+    }
+    isOnlyFriday(dayOfWeek) {
         if (dayOfWeek == 5)
             return true;
         return false;
-    };
-    LegendService.prototype.isNotShoolFreeDay = function (now) {
+    }
+    isNotShoolFreeDay(now) {
         var start = moment__WEBPACK_IMPORTED_MODULE_1__(this.schoolFreeDayTo);
         var end = moment__WEBPACK_IMPORTED_MODULE_1__(this.schoolFreeDayTo);
         if (now >= start && now <= end)
             return false;
         return true;
-    };
-    LegendService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_EventServices__WEBPACK_IMPORTED_MODULE_4__["EventService"], _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_3__["LocalStorageHelper"]])
-    ], LegendService);
-    return LegendService;
-}());
-
+    }
+}
+LegendService.ɵfac = function LegendService_Factory(t) { return new (t || LegendService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_EventServices__WEBPACK_IMPORTED_MODULE_3__["EventService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_4__["LocalStorageHelper"])); };
+LegendService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: LegendService, factory: LegendService.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](LegendService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return [{ type: _EventServices__WEBPACK_IMPORTED_MODULE_3__["EventService"] }, { type: _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_4__["LocalStorageHelper"] }]; }, null); })();
 
 
 /***/ }),
@@ -2144,22 +2323,13 @@ var LegendService = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LocationService", function() { return LocationService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
 /* harmony import */ var _events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../events/LocationDetected */ "./src/app/events/LocationDetected.ts");
-/* harmony import */ var _AppState__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./AppState */ "./src/app/services/AppState.ts");
-/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../events/LocationChanged */ "./src/app/events/LocationChanged.ts");
-/* harmony import */ var _events_LatAndLngChanged__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../events/LatAndLngChanged */ "./src/app/events/LatAndLngChanged.ts");
-/* harmony import */ var _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../events/ProgressInfo */ "./src/app/events/ProgressInfo.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _events_LocationChanged__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../events/LocationChanged */ "./src/app/events/LocationChanged.ts");
+/* harmony import */ var _events_LatAndLngChanged__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../events/LatAndLngChanged */ "./src/app/events/LatAndLngChanged.ts");
+/* harmony import */ var _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../events/ProgressInfo */ "./src/app/events/ProgressInfo.ts");
+/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var _AppState__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./AppState */ "./src/app/services/AppState.ts");
 
 
 
@@ -2167,8 +2337,9 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var LocationService = /** @class */ (function () {
-    function LocationService(eventService, appState) {
+
+class LocationService {
+    constructor(eventService, appState) {
         this.eventService = eventService;
         this.appState = appState;
         this.stopsLatAndLng = [{
@@ -2257,13 +2428,13 @@ var LocationService = /** @class */ (function () {
         ];
         this.currentLocation = "Kraków";
     }
-    LocationService.prototype.getCurrentLocation = function () {
+    getCurrentLocation() {
         return this.currentLocation;
-    };
-    LocationService.prototype.getReverseStops = function () {
+    }
+    getReverseStops() {
         return this.stopsLatAndLng.reverse();
-    };
-    LocationService.prototype.getDirection = function () {
+    }
+    getDirection() {
         switch (this.currentLocation) {
             case "Kraków":
             case "Wieliczka":
@@ -2278,10 +2449,10 @@ var LocationService = /** @class */ (function () {
             case "Limanowa":
                 return "Lim";
         }
-    };
-    LocationService.prototype.getNextLocation = function (location) {
+    }
+    getNextLocation(location) {
         var locationIndex;
-        for (var i = 0; i < this.stopsLatAndLng.length; i++) {
+        for (let i = 0; i < this.stopsLatAndLng.length; i++) {
             if (this.stopsLatAndLng[i].city == location) {
                 locationIndex = i;
                 break;
@@ -2292,17 +2463,17 @@ var LocationService = /** @class */ (function () {
         }
         else
             return this.stopsLatAndLng[locationIndex + 1].city;
-    };
-    LocationService.prototype.getLatLngForStop = function (stop) {
+    }
+    getLatLngForStop(stop) {
         var latlng;
-        this.stopsLatAndLng.forEach(function (element) {
+        this.stopsLatAndLng.forEach(element => {
             if (element.city == stop.city)
                 latlng = new google.maps.LatLng(element.latFrom, element.longFrom);
         });
         return latlng;
-    };
-    LocationService.prototype.locationIsEnabled = function () {
-        return new Promise(function (resolve, reject) {
+    }
+    locationIsEnabled() {
+        return new Promise((resolve, reject) => {
             resolve(true);
             cordova.plugins.diagnostic.isGpsLocationEnabled(function (enabled) {
                 resolve(enabled);
@@ -2313,24 +2484,23 @@ var LocationService = /** @class */ (function () {
                 resolve("błąd");
             });
         });
-    };
-    LocationService.prototype.getLocationForLatAndLeng = function () {
-        var _this = this;
+    }
+    getLocationForLatAndLeng() {
         var that = this;
         var options = { enableHighAccuracy: true };
         console.log("location");
         try {
-            var watchId = navigator.geolocation.getCurrentPosition(function (data) {
+            var watchId = navigator.geolocation.getCurrentPosition(data => {
                 console.log("user allow location");
                 var locationEvent = new _events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__["LocationDetected"]();
                 locationEvent.currentLocation = null;
                 var lat = data.coords.latitude;
                 var leng = data.coords.longitude;
-                _this.appState.yourCord = {
+                this.appState.yourCord = {
                     lat: lat,
                     lng: leng
                 };
-                for (var i = 0; i < latitudeRange.length; i++) {
+                for (let i = 0; i < latitudeRange.length; i++) {
                     if (lat < latitudeRange[i].latFrom && lat > latitudeRange[i].latTo && leng > latitudeRange[i].longFrom && leng < latitudeRange[i].longTo) {
                         that.currentLocation = latitudeRange[i].city;
                         locationEvent.currentLocation = that.currentLocation;
@@ -2339,8 +2509,8 @@ var LocationService = /** @class */ (function () {
                 }
                 that.appState.noLocation = false;
                 that.eventService.sendEvent(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__["LocationDetected"], locationEvent);
-            }, function (error) {
-                that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Nie można znaleźć lokalizacji"));
+            }, error => {
+                that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"]("Nie można znaleźć lokalizacji"));
                 console.log("user not allow location");
                 var locationEvent = new _events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__["LocationDetected"]();
                 locationEvent.currentLocation = null;
@@ -2348,26 +2518,25 @@ var LocationService = /** @class */ (function () {
             }, options);
         }
         catch (_a) {
-            that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Nie można znaleźć lokalizacji"));
+            that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"]("Nie można znaleźć lokalizacji"));
             var locationEvent = new _events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__["LocationDetected"]();
             locationEvent.currentLocation = null;
             that.eventService.sendEvent(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__["LocationDetected"], locationEvent);
         }
-    };
-    LocationService.prototype.startWatchPosition = function () {
-        var _this = this;
+    }
+    startWatchPosition() {
         var that = this;
         var options = { enableHighAccuracy: true };
-        that.watchId = navigator.geolocation.getCurrentPosition(function (data) {
+        that.watchId = navigator.geolocation.getCurrentPosition(data => {
             var lat = data.coords.latitude;
             var newLocation;
             var leng = data.coords.longitude;
             console.log(lat + " : " + leng);
-            _this.appState.yourCord = {
+            this.appState.yourCord = {
                 lat: lat,
                 lng: leng
             };
-            for (var i = 0; i < latitudeRange.length; i++) {
+            for (let i = 0; i < latitudeRange.length; i++) {
                 if (lat < latitudeRange[i].latFrom && lat > latitudeRange[i].latTo && leng > latitudeRange[i].longFrom && leng < latitudeRange[i].longTo) {
                     newLocation = latitudeRange[i].city;
                     break;
@@ -2376,45 +2545,44 @@ var LocationService = /** @class */ (function () {
             if (newLocation != that.currentLocation && newLocation != undefined) {
                 that.currentLocation = newLocation;
                 console.log(newLocation);
-                that.eventService.sendEvent(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__["LocationChanged"], new _events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__["LocationChanged"](newLocation));
+                that.eventService.sendEvent(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_2__["LocationChanged"], new _events_LocationChanged__WEBPACK_IMPORTED_MODULE_2__["LocationChanged"](newLocation));
             }
             else {
-                that.eventService.sendEvent(_events_LatAndLngChanged__WEBPACK_IMPORTED_MODULE_5__["LatAndLngChanged"], new _events_LatAndLngChanged__WEBPACK_IMPORTED_MODULE_5__["LatAndLngChanged"](lat, leng));
+                that.eventService.sendEvent(_events_LatAndLngChanged__WEBPACK_IMPORTED_MODULE_3__["LatAndLngChanged"], new _events_LatAndLngChanged__WEBPACK_IMPORTED_MODULE_3__["LatAndLngChanged"](lat, leng));
             }
-        }, function (error) { }, options);
-    };
-    LocationService.prototype.stopWatchPostion = function () {
+        }, error => { }, options);
+    }
+    stopWatchPostion() {
         navigator.geolocation.clearWatch(this.watchId);
-    };
-    LocationService.prototype.findNextStops = function (course) {
+    }
+    findNextStops(course) {
         var yourLat = this.appState.yourCord.lat;
         var stops = course.stops;
         var index = stops.indexOf(course.firstStop);
-        for (var i = index + 1; i < stops.length; i++) {
+        for (let i = index + 1; i < stops.length; i++) {
             if (course.direction.startsWith("Krk")) {
-                var stopLat = this.getLatLngForStop(stops[i]).lat();
+                let stopLat = this.getLatLngForStop(stops[i]).lat();
                 if (stopLat > yourLat) {
                     course.firstStop = stops[i];
                     break;
                 }
             }
             if (course.direction.startsWith("Lim")) {
-                var stopLat = this.getLatLngForStop(stops[i]).lat();
+                let stopLat = this.getLatLngForStop(stops[i]).lat();
                 if (stopLat < yourLat) {
                     course.firstStop = stops[i];
                     break;
                 }
             }
         }
-    };
-    LocationService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_EventServices__WEBPACK_IMPORTED_MODULE_3__["EventService"], _AppState__WEBPACK_IMPORTED_MODULE_2__["AppState"]])
-    ], LocationService);
-    return LocationService;
-}());
-
-var latitudeRange = [
+    }
+}
+LocationService.ɵfac = function LocationService_Factory(t) { return new (t || LocationService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_EventServices__WEBPACK_IMPORTED_MODULE_5__["EventService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_AppState__WEBPACK_IMPORTED_MODULE_6__["AppState"])); };
+LocationService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: LocationService, factory: LocationService.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](LocationService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return [{ type: _EventServices__WEBPACK_IMPORTED_MODULE_5__["EventService"] }, { type: _AppState__WEBPACK_IMPORTED_MODULE_6__["AppState"] }]; }, null); })();
+const latitudeRange = [
     {
         latFrom: 50.063844,
         latTo: 50.072000,
@@ -2523,21 +2691,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotificationService", function() { return NotificationService; });
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
-/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../events/AppVersionUpdated */ "./src/app/events/AppVersionUpdated.ts");
-/* harmony import */ var _events_NoInternet__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../events/NoInternet */ "./src/app/events/NoInternet.ts");
-/* harmony import */ var _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../events/ProgressInfo */ "./src/app/events/ProgressInfo.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../events/AppVersionUpdated */ "./src/app/events/AppVersionUpdated.ts");
+/* harmony import */ var _events_NoInternet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../events/NoInternet */ "./src/app/events/NoInternet.ts");
+/* harmony import */ var _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../events/ProgressInfo */ "./src/app/events/ProgressInfo.ts");
+/* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
+/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
 
 
 
@@ -2545,23 +2704,24 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var NotificationService = /** @class */ (function () {
-    function NotificationService(localDb, eventService) {
+
+class NotificationService {
+    constructor(localDb, eventService) {
         this.localDb = localDb;
         this.eventService = eventService;
         this.notificationLink = "https://raw.githubusercontent.com/metinowy15/MaksBusApi/master/notification.JSON";
     }
-    NotificationService.prototype.updateNotification = function () {
+    updateNotification() {
         var connection = navigator.connection.type;
         console.log(connection);
-        this.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Nawiązywanie połączenia z internetem"));
+        this.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"]("Nawiązywanie połączenia z internetem"));
         if (connection == "none") {
             console.log("notOnline");
-            this.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Brak połączenia"));
-            this.eventService.sendEvent(_events_NoInternet__WEBPACK_IMPORTED_MODULE_5__["NoInternet"]);
+            this.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"]("Brak połączenia"));
+            this.eventService.sendEvent(_events_NoInternet__WEBPACK_IMPORTED_MODULE_3__["NoInternet"]);
         }
         else {
-            this.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Sprawdzanie aktualizacji"));
+            this.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"]("Sprawdzanie aktualizacji"));
             var that = this;
             jquery__WEBPACK_IMPORTED_MODULE_0__["getJSON"](this.notificationLink, {
                 format: "json"
@@ -2573,42 +2733,41 @@ var NotificationService = /** @class */ (function () {
                     that.localDb.saveAppVersion(notification.appVersion);
                     that.localDb.saveMessage(notification.message);
                     that.localDb.saveSchoolFreeDay(notification.schoolDayFreeFrom, notification.schoolDayFreeTo);
-                    var appVersionEvent = new _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_4__["AppVersionUpdated"]();
+                    var appVersionEvent = new _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__["AppVersionUpdated"]();
                     appVersionEvent.appVersion = notification.appVersion;
                     appVersionEvent.timetableVersion = notification.timetableVersion;
                     appVersionEvent.schoolFreeDayFrom = notification.schoolDayFreeFrom;
                     appVersionEvent.schoolFreeDayTo = notification.schoolDayFreeTo;
                     appVersionEvent.message = notification.message;
                     console.log("appVersion change");
-                    that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Nowa wersja aplikacji:" + notification.appVersion.toString()));
-                    that.eventService.sendEvent(_events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_4__["AppVersionUpdated"], appVersionEvent);
+                    that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"]("Nowa wersja aplikacji:" + notification.appVersion.toString()));
+                    that.eventService.sendEvent(_events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__["AppVersionUpdated"], appVersionEvent);
                 }
                 else {
                     console.log("Not app version changes");
-                    that.eventService.sendEvent(_events_NoInternet__WEBPACK_IMPORTED_MODULE_5__["NoInternet"]);
-                    that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Rozkład jazdy aktualny"));
+                    that.eventService.sendEvent(_events_NoInternet__WEBPACK_IMPORTED_MODULE_3__["NoInternet"]);
+                    that.eventService.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_4__["ProgressInfo"]("Rozkład jazdy aktualny"));
                 }
             });
         }
-    };
-    NotificationService.prototype.saveMessage = function (message) {
+    }
+    saveMessage(message) {
         this.localDb.saveMessage(message);
-    };
-    NotificationService.prototype.getAppVersion = function () {
+    }
+    getAppVersion() {
         var appVersion = this.localDb.getAppVersion();
         return appVersion;
-    };
-    NotificationService.prototype.getMessage = function () {
+    }
+    getMessage() {
         var message = this.localDb.getMessage();
         return message;
-    };
-    NotificationService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])(),
-        __metadata("design:paramtypes", [_helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_2__["LocalStorageHelper"], _EventServices__WEBPACK_IMPORTED_MODULE_3__["EventService"]])
-    ], NotificationService);
-    return NotificationService;
-}());
-
+    }
+}
+NotificationService.ɵfac = function NotificationService_Factory(t) { return new (t || NotificationService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_5__["LocalStorageHelper"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_EventServices__WEBPACK_IMPORTED_MODULE_6__["EventService"])); };
+NotificationService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({ token: NotificationService, factory: NotificationService.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](NotificationService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }], function () { return [{ type: _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_5__["LocalStorageHelper"] }, { type: _EventServices__WEBPACK_IMPORTED_MODULE_6__["EventService"] }]; }, null); })();
 
 
 /***/ }),
@@ -2623,25 +2782,16 @@ var NotificationService = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TimetableUpdateService", function() { return TimetableUpdateService; });
-/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
-/* harmony import */ var _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../events/AppVersionUpdated */ "./src/app/events/AppVersionUpdated.ts");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
-/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../events/TimetableUpdated */ "./src/app/events/TimetableUpdated.ts");
-/* harmony import */ var _helpers_TimetableBuilderHelper__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../helpers/TimetableBuilderHelper */ "./src/app/helpers/TimetableBuilderHelper.ts");
-/* harmony import */ var _events_TimetableVersionChanged__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../events/TimetableVersionChanged */ "./src/app/events/TimetableVersionChanged.ts");
-/* harmony import */ var _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../events/ProgressInfo */ "./src/app/events/ProgressInfo.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../events/AppVersionUpdated */ "./src/app/events/AppVersionUpdated.ts");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
+/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../events/TimetableUpdated */ "./src/app/events/TimetableUpdated.ts");
+/* harmony import */ var _helpers_TimetableBuilderHelper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../helpers/TimetableBuilderHelper */ "./src/app/helpers/TimetableBuilderHelper.ts");
+/* harmony import */ var _events_TimetableVersionChanged__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../events/TimetableVersionChanged */ "./src/app/events/TimetableVersionChanged.ts");
+/* harmony import */ var _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../events/ProgressInfo */ "./src/app/events/ProgressInfo.ts");
+/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helpers/LocalStorageHelper */ "./src/app/helpers/LocalStorageHelper.ts");
 
 
 
@@ -2651,51 +2801,50 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var TimetableUpdateService = /** @class */ (function () {
-    function TimetableUpdateService(enevtServ, localDb) {
-        var _this = this;
+
+class TimetableUpdateService {
+    constructor(enevtServ, localDb) {
         this.enevtServ = enevtServ;
         this.localDb = localDb;
         this.repoLink = "https://raw.githubusercontent.com/metinowy15/MaksBusApi/master/data.json";
-        this.enevtServ.getMessage(_events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_2__["AppVersionUpdated"]).subscribe(function (message) {
-            _this.checkTimetableVersion(message.timetableVersion);
+        this.enevtServ.getMessage(_events_AppVersionUpdated__WEBPACK_IMPORTED_MODULE_0__["AppVersionUpdated"]).subscribe(message => {
+            this.checkTimetableVersion(message.timetableVersion);
         });
     }
-    TimetableUpdateService.prototype.checkTimetableVersion = function (timeTableVersion) {
+    checkTimetableVersion(timeTableVersion) {
         var lastVersion = this.localDb.getTimetableVersion();
         if (timeTableVersion > lastVersion) {
-            this.enevtServ.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_8__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_8__["ProgressInfo"]("Aktualizacja rozkładu jazdy"));
-            this.enevtServ.sendEvent(_events_TimetableVersionChanged__WEBPACK_IMPORTED_MODULE_7__["TimetableVersionChanged"]);
+            this.enevtServ.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Aktualizacja rozkładu jazdy"));
+            this.enevtServ.sendEvent(_events_TimetableVersionChanged__WEBPACK_IMPORTED_MODULE_5__["TimetableVersionChanged"]);
             this.localDb.saveTimetableVersion(timeTableVersion);
             this.updateTimetable();
         }
-    };
-    TimetableUpdateService.prototype.getTimetable = function () {
+    }
+    getTimetable() {
         var timetable = this.localDb.getTimetable();
-        return _helpers_TimetableBuilderHelper__WEBPACK_IMPORTED_MODULE_6__["TimetableBuilderHelper"].convertTimetableToList(timetable);
-    };
-    TimetableUpdateService.prototype.updateTimetable = function () {
+        return _helpers_TimetableBuilderHelper__WEBPACK_IMPORTED_MODULE_4__["TimetableBuilderHelper"].convertTimetableToList(timetable);
+    }
+    updateTimetable() {
         var that = this;
-        jquery__WEBPACK_IMPORTED_MODULE_4__["getJSON"](this.repoLink, {
+        jquery__WEBPACK_IMPORTED_MODULE_2__["getJSON"](this.repoLink, {
             format: "json"
         }).done(function (data) {
-            var timetable = _helpers_TimetableBuilderHelper__WEBPACK_IMPORTED_MODULE_6__["TimetableBuilderHelper"].buildTimetableFromJson(data);
+            var timetable = _helpers_TimetableBuilderHelper__WEBPACK_IMPORTED_MODULE_4__["TimetableBuilderHelper"].buildTimetableFromJson(data);
             console.log(timetable);
             that.localDb.saveTimetable(timetable.ToArray());
-            var timetableEvent = new _events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_5__["TimetableUpdated"]();
+            var timetableEvent = new _events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_3__["TimetableUpdated"]();
             timetableEvent.timetable = timetable;
             console.log("updateTimetable");
-            that.enevtServ.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_8__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_8__["ProgressInfo"]("Rozkład jazdy zaaktualizowany"));
-            that.enevtServ.sendEvent(_events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_5__["TimetableUpdated"], timetableEvent);
+            that.enevtServ.sendEvent(_events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"], new _events_ProgressInfo__WEBPACK_IMPORTED_MODULE_6__["ProgressInfo"]("Rozkład jazdy zaaktualizowany"));
+            that.enevtServ.sendEvent(_events_TimetableUpdated__WEBPACK_IMPORTED_MODULE_3__["TimetableUpdated"], timetableEvent);
         });
-    };
-    TimetableUpdateService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["Injectable"])(),
-        __metadata("design:paramtypes", [_EventServices__WEBPACK_IMPORTED_MODULE_0__["EventService"], _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_1__["LocalStorageHelper"]])
-    ], TimetableUpdateService);
-    return TimetableUpdateService;
-}());
-
+    }
+}
+TimetableUpdateService.ɵfac = function TimetableUpdateService_Factory(t) { return new (t || TimetableUpdateService)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_EventServices__WEBPACK_IMPORTED_MODULE_7__["EventService"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵinject"](_helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_8__["LocalStorageHelper"])); };
+TimetableUpdateService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjectable"]({ token: TimetableUpdateService, factory: TimetableUpdateService.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵsetClassMetadata"](TimetableUpdateService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"]
+    }], function () { return [{ type: _EventServices__WEBPACK_IMPORTED_MODULE_7__["EventService"] }, { type: _helpers_LocalStorageHelper__WEBPACK_IMPORTED_MODULE_8__["LocalStorageHelper"] }]; }, null); })();
 
 
 /***/ }),
@@ -2710,33 +2859,28 @@ var TimetableUpdateService = /** @class */ (function () {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TraficService", function() { return TraficService; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/fesm5/http.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_common_http__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/common/http */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/http.js");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
 /* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
+/* harmony import */ var _EventServices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./EventServices */ "./src/app/services/EventServices.ts");
+/// <reference types="@types/googlemaps" />
+/// <reference types="@types/googlemaps" />
 
 
 
 
 
-var httpOptions = {
+
+
+const httpOptions = {
     headers: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]({
         'Content-Type': 'application/json',
         'Authorization': 'my-auth-token'
     })
 };
-var stopNameInGoogle = {
+const stopNameInGoogle = {
     "Kraków": "50.069440, 19.949613",
     "Plac inw.": "50.068904, 19.925932",
     "Mateczne": "50.035941, 19.941330",
@@ -2755,30 +2899,28 @@ var stopNameInGoogle = {
     "Tymbark": "49.730311, 20.324225",
     "Limanowa": "49.699823079791976, 20.419726967811584"
 };
-var TraficService = /** @class */ (function () {
-    function TraficService(http, eventService) {
+class TraficService {
+    constructor(http, eventService) {
         this.http = http;
         this.eventService = eventService;
         this.apiLink = "https://maps.googleapis.com/maps/api/directions/json?origin=";
         this.key = "AIzaSyCKaopCdrGph_N28D9vVRrPsxRnNMqeUMU";
     }
-    TraficService.prototype.getTimeAndDistance = function (lat, lng, toStop, travel) {
-        var _this = this;
-        return new Promise(function (resolve, reject) {
+    getTimeAndDistance(lat, lng, toStop, travel) {
+        return new Promise((resolve, reject) => {
             var time = new Date();
             time.setHours(time.getHours() + (Math.floor(Math.random() * 6) + 1));
             var start = new google.maps.LatLng(lat, lng);
-            _this.getDirection(start, stopNameInGoogle[toStop], time, travel).then(function (data) {
+            this.getDirection(start, stopNameInGoogle[toStop], time, travel).then(data => {
                 resolve(data);
-            }, function (error) {
+            }, error => {
                 reject();
             });
         });
-    };
-    TraficService.prototype.calculateDurrationForStop = function (cours, i) {
-        var _this = this;
-        return new Promise(function (resolve, reject) {
-            _this.eventService.sendEvent(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_4__["ProgressUpdated"], new _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_4__["ProgressUpdated"](_this.calculateProgress(cours, i)));
+    }
+    calculateDurrationForStop(cours, i) {
+        return new Promise((resolve, reject) => {
+            this.eventService.sendEvent(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__["ProgressUpdated"], new _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__["ProgressUpdated"](this.calculateProgress(cours, i)));
             if (cours.stops[i + 1] == null || cours.stops[i + 1] == undefined)
                 resolve();
             var stop = cours.stops[i];
@@ -2791,29 +2933,29 @@ var TraficService = /** @class */ (function () {
             var timeTo = new Date();
             timeTo.setHours(nextStop.time.hours);
             timeTo.setMinutes(nextStop.time.minutes);
-            _this.oldTimeTo = moment__WEBPACK_IMPORTED_MODULE_2__(timeTo);
-            var that = _this;
+            this.oldTimeTo = moment__WEBPACK_IMPORTED_MODULE_2__(timeTo);
+            var that = this;
             setTimeout(function () {
-                that.send(stopNameInGoogle[stop.city], stopNameInGoogle[nextStop.city], time).then(function (resolve5) {
+                that.send(stopNameInGoogle[stop.city], stopNameInGoogle[nextStop.city], time).then(resolve5 => {
                     that.calculateTime(nextStop, time, timeTo, resolve5);
-                    that.calculateDurrationForStop(cours, i + 1).then(function (end) {
+                    that.calculateDurrationForStop(cours, i + 1).then(end => {
                         resolve();
-                    }, function (error) {
+                    }, error => {
                         reject();
                     });
-                }, function (error) {
+                }, error => {
                     reject();
                 });
             }, 500);
         });
-    };
-    TraficService.prototype.calculateProgress = function (cours, i) {
+    }
+    calculateProgress(cours, i) {
         var coursLength = cours.stops.length - 1;
         var k = i / coursLength;
         var z = k * 100;
         return z;
-    };
-    TraficService.prototype.calculateTime = function (nextStop, timeFrom, timeTo, durationInTraffic) {
+    }
+    calculateTime(nextStop, timeFrom, timeTo, durationInTraffic) {
         if (durationInTraffic == null)
             durationInTraffic = this.oldTimeTo.diff(timeFrom, "seconds");
         var timeMz = moment__WEBPACK_IMPORTED_MODULE_2__(timeFrom).add((durationInTraffic), "seconds");
@@ -2821,9 +2963,9 @@ var TraficService = /** @class */ (function () {
         nextStop.time.hours = dateNew.getHours();
         nextStop.time.minutes = dateNew.getMinutes();
         nextStop.timeString = this.pad(nextStop.time.hours.toString(), 2) + ":" + this.pad(nextStop.time.minutes.toString(), 2);
-    };
-    TraficService.prototype.send = function (start, end, time) {
-        return new Promise(function (resolve, reject) {
+    }
+    send(start, end, time) {
+        return new Promise((resolve, reject) => {
             var directionsService = new google.maps.DirectionsService;
             directionsService.route({
                 origin: start,
@@ -2833,7 +2975,7 @@ var TraficService = /** @class */ (function () {
                     departureTime: time,
                     trafficModel: google.maps.TrafficModel.BEST_GUESS
                 }
-            }, function (data) {
+            }, data => {
                 if (data == null) {
                     resolve(null);
                     console.log("Error");
@@ -2848,11 +2990,11 @@ var TraficService = /** @class */ (function () {
                 resolve(duration);
             });
         });
-    };
-    TraficService.prototype.getDirection = function (start, end, time, travel) {
+    }
+    getDirection(start, end, time, travel) {
         if (!travel)
             travel = google.maps.TravelMode.DRIVING;
-        return new Promise(function (resolve, reject) {
+        return new Promise((resolve, reject) => {
             var directionsService = new google.maps.DirectionsService;
             directionsService.route({
                 origin: start,
@@ -2862,7 +3004,7 @@ var TraficService = /** @class */ (function () {
                     departureTime: time,
                     trafficModel: google.maps.TrafficModel.BEST_GUESS
                 }
-            }, function (data) {
+            }, data => {
                 if (data == null) {
                     reject();
                 }
@@ -2872,43 +3014,20 @@ var TraficService = /** @class */ (function () {
                 }
             });
         });
-    };
-    TraficService.prototype.pad = function (num, size) {
+    }
+    pad(num, size) {
         var s = num + "";
         while (s.length < size)
             s = "0" + s;
         return s;
-    };
-    TraficService = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])(),
-        __metadata("design:paramtypes", [_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"], _EventServices__WEBPACK_IMPORTED_MODULE_3__["EventService"]])
-    ], TraficService);
-    return TraficService;
-}());
+    }
+}
+TraficService.ɵfac = function TraficService_Factory(t) { return new (t || TraficService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_EventServices__WEBPACK_IMPORTED_MODULE_4__["EventService"])); };
+TraficService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({ token: TraficService, factory: TraficService.ɵfac });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TraficService, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"]
+    }], function () { return [{ type: _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpClient"] }, { type: _EventServices__WEBPACK_IMPORTED_MODULE_4__["EventService"] }]; }, null); })();
 
-
-
-/***/ }),
-
-/***/ "./src/app/single-course/single-course.component.css":
-/*!***********************************************************!*\
-  !*** ./src/app/single-course/single-course.component.css ***!
-  \***********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ":host /deep/ .mat-figure{\r\n    flex-direction: column;\r\n}\r\n\r\n::ng-deep .mat-bottom-sheet-container{\r\n    max-height: 100vh!important;\r\n    height: 100vh!important;\r\n}"
-
-/***/ }),
-
-/***/ "./src/app/single-course/single-course.component.html":
-/*!************************************************************!*\
-  !*** ./src/app/single-course/single-course.component.html ***!
-  \************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<mat-toolbar style=\"position: fixed;\nheight: 50px;\ntop: 0px;\nleft: 0px;\" color=\"primary\">\n  <div class=\"subTolbar\">\n    <button (click)=\"back()\" mat-button><i\n        class=\"material-icons\">\n        arrow_back\n      </i></button>\n    <button *ngIf=\"fullMode\" [disabled]=\"course.traficIsCalculate\" (click)=\"calculateTraffic()\" mat-button><i\n        class=\"material-icons\">\n        update\n      </i> Oblicz czas w korkach</button>\n  </div>\n</mat-toolbar>\n<mat-nav-list style=\"margin-top:40px\">\n  <h3 style=\"text-align: center;\">{{resolveDirection(course)}}</h3>\n  <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\n      <mat-grid-tile style=\"flex-direction:column-reverse\">\n          {{course.stops[0].timeString}}\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\n      </mat-grid-tile>\n      <mat-grid-tile style=\"flex-direction:column\">\n          {{course.stops[course.stops.length-1].timeString}}\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Przyjazd</p>\n      </mat-grid-tile>\n      <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\n          {{calculateTravelTime(course)}}\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Czas</p>\n      </mat-grid-tile>\n    </mat-grid-list>\n  <br>\n  <mat-grid-list *ngIf=\"!fullMode\" cols=\"2\" rowHeight=\"20:3\">\n          <mat-grid-tile style=\"background-color:#e57373\">Przystanek</mat-grid-tile>\n          <mat-grid-tile style=\"background-color:#e57373\">Czas</mat-grid-tile>\n          <div *ngFor=\"let stop of course.stops\">\n            <mat-grid-tile>{{stop.city}}</mat-grid-tile>\n            <mat-grid-tile>{{stop.timeString}}</mat-grid-tile>\n          </div>\n  </mat-grid-list>\n  <mat-grid-list *ngIf=\"fullMode\" cols=\"3\" rowHeight=\"12:3\">\n    <mat-grid-tile style=\"background-color:#e57373\">Przystanek</mat-grid-tile>\n    <mat-grid-tile style=\"background-color:#e57373\">Czas</mat-grid-tile>\n    <mat-grid-tile style=\"background-color:#e57373\">Za</mat-grid-tile>\n    <div *ngFor=\"let stop of course.stops\">\n      <mat-grid-tile>{{stop.city}}</mat-grid-tile>\n      <mat-grid-tile>{{stop.timeString}}</mat-grid-tile>\n      <mat-grid-tile>{{calculateTimeString(stop)}}</mat-grid-tile>\n    </div>\n</mat-grid-list>\n  <div *ngIf=\"calculateInProgress\" style=\"height: 15px;margin-top: 10px; text-align: center;\">\n      <mat-progress-bar color=\"primary\" value=\"{{testEmitter | async}}\"></mat-progress-bar>\n  </div>\n  <div style=\"position: absolute; bottom: 0px;width: 90%;\">\n  <hr>\n  <div style=\"text-align: center;\" class=\"legend\" *ngFor=\"let legend of legends\">\n      <div>{{legend}} - {{symbolLegend[legend]}}</div>\n  </div>\n</div>\n</mat-nav-list>\n  \n  "
 
 /***/ }),
 
@@ -2922,24 +3041,19 @@ module.exports = "<mat-toolbar style=\"position: fixed;\nheight: 50px;\ntop: 0px
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SingleCourseComponent", function() { return SingleCourseComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/TraficService */ "./src/app/services/TraficService.ts");
-/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
-/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
+/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/bottom-sheet.js");
+/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/TraficService */ "./src/app/services/TraficService.ts");
+/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../services/EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/snack-bar.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/toolbar.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_material_list__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/list */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/list.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/grid-list.js");
+/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/progress-bar.js");
 
 
 
@@ -2948,9 +3062,121 @@ var __param = (undefined && undefined.__param) || function (paramIndex, decorato
 
 
 
-var SingleCourseComponent = /** @class */ (function () {
-    function SingleCourseComponent(traffic, eventServ, zone, matSnackBar, bottomSheetRef, data) {
-        var _this = this;
+
+
+
+
+
+
+
+function SingleCourseComponent_button_5_Template(rf, ctx) { if (rf & 1) {
+    const _r6 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "button", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function SingleCourseComponent_button_5_Template_button_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵrestoreView"](_r6); const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](); return ctx_r5.calculateTraffic(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "i", 3);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2, " update ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](3, " Oblicz czas w korkach");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r0 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("disabled", ctx_r0.course.traficIsCalculate);
+} }
+function SingleCourseComponent_mat_grid_list_23_div_5_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "mat-grid-tile");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "mat-grid-tile");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const stop_r8 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](stop_r8.city);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](stop_r8.timeString);
+} }
+function SingleCourseComponent_mat_grid_list_23_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "mat-grid-list", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "mat-grid-tile", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2, "Przystanek");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "mat-grid-tile", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, "Czas");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](5, SingleCourseComponent_mat_grid_list_23_div_5_Template, 5, 2, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", ctx_r1.course.stops);
+} }
+function SingleCourseComponent_mat_grid_list_24_div_7_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "mat-grid-tile");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "mat-grid-tile");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](5, "mat-grid-tile");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const stop_r10 = ctx.$implicit;
+    const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](stop_r10.city);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](stop_r10.timeString);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx_r9.calculateTimeString(stop_r10));
+} }
+function SingleCourseComponent_mat_grid_list_24_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "mat-grid-list", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "mat-grid-tile", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2, "Przystanek");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "mat-grid-tile", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, "Czas");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](5, "mat-grid-tile", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](6, "Za");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](7, SingleCourseComponent_mat_grid_list_24_div_7_Template, 7, 3, "div", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](7);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", ctx_r2.course.stops);
+} }
+function SingleCourseComponent_div_25_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](1, "mat-progress-bar", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipe"](2, "async");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r3 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpropertyInterpolate"]("value", _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵpipeBind1"](2, 1, ctx_r3.testEmitter));
+} }
+function SingleCourseComponent_div_28_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const legend_r11 = ctx.$implicit;
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate2"]("", legend_r11, " - ", ctx_r4.symbolLegend[legend_r11], "");
+} }
+class SingleCourseComponent {
+    constructor(traffic, eventServ, zone, matSnackBar, bottomSheetRef, data) {
         this.traffic = traffic;
         this.eventServ = eventServ;
         this.zone = zone;
@@ -2960,7 +3186,7 @@ var SingleCourseComponent = /** @class */ (function () {
         this.fullMode = true;
         this.progressW = 0;
         this.calculateInProgress = false;
-        this.testEmitter = new rxjs__WEBPACK_IMPORTED_MODULE_5__["BehaviorSubject"](this.progressW);
+        this.testEmitter = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](this.progressW);
         this.symbolLegend = {
             "F": "kursuje w dni robocze",
             "7": "kursuje w niedzielę",
@@ -2970,18 +3196,18 @@ var SingleCourseComponent = /** @class */ (function () {
         };
         this.course = data.course;
         this.fullMode = data.fullMode;
-        this.subscription = this.eventServ.getMessage(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_3__["ProgressUpdated"]).subscribe(function (message) {
-            _this.progressW = message.progress;
-            _this.testEmitter.next(_this.progressW);
+        this.subscription = this.eventServ.getMessage(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_1__["ProgressUpdated"]).subscribe(message => {
+            this.progressW = message.progress;
+            this.testEmitter.next(this.progressW);
             console.log(message.progress);
         });
         this.legends = this.course.legends.split(" ");
     }
-    SingleCourseComponent.prototype.openLink = function (event) {
+    openLink(event) {
         this.bottomSheetRef.dismiss();
         event.preventDefault();
-    };
-    SingleCourseComponent.prototype.calculateTimeString = function (stop) {
+    }
+    calculateTimeString(stop) {
         if (stop.time == null)
             return "";
         var now = new Date();
@@ -2997,10 +3223,10 @@ var SingleCourseComponent = /** @class */ (function () {
         }
         else
             return resultInMinutes.toString() + " min";
-    };
-    SingleCourseComponent.prototype.ngOnInit = function () {
-    };
-    SingleCourseComponent.prototype.calculateTravelTime = function (course) {
+    }
+    ngOnInit() {
+    }
+    calculateTravelTime(course) {
         var firstStop = course.stops[0];
         var lastStop = course.stops[course.stops.length - 1];
         if (firstStop.time == null)
@@ -3020,8 +3246,8 @@ var SingleCourseComponent = /** @class */ (function () {
         }
         else
             return resultInMinutes.toString() + " min";
-    };
-    SingleCourseComponent.prototype.resolveDirection = function (course) {
+    }
+    resolveDirection(course) {
         switch (course.direction) {
             case "Krk-Że-Lim":
                 return "Kraków - Zegocina - Limanowa";
@@ -3042,12 +3268,11 @@ var SingleCourseComponent = /** @class */ (function () {
             default:
                 break;
         }
-    };
-    SingleCourseComponent.prototype.back = function () {
+    }
+    back() {
         this.bottomSheetRef.dismiss();
-    };
-    SingleCourseComponent.prototype.calculateTraffic = function () {
-        var _this = this;
+    }
+    calculateTraffic() {
         this.calculateInProgress = true;
         var courseTmp = this.course;
         var connection = navigator.connection.type;
@@ -3067,15 +3292,15 @@ var SingleCourseComponent = /** @class */ (function () {
             return;
         }
         courseTmp.traficIsCalculate = true;
-        this.traffic.calculateDurrationForStop(courseTmp, 0).then(function (data) {
-            _this.course = courseTmp;
-            _this.calculateInProgress = false;
-        }, function (error) {
+        this.traffic.calculateDurrationForStop(courseTmp, 0).then(data => {
+            this.course = courseTmp;
+            this.calculateInProgress = false;
+        }, error => {
             courseTmp.traficIsCalculate = false;
-            _this.calculateInProgress = false;
+            this.calculateInProgress = false;
         });
-    };
-    SingleCourseComponent.prototype.dateIsPasst = function (stop) {
+    }
+    dateIsPasst(stop) {
         if (stop.time == null)
             return false;
         var now = new Date();
@@ -3088,533 +3313,89 @@ var SingleCourseComponent = /** @class */ (function () {
             return false;
         else
             return true;
-    };
-    SingleCourseComponent.prototype.ngOnDestroy = function () {
+    }
+    ngOnDestroy() {
         this.subscription.unsubscribe();
-    };
-    SingleCourseComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'single-course',
-            template: __webpack_require__(/*! ./single-course.component.html */ "./src/app/single-course/single-course.component.html"),
-            styles: [__webpack_require__(/*! ./single-course.component.css */ "./src/app/single-course/single-course.component.css")]
-        }),
-        __param(5, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_BOTTOM_SHEET_DATA"])),
-        __metadata("design:paramtypes", [_services_TraficService__WEBPACK_IMPORTED_MODULE_2__["TraficService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_4__["EventService"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSnackBar"], _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatBottomSheetRef"], Object])
-    ], SingleCourseComponent);
-    return SingleCourseComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/start/components/map-sheet.html":
-/*!*************************************************!*\
-  !*** ./src/app/start/components/map-sheet.html ***!
-  \*************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<div style=\"width: 100%;height: 400px;\" id=\"map\"></div>\r\n\r\n"
-
-/***/ }),
-
-/***/ "./src/app/start/components/mapSheet.component.ts":
-/*!********************************************************!*\
-  !*** ./src/app/start/components/mapSheet.component.ts ***!
-  \********************************************************/
-/*! exports provided: MapSheet */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MapSheet", function() { return MapSheet; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/AppState */ "./src/app/services/AppState.ts");
-/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/LocationService */ "./src/app/services/LocationService.ts");
-/* harmony import */ var _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/BusLocationServices */ "./src/app/services/BusLocationServices.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-
-
-
-var MapSheet = /** @class */ (function () {
-    function MapSheet(appState, locationServie, busLocation, bottomSheetRef, data) {
-        this.appState = appState;
-        this.locationServie = locationServie;
-        this.busLocation = busLocation;
-        this.bottomSheetRef = bottomSheetRef;
-        this.data = data;
-        this.course = data;
     }
-    MapSheet.prototype.openLink = function (event) {
-        this.bottomSheetRef.dismiss();
-        event.preventDefault();
-    };
-    MapSheet.prototype.ngOnInit = function () {
-        var firstStopCenter = this.locationServie.getLatLngForStop(this.course.firstStop);
-        var latlng = new google.maps.LatLng(this.appState.yourCord.lat, this.appState.yourCord.lng);
-        var map = new google.maps.Map(document.getElementById('map'), { zoom: 10, center: firstStopCenter, zoomControl: false,
-            mapTypeControl: false,
-            scaleControl: false,
-            streetViewControl: false,
-            rotateControl: false,
-            fullscreenControl: false });
-        var marker = new google.maps.Marker({ position: latlng, map: map });
-        this.addMarkersForCourse(map);
-        this.addBusMarker(map);
-    };
-    MapSheet.prototype.addMarkersForCourse = function (map) {
-        var _this = this;
-        var image = {
-            url: 'http://maps.google.com/mapfiles/kml/pal4/icon54.png',
-            labelOrigin: new google.maps.Point(10, -3)
-            // This marker is 20 pixels wide by 32 pixels high.
-        };
-        this.course.stops.forEach(function (stop) {
-            var infowindow = new google.maps.InfoWindow({
-                content: "<div style='color:black'>" + stop.city + ' ' + stop.timeString + "</div>",
-            });
-            var marker = new google.maps.Marker({
-                position: _this.locationServie.getLatLngForStop(stop),
-                map: map,
-                icon: image,
-                title: stop.city
-            });
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-        });
-    };
-    MapSheet.prototype.addBusMarker = function (map) {
-        this.busLocation.getLocation({ direction: this.course.direction, time: this.course.stops[0].timeString }).subscribe(function (data) {
-            if (data.time != undefined) {
-                var image = {
-                    url: 'http://maps.google.com/mapfiles/kml/shapes/bus.png',
-                    labelOrigin: new google.maps.Point(10, -3)
-                    // This marker is 20 pixels wide by 32 pixels high.
-                };
-                var lat = Number.parseFloat(data.time[0].Lat);
-                var lng = Number.parseFloat(data.time[0].Lng);
-                var stamp = new Date(data.time[0].Stamp);
-                console.log(stamp);
-                console.log(data.time[0].stamp);
-                var latlng = new google.maps.LatLng(lat, lng);
-                var infowindow = new google.maps.InfoWindow({
-                    content: "<div style='color:black'>O godzinie: " + stamp.toLocaleTimeString() + " był tu</div>",
-                });
-                var marker = new google.maps.Marker({
-                    position: latlng,
-                    map: map,
-                    icon: image
-                });
-                google.maps.event.addListener(marker, 'click', function () {
-                    infowindow.open(map, marker);
-                });
-            }
-        });
-    };
-    MapSheet = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'map-sheets',
-            template: __webpack_require__(/*! ./map-sheet.html */ "./src/app/start/components/map-sheet.html"),
-        }),
-        __param(4, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_BOTTOM_SHEET_DATA"])),
-        __metadata("design:paramtypes", [_services_AppState__WEBPACK_IMPORTED_MODULE_2__["AppState"], _services_LocationService__WEBPACK_IMPORTED_MODULE_3__["LocationService"], _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_4__["BusLocationServices"], _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatBottomSheetRef"], Object])
-    ], MapSheet);
-    return MapSheet;
-}());
+}
+SingleCourseComponent.ɵfac = function SingleCourseComponent_Factory(t) { return new (t || SingleCourseComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_services_TraficService__WEBPACK_IMPORTED_MODULE_4__["TraficService"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_services_EventServices__WEBPACK_IMPORTED_MODULE_5__["EventService"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgZone"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_6__["MatSnackBar"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_0__["MatBottomSheetRef"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_0__["MAT_BOTTOM_SHEET_DATA"])); };
+SingleCourseComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: SingleCourseComponent, selectors: [["single-course"]], decls: 29, vars: 9, consts: [["color", "primary", 2, "position", "fixed", "height", "50px", "top", "0px", "left", "0px"], [1, "subTolbar"], ["mat-button", "", 3, "click"], [1, "material-icons"], ["mat-button", "", 3, "disabled", "click", 4, "ngIf"], [2, "margin-top", "40px"], [2, "text-align", "center"], ["cols", "3", "rowHeight", "3:1"], [2, "flex-direction", "column-reverse"], [2, "margin", "2px", "font-size", "12px", "color", "grey"], [2, "flex-direction", "column"], [2, "flex-direction", "column", "color", "#e57373"], ["cols", "2", "rowHeight", "20:3", 4, "ngIf"], ["cols", "3", "rowHeight", "12:3", 4, "ngIf"], ["style", "height: 15px;margin-top: 10px; text-align: center;", 4, "ngIf"], [2, "position", "absolute", "bottom", "0px", "width", "90%"], ["style", "text-align: center;", "class", "legend", 4, "ngFor", "ngForOf"], ["mat-button", "", 3, "disabled", "click"], ["cols", "2", "rowHeight", "20:3"], [2, "background-color", "#e57373"], [4, "ngFor", "ngForOf"], ["cols", "3", "rowHeight", "12:3"], [2, "height", "15px", "margin-top", "10px", "text-align", "center"], ["color", "primary", 3, "value"], [1, "legend", 2, "text-align", "center"]], template: function SingleCourseComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "mat-toolbar", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](2, "button", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function SingleCourseComponent_Template_button_click_2_listener() { return ctx.back(); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](3, "i", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](4, " arrow_back ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](5, SingleCourseComponent_button_5_Template, 4, 1, "button", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](6, "mat-nav-list", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](7, "h3", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](9, "mat-grid-list", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](10, "mat-grid-tile", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](12, "p", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](13, "Odjazd");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](14, "mat-grid-tile", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](16, "p", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](17, "Przyjazd");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](18, "mat-grid-tile", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](20, "p", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtext"](21, "Czas");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](22, "br");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](23, SingleCourseComponent_mat_grid_list_23_Template, 6, 1, "mat-grid-list", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](24, SingleCourseComponent_mat_grid_list_24_Template, 8, 1, "mat-grid-list", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](25, SingleCourseComponent_div_25_Template, 3, 3, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](26, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelement"](27, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtemplate"](28, SingleCourseComponent_div_28_Template, 3, 2, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementEnd"]();
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.fullMode);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate"](ctx.resolveDirection(ctx.course));
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", ctx.course.stops[0].timeString, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", ctx.course.stops[ctx.course.stops.length - 1].timeString, " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵtextInterpolate1"](" ", ctx.calculateTravelTime(ctx.course), " ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", !ctx.fullMode);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.fullMode);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngIf", ctx.calculateInProgress);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", ctx.legends);
+    } }, directives: [_angular_material_toolbar__WEBPACK_IMPORTED_MODULE_7__["MatToolbar"], _angular_material_button__WEBPACK_IMPORTED_MODULE_8__["MatButton"], _angular_common__WEBPACK_IMPORTED_MODULE_9__["NgIf"], _angular_material_list__WEBPACK_IMPORTED_MODULE_10__["MatNavList"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_11__["MatGridList"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_11__["MatGridTile"], _angular_common__WEBPACK_IMPORTED_MODULE_9__["NgForOf"], _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_12__["MatProgressBar"]], pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_9__["AsyncPipe"]], styles: ["[_nghost-%COMP%]     .mat-figure {\r\n    flex-direction: column;\r\n}\r\n\r\n  .mat-bottom-sheet-container {\r\n    max-height: 100vh!important;\r\n    height: 100vh!important;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc2luZ2xlLWNvdXJzZS9zaW5nbGUtY291cnNlLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxzQkFBc0I7QUFDMUI7O0FBRUE7SUFDSSwyQkFBMkI7SUFDM0IsdUJBQXVCO0FBQzNCIiwiZmlsZSI6InNyYy9hcHAvc2luZ2xlLWNvdXJzZS9zaW5nbGUtY291cnNlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCAvZGVlcC8gLm1hdC1maWd1cmUge1xyXG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxufVxyXG5cclxuOjpuZy1kZWVwIC5tYXQtYm90dG9tLXNoZWV0LWNvbnRhaW5lciB7XHJcbiAgICBtYXgtaGVpZ2h0OiAxMDB2aCFpbXBvcnRhbnQ7XHJcbiAgICBoZWlnaHQ6IDEwMHZoIWltcG9ydGFudDtcclxufSJdfQ== */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵsetClassMetadata"](SingleCourseComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Component"],
+        args: [{
+                selector: 'single-course',
+                templateUrl: './single-course.component.html',
+                styleUrls: ['./single-course.component.css']
+            }]
+    }], function () { return [{ type: _services_TraficService__WEBPACK_IMPORTED_MODULE_4__["TraficService"] }, { type: _services_EventServices__WEBPACK_IMPORTED_MODULE_5__["EventService"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["NgZone"] }, { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_6__["MatSnackBar"] }, { type: _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_0__["MatBottomSheetRef"] }, { type: undefined, decorators: [{
+                type: _angular_core__WEBPACK_IMPORTED_MODULE_3__["Inject"],
+                args: [_angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_0__["MAT_BOTTOM_SHEET_DATA"]]
+            }] }]; }, null); })();
 
-
-
-/***/ }),
-
-/***/ "./src/app/start/components/options-sheets.component.ts":
-/*!**************************************************************!*\
-  !*** ./src/app/start/components/options-sheets.component.ts ***!
-  \**************************************************************/
-/*! exports provided: OptionsSheets */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "OptionsSheets", function() { return OptionsSheets; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-var OptionsSheets = /** @class */ (function () {
-    function OptionsSheets(bottomSheetRef, data) {
-        this.bottomSheetRef = bottomSheetRef;
-        this.data = data;
-        this.message = "Nowa szkoła";
-        this.message = data;
-    }
-    OptionsSheets.prototype.openLink = function (event) {
-        this.bottomSheetRef.dismiss();
-        event.preventDefault();
-    };
-    OptionsSheets.prototype.calculateTrafic = function () {
-        this.bottomSheetRef.dismiss("calculateTrafic");
-        event.preventDefault();
-    };
-    OptionsSheets.prototype.ride = function () {
-        this.bottomSheetRef.dismiss("ride");
-        event.preventDefault();
-    };
-    OptionsSheets.prototype.refresh = function () {
-        this.bottomSheetRef.dismiss("refresh");
-        event.preventDefault();
-    };
-    OptionsSheets = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'options-sheets',
-            template: __webpack_require__(/*! ./options-sheets.html */ "./src/app/start/components/options-sheets.html"),
-        }),
-        __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_BOTTOM_SHEET_DATA"])),
-        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatBottomSheetRef"], Object])
-    ], OptionsSheets);
-    return OptionsSheets;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/start/components/options-sheets.html":
-/*!******************************************************!*\
-  !*** ./src/app/start/components/options-sheets.html ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<mat-nav-list>\r\n<mat-list>\r\n        <div style=\"text-align:center\">\r\n        <mat-list-item (click)=\"calculateTrafic()\">Uwzglednij korki <div style=\"flex:1\"></div><i style=\"color:#5255e0!important\" class=\"material-icons\">\r\n                alarm\r\n                </i></mat-list-item>\r\n        <mat-list-item (click)=\"ride()\">Jedź<div style=\"flex:1\"></div><i style=\"color:#5255e0!important\" class=\"material-icons\">\r\n                directions_bus\r\n                </i></mat-list-item>\r\n        <mat-list-item (click)=\"refresh()\">Odśwież  <div style=\"flex:1\"></div><i style=\"color:#5255e0!important\" class=\"material-icons\">\r\n                cached\r\n                </i> </mat-list-item>\r\n    </div>\r\n</mat-list>\r\n<hr>\r\n<span style=\"color:#5255e0!important;font-size: 16px;margin-left:10px\">{{message}}</span>\r\n</mat-nav-list>"
-
-/***/ }),
-
-/***/ "./src/app/start/components/watched-course.css":
-/*!*****************************************************!*\
-  !*** ./src/app/start/components/watched-course.css ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".example-card{\r\n    background-color: #5255e0!important;\r\n    font-family: 'Kalam'!important;\r\n    color: black;\r\n}"
-
-/***/ }),
-
-/***/ "./src/app/start/components/watched-course.html":
-/*!******************************************************!*\
-  !*** ./src/app/start/components/watched-course.html ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<mat-card class=\"example-card\">\r\n        <mat-card-header>\r\n          <mat-card-title>{{resolveDirection()}}</mat-card-title>\r\n          <mat-card-subtitle style=\"color:white\">Start: {{watchCourse.stops[0].timeString}} --> Przyjazd: {{watchCourse.stops[watchCourse.stops.length - 1].timeString}}</mat-card-subtitle>\r\n        </mat-card-header>\r\n        <div id=\"watchedMap\" style=\"height:300px;margin-top: 2px;margin-bottom: 6px\" mat-card-image></div>\r\n        <mat-card-content style=\"margin-bottom:5px\">\r\n          <p style=\"font-size: 16px;margin-bottom: 3px\">\r\n            Nastepny przystanek za: <span style=\"color:white\">{{resolveTime()}}</span>\r\n          </p>\r\n          <div style=\"color:white;font-size: 18px\">{{nextStopCiti}}</div>\r\n          <p style=\"margin-top:3px\">Odległość: <span style=\"color:white\">{{distance}}</span></p>\r\n        </mat-card-content>\r\n        <mat-card-actions style=\"border-top:#341a70 solid 2px;\r\n        margin-left: -20px;\r\n        margin-right: -16px;\">\r\n          <button (click)=\"share()\" mat-raised-button color=\"primary\">{{isSharing}}</button>\r\n          <button (click)=\"end()\" mat-raised-button color=\"primary\">Zakończ</button>\r\n        </mat-card-actions>\r\n      </mat-card>"
-
-/***/ }),
-
-/***/ "./src/app/start/components/watchedCourse.component.ts":
-/*!*************************************************************!*\
-  !*** ./src/app/start/components/watchedCourse.component.ts ***!
-  \*************************************************************/
-/*! exports provided: watchedCourseComponent */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "watchedCourseComponent", function() { return watchedCourseComponent; });
-/* harmony import */ var _node_modules_angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/@angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _models_Course__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../models/Course */ "./src/app/models/Course.ts");
-/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../services/AppState */ "./src/app/services/AppState.ts");
-/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../services/LocationService */ "./src/app/services/LocationService.ts");
-/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../services/TraficService */ "./src/app/services/TraficService.ts");
-/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../services/EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _events_LocationChanged__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../events/LocationChanged */ "./src/app/events/LocationChanged.ts");
-/* harmony import */ var _models_Stop__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../models/Stop */ "./src/app/models/Stop.ts");
-/* harmony import */ var _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../services/BusLocationServices */ "./src/app/services/BusLocationServices.ts");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! moment */ "./node_modules/moment/moment.js");
-/* harmony import */ var moment__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(moment__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var _events_LatAndLngChanged__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../../events/LatAndLngChanged */ "./src/app/events/LatAndLngChanged.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-
-
-
-
-
-
-
-
-
-
-
-var watchedCourseComponent = /** @class */ (function () {
-    function watchedCourseComponent(appState, busService, locationService, eventService, traficService) {
-        var _this = this;
-        this.appState = appState;
-        this.busService = busService;
-        this.locationService = locationService;
-        this.eventService = eventService;
-        this.traficService = traficService;
-        this.sharing = false;
-        this.isSharing = "Udostepnij";
-        this.endWatch = new _node_modules_angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
-        this.watchCourse = new _models_Course__WEBPACK_IMPORTED_MODULE_1__["Course"]();
-        this.stopSubscription = this.eventService.getMessage(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_6__["LocationChanged"]).subscribe(function (message) {
-            _this.appState.watchCourse = _this.watchCourse;
-            _this.appState.saveWatchCourse();
-            _this.init();
-        });
-        this.latLngSubscriptiom = this.eventService.getMessage(_events_LatAndLngChanged__WEBPACK_IMPORTED_MODULE_10__["LatAndLngChanged"]).subscribe(function (message) {
-            _this.onLocationChange(message.lat, message.lng);
-        });
-    }
-    watchedCourseComponent.prototype.addMarkersForCourse = function (map) {
-        var _this = this;
-        var image = {
-            url: 'http://maps.google.com/mapfiles/kml/pal4/icon54.png',
-            labelOrigin: new google.maps.Point(10, -3)
-            // This marker is 20 pixels wide by 32 pixels high.
-        };
-        this.watchCourse.stops.forEach(function (stop) {
-            var infowindow = new google.maps.InfoWindow({
-                content: "<div style='color:black'>" + stop.city + ' ' + stop.timeString + "</div>",
-            });
-            var marker = new google.maps.Marker({
-                position: _this.locationService.getLatLngForStop(stop),
-                map: map,
-                icon: image,
-                title: stop.city
-            });
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-        });
-    };
-    watchedCourseComponent.prototype.init = function () {
-        var _this = this;
-        var directionsDisplay = new google.maps.DirectionsRenderer();
-        this.directionDispla = directionsDisplay;
-        var origin = new google.maps.LatLng(this.appState.yourCord.lat, this.appState.yourCord.lng);
-        var firstStopCenter = this.locationService.getLatLngForStop(this.watchCourse.firstStop);
-        var latlng = new google.maps.LatLng(this.appState.yourCord.lat, this.appState.yourCord.lng);
-        var map = new google.maps.Map(document.getElementById('watchedMap'), {
-            zoom: 10, center: firstStopCenter, zoomControl: false,
-            mapTypeControl: false,
-            scaleControl: false,
-            streetViewControl: false,
-            rotateControl: false,
-            fullscreenControl: false
-        });
-        this.watchedMap = map;
-        this.youMarker = new google.maps.Marker({ position: latlng, map: map });
-        this.addMarkersForCourse(map);
-        this.traficService.getTimeAndDistance(this.appState.yourCord.lat, this.appState.yourCord.lng, this.getNextStop()).then(function (data) {
-            _this.assignData(data);
-            var t = { minutes: 1, hours: 1 };
-            _this.bounds = new google.maps.LatLngBounds();
-            _this.bounds.extend(origin);
-            _this.bounds.extend(_this.locationService.getLatLngForStop(new _models_Stop__WEBPACK_IMPORTED_MODULE_7__["Stop"](_this.getNextStop(), "00", t)));
-            map.fitBounds(_this.bounds);
-            directionsDisplay.setDirections(data);
-            directionsDisplay.setMap(map);
-            console.log(data);
-        });
-    };
-    watchedCourseComponent.prototype.assignData = function (data) {
-        this.duration = data.routes["0"].legs["0"].duration_in_traffic.text;
-        this.distance = data.routes["0"].legs["0"].distance.text;
-        this.nextStop = data.routes["0"].legs["0"].end_address;
-        // console.log(cordova.plugins);
-        // cordova.plugins.notification.local.schedule({
-        //     title: 'MaxBus',
-        //     text: 'Kolejny przystanek za:' + this.duration,
-        //     foreground: true
-        // });
-    };
-    watchedCourseComponent.prototype.onLocationChange = function (newLat, newLng) {
-        var _this = this;
-        this.locationService.findNextStops(this.watchCourse);
-        this.appState.watchCourse = this.watchCourse;
-        this.appState.saveWatchCourse();
-        var latlng = new google.maps.LatLng(newLat, newLng);
-        this.traficService.getTimeAndDistance(newLat, newLng, this.getNextStop()).then(function (data) {
-            _this.assignData(data);
-            var t = { minutes: 1, hours: 1 };
-            _this.bounds.extend(latlng);
-            _this.bounds.extend(_this.locationService.getLatLngForStop(new _models_Stop__WEBPACK_IMPORTED_MODULE_7__["Stop"](_this.getNextStop(), "00", t)));
-            _this.watchedMap.fitBounds(_this.bounds);
-            _this.directionDispla.setDirections(data);
-            _this.directionDispla.setMap(_this.watchedMap);
-        });
-        if (this.sharing) {
-            this.busService.insertLocation({
-                direction: this.watchCourse.direction,
-                time: this.watchCourse.stops[0].timeString,
-                stamp: moment__WEBPACK_IMPORTED_MODULE_9__().format('YYYY-MM-DD HH:mm:ss'),
-                lat: newLat,
-                lng: newLng
-            }).subscribe(function (data) {
-                console.log(data + "poszlo");
-            });
-        }
-    };
-    watchedCourseComponent.prototype.ngOnInit = function () {
-        this.watchCourse = this.appState.watchCourse;
-        this.appState.saveWatchCourse();
-        this.init();
-    };
-    watchedCourseComponent.prototype.getStopForLocation = function (stops) {
-        var _this = this;
-        var stop = null;
-        stops.forEach(function (element) {
-            if (element.city == _this.locationService.getCurrentLocation())
-                stop = element;
-        });
-        return stop;
-    };
-    watchedCourseComponent.prototype.resolveTime = function () {
-        //TODO trzeba obsluzyc inna lokacje niz przystanek
-        return this.duration;
-    };
-    watchedCourseComponent.prototype.resolveDirection = function () {
-        switch (this.watchCourse.direction) {
-            case "Krk-Że-Lim":
-                return "Kraków - Zegocina - Limanowa";
-            case "Krk-Ry-Lim":
-                return "Kraków - Stare rybie - Limanowa";
-            case "Krk-Sz-Lim":
-                return "Kraków - Szyk - Limanowa";
-            case "Lim-Sz-Krk":
-                return "Limanowa - Szyk - Kraków";
-            case "Lim-Że-Krk":
-                return "Limanowa - Zegocina - Kraków";
-            case "Lim-Ry-Krk":
-                return "Limanowa - Stare rybie - Kraków";
-            case "Lim-Ty-Krk":
-                return "Limanowa - Tymbark - Kraków";
-            case "Krk-Ty-Lim":
-                return "Kraków - Tymbark - Limanowa";
-            default:
-                break;
-        }
-    };
-    watchedCourseComponent.prototype.getNextStop = function () {
-        var locationIndex;
-        for (var i = 0; i < this.watchCourse.stops.length; i++) {
-            if (this.watchCourse.stops[i].city == this.watchCourse.firstStop.city) {
-                locationIndex = i;
-                break;
-            }
-        }
-        if (locationIndex == this.watchCourse.stops.length - 1) {
-            this.nextStopCiti = this.watchCourse.stops[this.watchCourse.stops.length - 1].city;
-        }
-        else {
-            this.nextStopCiti = this.watchCourse.stops[locationIndex + 1].city;
-        }
-        return this.nextStopCiti;
-    };
-    watchedCourseComponent.prototype.end = function () {
-        this.endWatch.emit(null);
-    };
-    watchedCourseComponent.prototype.share = function () {
-        var _this = this;
-        if (this.sharing) {
-            this.isSharing = "Udostepnij";
-            this.sharing = false;
-        }
-        else {
-            this.busService.insertLocation({
-                direction: this.watchCourse.direction,
-                time: this.watchCourse.stops[0].timeString,
-                stamp: moment__WEBPACK_IMPORTED_MODULE_9__().format('YYYY-MM-DD HH:mm:ss'),
-                lat: this.appState.yourCord.lat,
-                lng: this.appState.yourCord.lng
-            }).subscribe(function (data) {
-                console.log(data + "poszlo");
-                _this.sharing = true;
-                _this.isSharing = "Przerwij";
-            });
-        }
-    };
-    watchedCourseComponent.prototype.ngOnDestroy = function () {
-        this.stopSubscription.unsubscribe();
-        this.latLngSubscriptiom.unsubscribe();
-    };
-    __decorate([
-        Object(_node_modules_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
-        __metadata("design:type", Object)
-    ], watchedCourseComponent.prototype, "endWatch", void 0);
-    watchedCourseComponent = __decorate([
-        Object(_node_modules_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'watched-course',
-            template: __webpack_require__(/*! ./watched-course.html */ "./src/app/start/components/watched-course.html"),
-            styles: [__webpack_require__(/*! ./watched-course.css */ "./src/app/start/components/watched-course.css")]
-        }),
-        __metadata("design:paramtypes", [_services_AppState__WEBPACK_IMPORTED_MODULE_2__["AppState"], _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_8__["BusLocationServices"], _services_LocationService__WEBPACK_IMPORTED_MODULE_3__["LocationService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_5__["EventService"], _services_TraficService__WEBPACK_IMPORTED_MODULE_4__["TraficService"]])
-    ], watchedCourseComponent);
-    return watchedCourseComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/start/start.component.css":
-/*!*******************************************!*\
-  !*** ./src/app/start/start.component.css ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ".notification{\r\n    position: fixed;\r\n    bottom: 0px;\r\n    width: 100%;\r\n    background-color:#5255e0;\r\n    height: 30px;\r\n    padding-top: 15px;\r\n    padding-bottom: 5px;\r\n    color: white;\r\n    right: 0px;\r\n    transition-duration: 0.3s\r\n}\r\n\r\n.notification-hidden{\r\n    width: 50px!important;\r\n    border-radius: 90%;\r\n    bottom: 2px;\r\n    right: 4px;\r\n}\r\n\r\n.button-center{\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 80%!important;\r\n}\r\n\r\n.app-version{\r\n    margin-right:15px;font-size: 20px;padding-bottom: 10px;float:right;margin-top: -3px;color: #7b1fa2;\r\n}\r\n\r\n@-webkit-keyframes MyColorAnimation {\r\n    0% {\r\n\r\n      color: #e30202\r\n    }\r\n    50% {\r\ncolor: #fea7a7\r\n    }\r\n    100%{\r\n        color: #e30202\r\n    }\r\n  }\r\n\r\n@keyframes MyColorAnimation {\r\n    0% {\r\n\r\n      color: #e30202\r\n    }\r\n    50% {\r\ncolor: #fea7a7\r\n    }\r\n    100%{\r\n        color: #e30202\r\n    }\r\n  }\r\n\r\n.unread-message {\r\n    -webkit-animation: MyColorAnimation 1s infinite;\r\n            animation: MyColorAnimation 1s infinite;\r\n  }\r\n\r\n.start{\r\n    margin-top: 50px;\r\n}\r\n\r\n.start p{\r\n    margin: 0px!important;\r\n    font-size: 14px;\r\n}\r\n\r\n.start-header{\r\n    width: 100%;\r\n    font-size: 16px!important;\r\n}\r\n\r\n.start-header a{\r\n    margin-left: 10px;\r\n}\r\n\r\n.gridHeader > ::ng-deep figure {\r\n    justify-content: flex-start !important;\r\n}\r\n\r\n.gridHeaderLeft >::ng-deep figure {\r\n    justify-content:flex-end!important;\r\n}\r\n\r\n.box {\r\n \r\n    display: flex;\r\n    flex-flow: column;\r\n    height: calc(100vh - 40px);\r\n}\r\n\r\n.box .row.header {\r\n    flex: 0 1 170px;\r\n    /* The above is shorthand for:\r\n    flex-grow: 0,\r\n    flex-shrink: 1,\r\n    flex-basis: auto\r\n    */\r\n}\r\n\r\n.box .row.content {\r\n    flex: 1 1 auto;\r\n}\r\n\r\nh2 {\r\n    font-size: 32px;\r\n    font-weight: 700;\r\n    margin-top: 0;\r\n    text-transform: capitalize;\r\n}\r\n\r\np {\r\n    margin: 0;\r\n}\r\n\r\nh2 span {\r\n    color: #ffbc13;\r\n}\r\n\r\n.header button {\r\n    background: rgb(255, 255, 255); border: 2px solid #3a1d6c; padding: 4px 10px; color: white; cursor: pointer; border-radius: 25px;\r\n}\r\n\r\n.header button.active {\r\n    background: #341a70; border: 2px solid #2c1774;\r\n}\r\n\r\n.header button.active > img {\r\n    -webkit-filter: brightness(2.0);\r\n    filter: brightness(2.0);\r\n}\r\n\r\n.time {\r\n    font-size: 26px;\r\n}\r\n\r\n.place {\r\n    font-size: 18px;\r\n}\r\n\r\n.direction-menu {\r\n    padding-top:10px;\r\n    text-align: center; background-color: #5255e0; height: auto;\r\n}\r\n\r\n.direction-menu button{\r\n    margin-right:5px\r\n}\r\n\r\n#mapStart{\r\n    width:100%;\r\n}\r\n\r\n.flex-map{\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex: 1;\r\n}\r\n\r\n.subTolbar{\r\n    text-align: center;\r\n\r\n}\r\n\r\n.subTolbar button{\r\n    min-width: 10px!important;\r\n    margin-left: 10px;\r\n}\r\n\r\n.activeDirection{\r\n    color: #c73d3d;\r\n}\r\n\r\n:host /deep/ .mat-figure{\r\n    flex-direction: column;\r\n}"
-
-/***/ }),
-
-/***/ "./src/app/start/start.component.html":
-/*!********************************************!*\
-  !*** ./src/app/start/start.component.html ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<mat-toolbar style=\"height:50px\" color=\"primary\">\r\n  <div class=\"subTolbar\">\r\n    <mat-form-field style=\"width: 100px;\r\n    font-size: 14px;\">\r\n      <mat-select placeholder=\"Kierunek\">\r\n        <mat-option (click)=\"changeDirection()\" *ngFor=\"let dir of directions\" [value]=\"dir.value\">\r\n          {{dir.viewValue}}\r\n        </mat-option>\r\n      </mat-select>\r\n    </mat-form-field>\r\n    <button (click)=\"changeTravelMode('WALKING')\" [ngClass]=\"{'activeDirection': travelMode =='WALKING'}\" mat-button><i\r\n        class=\"material-icons\">\r\n        directions_walk\r\n      </i></button>\r\n    <button (click)=\"changeTravelMode('BICYCLING')\" [ngClass]=\"{'activeDirection': travelMode =='BICYCLING'}\"\r\n      mat-button><i class=\"material-icons\">\r\n        directions_bike\r\n      </i></button>\r\n    <button (click)=\"changeTravelMode('DRIVING')\" [ngClass]=\"{'activeDirection': travelMode =='DRIVING'}\" mat-button><i\r\n        class=\"material-icons\">\r\n        directions_car\r\n      </i></button>\r\n  </div>\r\n</mat-toolbar>\r\n<mat-card style=\"padding: 0px;margin:3px\">\r\n  <div *ngIf=\"progressWidth > 0 && progressWidth < 100\">\r\n    <mat-progress-bar color=\"warn\" mode=\"determinate\" value=\"{{progressWidth}}\"></mat-progress-bar>\r\n  </div>\r\n  <div id=\"mapStart\" style=\"height:300px\" class=\"row content flex-map\"></div>\r\n  <mat-grid-list *ngIf=\"searchEnd\" cols=\"2\" rowHeight=\"3:1\">\r\n\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      {{nearStop.city}}\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">Najbliższy przystanek</p>\r\n    </mat-grid-tile>\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      {{nearStop.data.duration.text}}\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">Czas dojścia</p>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n  <mat-grid-list *ngIf=\"!searchEnd\" cols=\"1\" rowHeight=\"3:1\">\r\n\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      Znajdź odjazdy z najbliższego przystanku\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">określ kierunek i sposób dotarcia</p>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n\r\n</mat-card>\r\n<mat-card style=\"padding: 0px;margin:3px;margin-top:10px;text-align: center;\">\r\n  <mat-grid-list *ngIf=\"!searchEnd && message !=undefined\" cols=\"1\" rowHeight=\"3:1\">\r\n\r\n    <mat-grid-tile style=\"flex-direction:column\">\r\n      {{message.text}}\r\n      <p style=\"margin:2px;font-size: 12px;color: grey\">{{message.timestamp}}</p>\r\n    </mat-grid-tile>\r\n  </mat-grid-list>\r\n</mat-card>\r\n\r\n<div *ngIf=\"searchEnd\">\r\n  <h3 style=\"text-align: center;font-family: Roboto, 'Helvetica Neue', sans-serif;\">Odjazdy z <span style=\"color:#e57373\">{{nearStop.city}}\r\n    </span></h3>\r\n  <div *ngFor=\"let course of displayCourses\">\r\n    <mat-card (click)=\"showDetails(course)\" style=\"padding: 5px;margin:3px\">\r\n      <mat-grid-list cols=\"3\" rowHeight=\"3:1\">\r\n\r\n        <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n          {{course.direction}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Kierunek</p>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile style=\"flex-direction:column\">\r\n          {{course.firstStop.timeString}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n          {{calculateTimeString(course.firstStop)}}\r\n          <p style=\"margin:2px;font-size: 12px;color: grey\">Za</p>\r\n        </mat-grid-tile>\r\n      </mat-grid-list>\r\n    </mat-card>\r\n  </div>\r\n</div>\r\n\r\n<!-- <div class=\"search-course button-center\">\r\n\r\n  <img (click)=\"searchCourse()\" width=\"150\" height=\"120\" src=\"../../assets/busStop.svg\">\r\n \r\n</div> \r\n<div *ngIf=\"watchCourse\">\r\n  <watched-course (endWatch)=\"onWatchEnd()\"></watched-course>\r\n</div>\r\n<div *ngIf=\"!watchCourse\">\r\n  <button *ngIf=\"searchEnd && checkPrev()\" (click)=\"getPrevCourse()\" color=\"primary\" style=\"position:fixed;left:2px;top:140px\"\r\n    mat-mini-fab><mat-icon>chevron_left</mat-icon></button>\r\n  <button *ngIf=\"searchEnd && checkNext()\" (click)=\"getNextCourse()\" color=\"primary\" style=\"position:fixed;right:2px;top:140px\"\r\n    mat-mini-fab><mat-icon>chevron_right</mat-icon></button>\r\n  <div class=\"box\">\r\n    <div class=\"row header\">\r\n      <div class=\"direction-menu\">\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" (click)=\"changeDirection()\">\r\n          <img *ngIf=\"direction == 'Lim'\" src=\"images/Krk.png\" width=\"25px\" height=\"25px\">\r\n          <img *ngIf=\"direction == 'Krk'\" src=\"images/Lim.png\" width=\"25px\" height=\"25px\">\r\n        </button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'WALKING'}\" (click)=\"changeTravelMode('WALKING')\"><img\r\n            src=\"images/walk.png\" width=\"25px\" height=\"25px\"></button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'BICYCLING'}\" (click)=\"changeTravelMode('BICYCLING')\"><img\r\n            src=\"images/bike.png\" width=\"25px\" height=\"25px\"></button>\r\n        <button [disabled]=\"progressWidth > 0 && progressWidth < 100\" [ngClass]=\"{'active' : travelMode == 'DRIVING'}\" (click)=\"changeTravelMode('DRIVING')\"><img\r\n            src=\"images/auto.png\" width=\"25px\" height=\"25px\"></button>\r\n      </div>\r\n      <div style=\"padding-top:10px;text-align: center;font-size: 14px; background-color: #5255e0; height: 110px;\">\r\n        <div *ngIf=\"!searchEnd\">Wybierz kierunek\r\n          <div style=\"color:white\">(LIM - do Limanowej, KRK - w strone Krakowa)</div>\r\n          <div>oraz sposób dotarcia na przystanek</div>\r\n          <div>Wymagana jest lokalizacja oraz połączenie z internetem</div>\r\n        </div>\r\n        <div *ngIf=\"searchEnd\">\r\n          <div>Czas dojścia na przystanek: <span style=\"color:white\">{{nearStop.data.duration.text}}</span></div>\r\n          <div style=\"height:35px\">Bus będzie o <span style=\"color:white\" class='time'>{{nearCourse.firstStop.timeString}}</span></div>\r\n          <div>na przystanku <span style=\"color:white\" class='place'>{{nearStop.city}}</span></div>\r\n          <div><span style=\"color:white;font-size: 13px\">{{resolveDirection()}}</span></div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div id=\"mapStart\" class=\"row content flex-map\">\r\n    </div>\r\n  </div>\r\n  <div *ngIf=\"this.nearCourse\" (click)=\"showOptions()\" style=\"width:35px;position:fixed;bottom:0px;left:47%;border-top-left-radius: 10px;border-top-right-radius: 10px;text-align: center;background-color: #5255e0\"> <i class=\"material-icons\">\r\n    more_horiz</i> </div>\r\n</div>\r\n-->"
 
 /***/ }),
 
@@ -3628,31 +3409,30 @@ module.exports = "<mat-toolbar style=\"height:50px\" color=\"primary\">\r\n  <di
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StartComponent", function() { return StartComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/AppState */ "./src/app/services/AppState.ts");
-/* harmony import */ var _events_LocationDetected__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../events/LocationDetected */ "./src/app/events/LocationDetected.ts");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../services/LocationService */ "./src/app/services/LocationService.ts");
-/* harmony import */ var _events_CoursesFiltered__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../events/CoursesFiltered */ "./src/app/events/CoursesFiltered.ts");
-/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../services/NotificationService */ "./src/app/services/NotificationService.ts");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _components_mapSheet_component__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/mapSheet.component */ "./src/app/start/components/mapSheet.component.ts");
-/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../services/EventServices */ "./src/app/services/EventServices.ts");
-/* harmony import */ var _events_LocationChanged__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../events/LocationChanged */ "./src/app/events/LocationChanged.ts");
-/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../services/TraficService */ "./src/app/services/TraficService.ts");
-/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
-/* harmony import */ var _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../services/BusLocationServices */ "./src/app/services/BusLocationServices.ts");
-/* harmony import */ var _components_options_sheets_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/options-sheets.component */ "./src/app/start/components/options-sheets.component.ts");
-/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../events/LocationDetected */ "./src/app/events/LocationDetected.ts");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+/* harmony import */ var _events_CoursesFiltered__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../events/CoursesFiltered */ "./src/app/events/CoursesFiltered.ts");
+/* harmony import */ var _events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../events/LocationChanged */ "./src/app/events/LocationChanged.ts");
+/* harmony import */ var _events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../events/ProgressUpdated */ "./src/app/events/ProgressUpdated.ts");
+/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
+/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../services/AppState */ "./src/app/services/AppState.ts");
+/* harmony import */ var _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/snack-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/snack-bar.js");
+/* harmony import */ var _services_TraficService__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../services/TraficService */ "./src/app/services/TraficService.ts");
+/* harmony import */ var _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../services/BusLocationServices */ "./src/app/services/BusLocationServices.ts");
+/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/bottom-sheet.js");
+/* harmony import */ var _services_NotificationService__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../services/NotificationService */ "./src/app/services/NotificationService.ts");
+/* harmony import */ var _services_EventServices__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../services/EventServices */ "./src/app/services/EventServices.ts");
+/* harmony import */ var _services_LocationService__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../services/LocationService */ "./src/app/services/LocationService.ts");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/toolbar.js");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/form-field.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! @angular/material/button */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/button.js");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! @angular/material/progress-bar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/progress-bar.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/grid-list.js");
 
 
 
@@ -3669,10 +3449,142 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 
-var secondsCounter = Object(rxjs__WEBPACK_IMPORTED_MODULE_3__["interval"])(15000);
-var StartComponent = /** @class */ (function () {
-    function StartComponent(appState, snackBar, traficService, busLocation, zone, bottomSheet, notService, eventServ, locationService) {
-        var _this = this;
+
+
+
+
+
+
+
+
+
+function StartComponent_mat_option_4_Template(rf, ctx) { if (rf & 1) {
+    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-option", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartComponent_mat_option_4_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.changeDirection(); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const dir_r6 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", dir_r6.value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", dir_r6.viewValue, " ");
+} }
+function StartComponent_div_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "mat-progress-bar", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r1 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpropertyInterpolate"]("value", ctx_r1.progressWidth);
+} }
+function StartComponent_mat_grid_list_17_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-grid-list", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-grid-tile", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "Najbli\u017Cszy przystanek");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-grid-tile", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Czas doj\u015Bcia");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r2.nearStop.city, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r2.nearStop.data.duration.text, " ");
+} }
+function StartComponent_mat_grid_list_18_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-grid-list", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-grid-tile", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, " Znajd\u017A odjazdy z najbli\u017Cszego przystanku ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "okre\u015Bl kierunek i spos\u00F3b dotarcia");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} }
+function StartComponent_mat_grid_list_20_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-grid-list", 18);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-grid-tile", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r4.message.text, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](ctx_r4.message.timestamp);
+} }
+function StartComponent_div_21_div_5_Template(rf, ctx) { if (rf & 1) {
+    const _r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-card", 22);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartComponent_div_21_div_5_Template_mat_card_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r12); const course_r10 = ctx.$implicit; const ctx_r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2); return ctx_r11.showDetails(course_r10); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-grid-list", 23);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-grid-tile", 24);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Kierunek");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "mat-grid-tile", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Odjazd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "mat-grid-tile", 25);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Za");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const course_r10 = ctx.$implicit;
+    const ctx_r9 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", course_r10.direction, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", course_r10.firstStop.timeString, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", ctx_r9.calculateTimeString(course_r10.firstStop), " ");
+} }
+function StartComponent_div_21_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "h3", 19);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Odjazdy z ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "span", 20);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](5, StartComponent_div_21_div_5_Template, 15, 3, "div", 21);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", ctx_r5.nearStop.city, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx_r5.displayCourses);
+} }
+const _c0 = function (a0) { return { "activeDirection": a0 }; };
+const secondsCounter = Object(rxjs__WEBPACK_IMPORTED_MODULE_2__["interval"])(15000);
+class StartComponent {
+    constructor(appState, snackBar, traficService, busLocation, zone, bottomSheet, notService, eventServ, locationService) {
         this.appState = appState;
         this.snackBar = snackBar;
         this.traficService = traficService;
@@ -3682,8 +3594,6 @@ var StartComponent = /** @class */ (function () {
         this.notService = notService;
         this.eventServ = eventServ;
         this.locationService = locationService;
-        this.hideNotification = true;
-        this.unreadNotification = false;
         this.active = 'walk';
         this.nearStop = undefined;
         this.prommises = [];
@@ -3696,34 +3606,35 @@ var StartComponent = /** @class */ (function () {
             { value: 'lim', viewValue: 'Do Limanowej' }];
         this.allCourses = this.appState.allCourses;
         this.message = this.notService.getMessage();
+        // this.selectedDir = this.directions[0];
         this.travelModeEnum = google.maps.TravelMode.WALKING;
-        this.eventServ.getMessage(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_2__["LocationDetected"]).subscribe(function (message) {
-            _this.direction = _this.locationService.getDirection();
-            _this.getCourseForDirection(true);
+        this.eventServ.getMessage(_events_LocationDetected__WEBPACK_IMPORTED_MODULE_1__["LocationDetected"]).subscribe(message => {
+            this.direction = this.locationService.getDirection();
+            this.getCourseForDirection(true);
         });
-        this.eventServ.getMessage(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_10__["LocationChanged"]).subscribe(function (message) {
-            _this.location = message.location;
+        this.eventServ.getMessage(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__["LocationChanged"]).subscribe(message => {
+            this.location = message.location;
         });
-        this.eventServ.getMessage(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_12__["ProgressUpdated"]).subscribe(function (message) {
-            _this.progressWidth = message.progress;
+        this.eventServ.getMessage(_events_ProgressUpdated__WEBPACK_IMPORTED_MODULE_5__["ProgressUpdated"]).subscribe(message => {
+            this.progressWidth = message.progress;
         });
         this.direction = this.appState.direction == null ? "Lim" : this.appState.direction;
         this.location = this.appState.currentLocation;
         if (this.location == null || this.location == undefined)
             this.location = "Limanowa";
-        this.watchCourse = this.appState.getWatchCourse();
-        this.subscription = this.eventServ.getMessage(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_10__["LocationChanged"]).subscribe(function (message) {
+        this.subscription = this.eventServ.getMessage(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__["LocationChanged"]).subscribe(message => {
             // this.getCourseForDirection(true);
         });
     }
-    StartComponent.prototype.searchCourse = function () {
+    searchCourse() {
         this.courseSkip = 0;
         this.progressWidth = 1;
         this.yourMarker = null;
         this.searchRecuretion(0);
-    };
-    StartComponent.prototype.searchRecuretion = function (index) {
-        var _this = this;
+    }
+    ngAfterViewInit() {
+    }
+    searchRecuretion(index) {
         var stops = this.locationService.stopsLatAndLng;
         if (this.direction == "Lim")
             stops = this.locationService.getReverseStops();
@@ -3736,14 +3647,14 @@ var StartComponent = /** @class */ (function () {
             this.calculateTime();
             return;
         }
-        this.traficService.getTimeAndDistance(this.appState.yourCord.lat, this.appState.yourCord.lng, stops[index].city, this.travelModeEnum).then(function (resolve) {
-            _this.distances.push({ city: stops[index].city, data: resolve.routes["0"].legs["0"], response: resolve });
-            _this.searchRecuretion(index + 1);
-        }, function (error) {
-            _this.searchRecuretion(index + 1);
+        this.traficService.getTimeAndDistance(this.appState.yourCord.lat, this.appState.yourCord.lng, stops[index].city, this.travelModeEnum).then(resolve => {
+            this.distances.push({ city: stops[index].city, data: resolve.routes["0"].legs["0"], response: resolve });
+            this.searchRecuretion(index + 1);
+        }, error => {
+            this.searchRecuretion(index + 1);
         });
-    };
-    StartComponent.prototype.changeTravelMode = function (mode) {
+    }
+    changeTravelMode(mode) {
         if (this.travelMode == mode)
             return;
         this.travelMode = mode;
@@ -3757,21 +3668,20 @@ var StartComponent = /** @class */ (function () {
         this.nearStop = undefined;
         this.distances = [];
         this.searchCourse();
-    };
-    StartComponent.prototype.calculateTime = function () {
-        var _this = this;
-        this.distances.forEach(function (distance) {
-            if (_this.nearStop == undefined)
-                _this.nearStop = distance;
-            if (distance.data.distance.value < _this.nearStop.data.distance.value) {
-                _this.nearStop = distance;
+    }
+    calculateTime() {
+        this.distances.forEach(distance => {
+            if (this.nearStop == undefined)
+                this.nearStop = distance;
+            if (distance.data.distance.value < this.nearStop.data.distance.value) {
+                this.nearStop = distance;
             }
         });
         this.locationService.currentLocation = this.nearStop.city;
         this.searchNearCourse();
         console.log(this.nearStop);
-    };
-    StartComponent.prototype.calculateTimeString = function (stop) {
+    }
+    calculateTimeString(stop) {
         if (stop.time == null)
             return "";
         var now = new Date();
@@ -3787,39 +3697,22 @@ var StartComponent = /** @class */ (function () {
         }
         else
             return resultInMinutes.toString() + " min";
-    };
-    StartComponent.prototype.calculateTrafic = function () {
-        var _this = this;
+    }
+    calculateTrafic() {
         var that = this;
         this.nearCourse.traficIsCalculate = true;
         this.progressWidth = 1;
-        this.traficService.calculateDurrationForStop(this.nearCourse, 0).then(function (data) {
-            _this.initMap(_this.nearCourse);
-        }, function (error) {
-            _this.nearCourse.traficIsCalculate = false;
-            _this.progressWidth = 0;
+        this.traficService.calculateDurrationForStop(this.nearCourse, 0).then(data => {
+            this.initMap(this.nearCourse);
+        }, error => {
+            this.nearCourse.traficIsCalculate = false;
+            this.progressWidth = 0;
         });
-    };
-    StartComponent.prototype.showOptions = function () {
-        var _this = this;
-        this.bottomSheet.open(_components_options_sheets_component__WEBPACK_IMPORTED_MODULE_14__["OptionsSheets"], { data: this.message.text }).afterDismissed().subscribe(function (result) {
-            if (result == "calculateTrafic" && _this.nearCourse.traficIsCalculate != true) {
-                _this.calculateTrafic();
-            }
-            if (result == "ride") {
-                _this.go();
-            }
-            if (result == "refresh") {
-                _this.getCourseForDirection(true);
-            }
-        });
-    };
-    StartComponent.prototype.searchNearCourse = function (minPlus) {
-        var _this = this;
-        if (minPlus === void 0) { minPlus = 110; }
+    }
+    searchNearCourse(minPlus = 110) {
         var date = new Date();
         date.setSeconds(date.getSeconds() + this.nearStop.data.duration.value);
-        this.nearCourses = this.startCourses.Where(function (x) { return _this.isNear(x, date, minPlus); }).ToList();
+        this.nearCourses = this.startCourses.Where(x => this.isNear(x, date, minPlus)).ToList();
         if (this.nearCourses)
             var course = this.nearCourses.FirstOrDefault();
         if (minPlus > 120)
@@ -3832,8 +3725,8 @@ var StartComponent = /** @class */ (function () {
             this.displayCourses = this.nearCourses.ToArray();
             this.initMap(course);
         }
-    };
-    StartComponent.prototype.initMap = function (course) {
+    }
+    initMap(course) {
         this.nearCourse = course;
         if (this.directionsDisplay != undefined)
             this.directionsDisplay.setMap(null);
@@ -3847,33 +3740,9 @@ var StartComponent = /** @class */ (function () {
         this.map.fitBounds(this.bounds);
         this.directionsDisplay.setDirections(this.nearStop.response);
         this.directionsDisplay.setMap(this.map);
-        // this.addMarkersForCourse(this.map)
-        // this.addBusMarker(this.map);
-    };
-    StartComponent.prototype.addMarkersForCourse = function (map) {
-        var _this = this;
-        var image = {
-            url: 'https://maps.google.com/mapfiles/kml/pal4/icon54.png',
-            labelOrigin: new google.maps.Point(10, -3)
-            // This marker is 20 pixels wide by 32 pixels high.
-        };
-        this.nearCourse.stops.forEach(function (stop) {
-            var infowindow = new google.maps.InfoWindow({
-                content: "<div style='color:black'>" + stop.city + ' ' + stop.timeString + "</div>",
-            });
-            var marker = new google.maps.Marker({
-                position: _this.locationService.getLatLngForStop(stop),
-                map: map,
-                icon: image,
-                title: stop.city
-            });
-            google.maps.event.addListener(marker, 'click', function () {
-                infowindow.open(map, marker);
-            });
-        });
-    };
-    StartComponent.prototype.isNear = function (x, date, minPlus) {
-        for (var i = 0; i < x.stops.length; i++) {
+    }
+    isNear(x, date, minPlus) {
+        for (let i = 0; i < x.stops.length; i++) {
             if (x.stops[i].city == this.nearStop.city) {
                 x.firstStop = x.stops[i];
                 break;
@@ -3889,13 +3758,11 @@ var StartComponent = /** @class */ (function () {
             return true;
         }
         return false;
-    };
-    StartComponent.prototype.getCourseForDirection = function (sendEvent) {
-        var _this = this;
-        console.log("tak");
+    }
+    getCourseForDirection(sendEvent) {
         var that = this;
-        this.startCourses = this.allCourses.Where(function (x) { return x.direction.startsWith(_this.direction); })
-            .OrderBy(function (x) {
+        this.startCourses = this.allCourses.Where(x => x.direction.startsWith(this.direction))
+            .OrderBy(x => {
             var now = new Date();
             now.setHours(x.firstStop.time.hours);
             now.setMinutes(x.firstStop.time.minutes);
@@ -3907,42 +3774,37 @@ var StartComponent = /** @class */ (function () {
                 that.searchCourse();
             }
             if (sendEvent)
-                that.eventServ.sendEvent(_events_CoursesFiltered__WEBPACK_IMPORTED_MODULE_5__["CoursesFiltered"]);
+                that.eventServ.sendEvent(_events_CoursesFiltered__WEBPACK_IMPORTED_MODULE_3__["CoursesFiltered"]);
         }, 100);
-    };
-    StartComponent.prototype.changeDirection = function () {
-        var _this = this;
+    }
+    changeDirection() {
         if (this.direction == "Krk") {
             this.direction = "Lim";
         }
         else {
             this.direction = "Krk";
         }
-        this.zone.run(function () { _this.getCourseForDirection(true); });
-    };
-    StartComponent.prototype.changeLocation = function () {
+        this.zone.run(() => { this.getCourseForDirection(true); });
+    }
+    changeLocation() {
         var nextLocation = this.locationService.getNextLocation(this.location);
         this.locationService.currentLocation = nextLocation;
-        this.eventServ.sendEvent(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_10__["LocationChanged"], new _events_LocationChanged__WEBPACK_IMPORTED_MODULE_10__["LocationChanged"](nextLocation));
-    };
-    StartComponent.prototype.getDirection = function () {
+        this.eventServ.sendEvent(_events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__["LocationChanged"], new _events_LocationChanged__WEBPACK_IMPORTED_MODULE_4__["LocationChanged"](nextLocation));
+    }
+    getDirection() {
         if (this.direction == "Krk")
             return "LIM";
         else
             return "KRK";
-    };
-    StartComponent.prototype.ngOnInit = function () {
-        var _this = this;
-        this.interval = secondsCounter.subscribe(function (n) {
-            _this.locationService.startWatchPosition();
-            //  if(this.watchCourse == undefined && this.nearCourse != undefined)
-            //    this.initMap(this.nearCourse);
+    }
+    ngOnInit() {
+        this.interval = secondsCounter.subscribe(n => {
+            this.locationService.startWatchPosition();
         });
         console.log("start");
         this.getCourseForDirection(false);
         this.appVersion = this.notService.getAppVersion();
         this.message = this.notService.getMessage();
-        // this.hideNotification = !this.message.unread;
         var mapDiv = document.getElementById('mapStart');
         mapDiv.addEventListener('touchstart', function (e) {
             e.stopPropagation();
@@ -3968,54 +3830,16 @@ var StartComponent = /** @class */ (function () {
             position: origin,
             map: this.map
         });
-    };
-    StartComponent.prototype.ngOnDestroy = function () {
+    }
+    ngOnDestroy() {
         this.interval.unsubscribe();
         clearInterval(this.interval);
         this.subscription.unsubscribe();
         if (this.interval) {
             this.interval.unsubscribe();
         }
-    };
-    StartComponent.prototype.notificationClick = function () {
-        if (this.hideNotification == false) {
-            if (this.message.unread == true) {
-                this.message.unread = false;
-                this.notService.saveMessage(this.message);
-            }
-            this.hideNotification = true;
-        }
-        else
-            this.hideNotification = false;
-    };
-    StartComponent.prototype.onMapShowed = function (course) {
-        this.bottomSheet.open(_components_mapSheet_component__WEBPACK_IMPORTED_MODULE_8__["MapSheet"], { data: course });
-    };
-    StartComponent.prototype.go = function () {
-        if (this.checkDate()) {
-            this.snackBar.open("Bus jeszcze nie wyjechał!", "", {
-                duration: 2000,
-            });
-            return;
-        }
-        if (this.nearStop.data.distance.value > 2000) {
-            this.snackBar.open("Jesteś za daleko!", "", {
-                duration: 2000,
-            });
-            return;
-        }
-        this.appState.watchCourse = this.nearCourse;
-        this.watchCourse = this.nearCourse;
-    };
-    StartComponent.prototype.onWatchEnd = function (course) {
-        this.appState.watchCourse = undefined;
-        this.watchCourse = undefined;
-        this.nearCourse = undefined;
-        this.nearStop = undefined;
-        this.searchEnd = false;
-        this.appState.saveWatchCourse();
-    };
-    StartComponent.prototype.checkDate = function () {
+    }
+    checkDate() {
         var now = new Date();
         var coursDate = new Date();
         coursDate.setHours(this.nearCourse.stops[0].time.hours);
@@ -4023,8 +3847,8 @@ var StartComponent = /** @class */ (function () {
         if (now < coursDate)
             return false;
         return true;
-    };
-    StartComponent.prototype.resolveDirection = function () {
+    }
+    resolveDirection() {
         switch (this.nearCourse.direction) {
             case "Krk-Że-Lim":
                 return "Kraków - Zegocina - Limanowa";
@@ -4045,179 +3869,91 @@ var StartComponent = /** @class */ (function () {
             default:
                 break;
         }
-    };
-    StartComponent.prototype.addBusMarker = function (map) {
-        this.busLocation.getLocation({ direction: this.nearCourse.direction, time: this.nearCourse.stops[0].timeString }).subscribe(function (data) {
-            if (data.time != undefined) {
-                var image = {
-                    url: 'http://maps.google.com/mapfiles/kml/shapes/bus.png',
-                    labelOrigin: new google.maps.Point(10, -3)
-                    // This marker is 20 pixels wide by 32 pixels high.
-                };
-                var lat = Number.parseFloat(data.time[0].Lat);
-                var lng = Number.parseFloat(data.time[0].Lng);
-                var stamp = new Date(data.time[0].Stamp);
-                console.log(stamp);
-                console.log(data.time[0].stamp);
-                var latlng = new google.maps.LatLng(lat, lng);
-                var infowindow = new google.maps.InfoWindow({
-                    content: "<div style='color:black'>O godzinie: " + stamp.toLocaleTimeString() + " był tu</div>",
-                });
-                var marker = new google.maps.Marker({
-                    position: latlng,
-                    map: map,
-                    icon: image
-                });
-                google.maps.event.addListener(marker, 'click', function () {
-                    infowindow.open(map, marker);
-                });
-            }
-        });
-    };
-    StartComponent.prototype.getPrevCourse = function () {
-        console.log(this.courseSkip);
-        this.courseSkip--;
-        var course = this.nearCourses.Skip(this.courseSkip).FirstOrDefault();
-        if (course) {
-            this.nearCourse = course;
-            this.initMap(course);
-        }
-        else {
-            this.courseSkip++;
-        }
-    };
-    StartComponent.prototype.checkNext = function () {
+    }
+    checkNext() {
         if (this.nearCourses.Count() - 1 > this.courseSkip) {
             return true;
         }
         return false;
-    };
-    StartComponent.prototype.checkPrev = function () {
+    }
+    checkPrev() {
         if (this.courseSkip == 0) {
             return false;
         }
         return true;
-    };
-    StartComponent.prototype.showDetails = function (course) {
-        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_15__["SingleCourseComponent"], { data: { course: course, fullMode: true } });
-    };
-    StartComponent.prototype.getNextCourse = function () {
-        console.log(this.nearCourses.Count());
-        this.courseSkip++;
-        var course = this.nearCourses.Skip(this.courseSkip).FirstOrDefault();
-        if (course) {
-            this.nearCourse = course;
-            this.initMap(course);
-        }
-        else {
-            this.courseSkip--;
-        }
-    };
-    StartComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-start',
-            template: __webpack_require__(/*! ./start.component.html */ "./src/app/start/start.component.html"),
-            styles: [__webpack_require__(/*! ./start.component.css */ "./src/app/start/start.component.css")]
-        }),
-        __metadata("design:paramtypes", [_services_AppState__WEBPACK_IMPORTED_MODULE_1__["AppState"], _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatSnackBar"], _services_TraficService__WEBPACK_IMPORTED_MODULE_11__["TraficService"], _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_13__["BusLocationServices"], _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"], _angular_material__WEBPACK_IMPORTED_MODULE_7__["MatBottomSheet"], _services_NotificationService__WEBPACK_IMPORTED_MODULE_6__["NotificationService"], _services_EventServices__WEBPACK_IMPORTED_MODULE_9__["EventService"], _services_LocationService__WEBPACK_IMPORTED_MODULE_4__["LocationService"]])
-    ], StartComponent);
-    return StartComponent;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/timetable/components/stops-sheets.html":
-/*!********************************************************!*\
-  !*** ./src/app/timetable/components/stops-sheets.html ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<mat-nav-list>\r\n        <mat-grid-list cols=\"3\" rowHeight=\"15:3\">\r\n                <mat-grid-tile>{{course.direction}}</mat-grid-tile>\r\n                <mat-grid-tile>{{course.firstStop.timeString}}</mat-grid-tile>\r\n                <mat-grid-tile>{{course.stops[course.stops.length-1].timeString}}</mat-grid-tile>\r\n        </mat-grid-list>\r\n        <br>\r\n        <mat-grid-list cols=\"2\" rowHeight=\"20:3\">\r\n                <mat-grid-tile style=\"background-color:#5255e0\">Przystanek</mat-grid-tile>\r\n                <mat-grid-tile style=\"background-color:#5255e0\">Czas</mat-grid-tile>\r\n                <div *ngFor=\"let stop of course.stops\">\r\n                  <mat-grid-tile>{{stop.city}}</mat-grid-tile>\r\n                  <mat-grid-tile>{{stop.timeString}}</mat-grid-tile>\r\n                </div>\r\n        </mat-grid-list>\r\n        <div class=\"legend\" *ngFor=\"let legend of legends\">\r\n            <div>{{legend}} - {{symbolLegend[legend]}}</div>\r\n        </div>\r\n</mat-nav-list>"
-
-/***/ }),
-
-/***/ "./src/app/timetable/components/stopsSheets.component.ts":
-/*!***************************************************************!*\
-  !*** ./src/app/timetable/components/stopsSheets.component.ts ***!
-  \***************************************************************/
-/*! exports provided: StopsSheets */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StopsSheets", function() { return StopsSheets; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
-var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
-    return function (target, key) { decorator(target, key, paramIndex); }
-};
-
-
-
-var StopsSheets = /** @class */ (function () {
-    function StopsSheets(bottomSheetRef, data) {
-        this.bottomSheetRef = bottomSheetRef;
-        this.data = data;
-        this.symbolLegend = {
-            "F": "kursuje w dni robocze",
-            "7": "kursuje w niedzielę",
-            "S": "nie kursuje w dni wolne od nauki szkolnej",
-            "P": "kursuje tylko w piątek",
-            "6": "kursuje w soboty"
-        };
-        this.course = data;
-        this.legends = this.course.legends.split(" ");
     }
-    StopsSheets.prototype.openLink = function (event) {
-        this.bottomSheetRef.dismiss();
-        event.preventDefault();
-    };
-    StopsSheets = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'stops-sheets',
-            template: __webpack_require__(/*! ./stops-sheets.html */ "./src/app/timetable/components/stops-sheets.html"),
-        }),
-        __param(1, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_BOTTOM_SHEET_DATA"])),
-        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatBottomSheetRef"], Object])
-    ], StopsSheets);
-    return StopsSheets;
-}());
+    showDetails(course) {
+        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_6__["SingleCourseComponent"], { data: { course: course, fullMode: true } });
+    }
+}
+StartComponent.ɵfac = function StartComponent_Factory(t) { return new (t || StartComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_AppState__WEBPACK_IMPORTED_MODULE_7__["AppState"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_8__["MatSnackBar"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_TraficService__WEBPACK_IMPORTED_MODULE_9__["TraficService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_BusLocationServices__WEBPACK_IMPORTED_MODULE_10__["BusLocationServices"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_11__["MatBottomSheet"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_NotificationService__WEBPACK_IMPORTED_MODULE_12__["NotificationService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_EventServices__WEBPACK_IMPORTED_MODULE_13__["EventService"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_LocationService__WEBPACK_IMPORTED_MODULE_14__["LocationService"])); };
+StartComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: StartComponent, selectors: [["app-start"]], decls: 22, vars: 15, consts: [["color", "primary", 2, "height", "50px", "top", "40px", "position", "fixed", "z-index", "2000"], [1, "subTolbar"], [2, "width", "100px", "font-size", "14px"], ["placeholder", "Kierunek"], [3, "value", "click", 4, "ngFor", "ngForOf"], ["mat-button", "", 3, "ngClass", "click"], [1, "material-icons"], [2, "padding", "0px", "margin", "3px", "margin-top", "95px"], [4, "ngIf"], ["id", "mapStart", 1, "row", "content", "flex-map", 2, "height", "300px"], ["cols", "2", "rowHeight", "3:1", 4, "ngIf"], ["cols", "1", "rowHeight", "3:1", 4, "ngIf"], [2, "padding", "0px", "margin", "3px", "margin-top", "10px", "text-align", "center"], [3, "value", "click"], ["color", "warn", "mode", "determinate", 3, "value"], ["cols", "2", "rowHeight", "3:1"], [2, "flex-direction", "column"], [2, "margin", "2px", "font-size", "12px", "color", "grey"], ["cols", "1", "rowHeight", "3:1"], [2, "text-align", "center", "font-family", "Roboto, 'Helvetica Neue', sans-serif"], [2, "color", "#e57373"], [4, "ngFor", "ngForOf"], [2, "padding", "5px", "margin", "3px", 3, "click"], ["cols", "3", "rowHeight", "3:1"], [2, "flex-direction", "column-reverse"], [2, "flex-direction", "column", "color", "#e57373"]], template: function StartComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-toolbar", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-form-field", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-select", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](4, StartComponent_mat_option_4_Template, 2, 2, "mat-option", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartComponent_Template_button_click_5_listener() { return ctx.changeTravelMode("WALKING"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, " directions_walk ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartComponent_Template_button_click_8_listener() { return ctx.changeTravelMode("BICYCLING"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, " directions_bike ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "button", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function StartComponent_Template_button_click_11_listener() { return ctx.changeTravelMode("DRIVING"); });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "i", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " directions_car ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "mat-card", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, StartComponent_div_15_Template, 2, 1, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](16, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, StartComponent_mat_grid_list_17_Template, 9, 2, "mat-grid-list", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](18, StartComponent_mat_grid_list_18_Template, 5, 0, "mat-grid-list", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "mat-card", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](20, StartComponent_mat_grid_list_20_Template, 5, 2, "mat-grid-list", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](21, StartComponent_div_21_Template, 6, 2, "div", 8);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.directions);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](9, _c0, ctx.travelMode == "WALKING"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](11, _c0, ctx.travelMode == "BICYCLING"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngClass", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction1"](13, _c0, ctx.travelMode == "DRIVING"));
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.progressWidth > 0 && ctx.progressWidth < 100);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.searchEnd);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.searchEnd);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.searchEnd && ctx.message != undefined);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.searchEnd);
+    } }, directives: [_angular_material_toolbar__WEBPACK_IMPORTED_MODULE_15__["MatToolbar"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_16__["MatFormField"], _angular_material_select__WEBPACK_IMPORTED_MODULE_17__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_18__["NgForOf"], _angular_material_button__WEBPACK_IMPORTED_MODULE_19__["MatButton"], _angular_common__WEBPACK_IMPORTED_MODULE_18__["NgClass"], _angular_material_card__WEBPACK_IMPORTED_MODULE_20__["MatCard"], _angular_common__WEBPACK_IMPORTED_MODULE_18__["NgIf"], _angular_material_core__WEBPACK_IMPORTED_MODULE_21__["MatOption"], _angular_material_progress_bar__WEBPACK_IMPORTED_MODULE_22__["MatProgressBar"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_23__["MatGridList"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_23__["MatGridTile"]], styles: [".notification[_ngcontent-%COMP%] {\r\n    position: fixed;\r\n    bottom: 0px;\r\n    width: 100%;\r\n    background-color: #5255e0;\r\n    height: 30px;\r\n    padding-top: 15px;\r\n    padding-bottom: 5px;\r\n    color: white;\r\n    right: 0px;\r\n    transition-duration: 0.3s\r\n}\r\n\r\n.notification-hidden[_ngcontent-%COMP%] {\r\n    width: 50px!important;\r\n    border-radius: 90%;\r\n    bottom: 2px;\r\n    right: 4px;\r\n}\r\n\r\n.button-center[_ngcontent-%COMP%] {\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n    height: 80%!important;\r\n}\r\n\r\n.app-version[_ngcontent-%COMP%] {\r\n    margin-right: 15px;\r\n    font-size: 20px;\r\n    padding-bottom: 10px;\r\n    float: right;\r\n    margin-top: -3px;\r\n    color: #7b1fa2;\r\n}\r\n\r\n@keyframes MyColorAnimation {\r\n    0% {\r\n        color: #e30202\r\n    }\r\n    50% {\r\n        color: #fea7a7\r\n    }\r\n    100% {\r\n        color: #e30202\r\n    }\r\n}\r\n\r\n.unread-message[_ngcontent-%COMP%] {\r\n    animation: MyColorAnimation 1s infinite;\r\n}\r\n\r\n.start[_ngcontent-%COMP%] {\r\n    margin-top: 50px;\r\n}\r\n\r\n.start[_ngcontent-%COMP%]   p[_ngcontent-%COMP%] {\r\n    margin: 0px!important;\r\n    font-size: 14px;\r\n}\r\n\r\n.start-header[_ngcontent-%COMP%] {\r\n    width: 100%;\r\n    font-size: 16px!important;\r\n}\r\n\r\n.start-header[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\r\n    margin-left: 10px;\r\n}\r\n\r\n.gridHeader[_ngcontent-%COMP%] >   figure {\r\n    justify-content: flex-start !important;\r\n}\r\n\r\n.gridHeaderLeft[_ngcontent-%COMP%] >   figure {\r\n    justify-content: flex-end!important;\r\n}\r\n\r\n.box[_ngcontent-%COMP%] {\r\n    display: flex;\r\n    flex-flow: column;\r\n    height: calc(100vh - 40px);\r\n}\r\n\r\n.box[_ngcontent-%COMP%]   .row.header[_ngcontent-%COMP%] {\r\n    flex: 0 1 170px;\r\n    \r\n}\r\n\r\n.box[_ngcontent-%COMP%]   .row.content[_ngcontent-%COMP%] {\r\n    flex: 1 1 auto;\r\n}\r\n\r\nh2[_ngcontent-%COMP%] {\r\n    font-size: 32px;\r\n    font-weight: 700;\r\n    margin-top: 0;\r\n    text-transform: capitalize;\r\n}\r\n\r\np[_ngcontent-%COMP%] {\r\n    margin: 0;\r\n}\r\n\r\nh2[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\r\n    color: #ffbc13;\r\n}\r\n\r\n.header[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\r\n    background: rgb(255, 255, 255);\r\n    border: 2px solid #3a1d6c;\r\n    padding: 4px 10px;\r\n    color: white;\r\n    cursor: pointer;\r\n    border-radius: 25px;\r\n}\r\n\r\n.header[_ngcontent-%COMP%]   button.active[_ngcontent-%COMP%] {\r\n    background: #341a70;\r\n    border: 2px solid #2c1774;\r\n}\r\n\r\n.header[_ngcontent-%COMP%]   button.active[_ngcontent-%COMP%] > img[_ngcontent-%COMP%] {\r\n    filter: brightness(2.0);\r\n}\r\n\r\n.time[_ngcontent-%COMP%] {\r\n    font-size: 26px;\r\n}\r\n\r\n.place[_ngcontent-%COMP%] {\r\n    font-size: 18px;\r\n}\r\n\r\n.direction-menu[_ngcontent-%COMP%] {\r\n    padding-top: 10px;\r\n    text-align: center;\r\n    background-color: #5255e0;\r\n    height: auto;\r\n}\r\n\r\n.direction-menu[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\r\n    margin-right: 5px\r\n}\r\n\r\n#mapStart[_ngcontent-%COMP%] {\r\n    width: 100%;\r\n}\r\n\r\n.flex-map[_ngcontent-%COMP%] {\r\n    display: flex;\r\n    flex-direction: column;\r\n    flex: 1;\r\n}\r\n\r\n.subTolbar[_ngcontent-%COMP%] {\r\n    text-align: center;\r\n}\r\n\r\n.subTolbar[_ngcontent-%COMP%]   button[_ngcontent-%COMP%] {\r\n    min-width: 10px!important;\r\n    margin-left: 10px;\r\n}\r\n\r\n.activeDirection[_ngcontent-%COMP%] {\r\n    color: #c73d3d;\r\n}\r\n\r\n[_nghost-%COMP%]     .mat-figure {\r\n    flex-direction: column;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvc3RhcnQvc3RhcnQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGVBQWU7SUFDZixXQUFXO0lBQ1gsV0FBVztJQUNYLHlCQUF5QjtJQUN6QixZQUFZO0lBQ1osaUJBQWlCO0lBQ2pCLG1CQUFtQjtJQUNuQixZQUFZO0lBQ1osVUFBVTtJQUNWO0FBQ0o7O0FBRUE7SUFDSSxxQkFBcUI7SUFDckIsa0JBQWtCO0lBQ2xCLFdBQVc7SUFDWCxVQUFVO0FBQ2Q7O0FBRUE7SUFDSSxhQUFhO0lBQ2IsdUJBQXVCO0lBQ3ZCLG1CQUFtQjtJQUNuQixxQkFBcUI7QUFDekI7O0FBRUE7SUFDSSxrQkFBa0I7SUFDbEIsZUFBZTtJQUNmLG9CQUFvQjtJQUNwQixZQUFZO0lBQ1osZ0JBQWdCO0lBQ2hCLGNBQWM7QUFDbEI7O0FBRUE7SUFDSTtRQUNJO0lBQ0o7SUFDQTtRQUNJO0lBQ0o7SUFDQTtRQUNJO0lBQ0o7QUFDSjs7QUFFQTtJQUNJLHVDQUF1QztBQUMzQzs7QUFFQTtJQUNJLGdCQUFnQjtBQUNwQjs7QUFFQTtJQUNJLHFCQUFxQjtJQUNyQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksV0FBVztJQUNYLHlCQUF5QjtBQUM3Qjs7QUFFQTtJQUNJLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLHNDQUFzQztBQUMxQzs7QUFFQTtJQUNJLG1DQUFtQztBQUN2Qzs7QUFFQTtJQUNJLGFBQWE7SUFDYixpQkFBaUI7SUFDakIsMEJBQTBCO0FBQzlCOztBQUVBO0lBQ0ksZUFBZTtJQUNmOzs7O0tBSUM7QUFDTDs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLGFBQWE7SUFDYiwwQkFBMEI7QUFDOUI7O0FBRUE7SUFDSSxTQUFTO0FBQ2I7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksOEJBQThCO0lBQzlCLHlCQUF5QjtJQUN6QixpQkFBaUI7SUFDakIsWUFBWTtJQUNaLGVBQWU7SUFDZixtQkFBbUI7QUFDdkI7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIseUJBQXlCO0FBQzdCOztBQUVBO0lBRUksdUJBQXVCO0FBQzNCOztBQUVBO0lBQ0ksZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxpQkFBaUI7SUFDakIsa0JBQWtCO0lBQ2xCLHlCQUF5QjtJQUN6QixZQUFZO0FBQ2hCOztBQUVBO0lBQ0k7QUFDSjs7QUFFQTtJQUNJLFdBQVc7QUFDZjs7QUFFQTtJQUNJLGFBQWE7SUFDYixzQkFBc0I7SUFDdEIsT0FBTztBQUNYOztBQUVBO0lBQ0ksa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0kseUJBQXlCO0lBQ3pCLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxzQkFBc0I7QUFDMUIiLCJmaWxlIjoic3JjL2FwcC9zdGFydC9zdGFydC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLm5vdGlmaWNhdGlvbiB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBib3R0b206IDBweDtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzUyNTVlMDtcclxuICAgIGhlaWdodDogMzBweDtcclxuICAgIHBhZGRpbmctdG9wOiAxNXB4O1xyXG4gICAgcGFkZGluZy1ib3R0b206IDVweDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIHJpZ2h0OiAwcHg7XHJcbiAgICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjNzXHJcbn1cclxuXHJcbi5ub3RpZmljYXRpb24taGlkZGVuIHtcclxuICAgIHdpZHRoOiA1MHB4IWltcG9ydGFudDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDkwJTtcclxuICAgIGJvdHRvbTogMnB4O1xyXG4gICAgcmlnaHQ6IDRweDtcclxufVxyXG5cclxuLmJ1dHRvbi1jZW50ZXIge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgIGhlaWdodDogODAlIWltcG9ydGFudDtcclxufVxyXG5cclxuLmFwcC12ZXJzaW9uIHtcclxuICAgIG1hcmdpbi1yaWdodDogMTVweDtcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICAgIHBhZGRpbmctYm90dG9tOiAxMHB4O1xyXG4gICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgbWFyZ2luLXRvcDogLTNweDtcclxuICAgIGNvbG9yOiAjN2IxZmEyO1xyXG59XHJcblxyXG5Aa2V5ZnJhbWVzIE15Q29sb3JBbmltYXRpb24ge1xyXG4gICAgMCUge1xyXG4gICAgICAgIGNvbG9yOiAjZTMwMjAyXHJcbiAgICB9XHJcbiAgICA1MCUge1xyXG4gICAgICAgIGNvbG9yOiAjZmVhN2E3XHJcbiAgICB9XHJcbiAgICAxMDAlIHtcclxuICAgICAgICBjb2xvcjogI2UzMDIwMlxyXG4gICAgfVxyXG59XHJcblxyXG4udW5yZWFkLW1lc3NhZ2Uge1xyXG4gICAgYW5pbWF0aW9uOiBNeUNvbG9yQW5pbWF0aW9uIDFzIGluZmluaXRlO1xyXG59XHJcblxyXG4uc3RhcnQge1xyXG4gICAgbWFyZ2luLXRvcDogNTBweDtcclxufVxyXG5cclxuLnN0YXJ0IHAge1xyXG4gICAgbWFyZ2luOiAwcHghaW1wb3J0YW50O1xyXG4gICAgZm9udC1zaXplOiAxNHB4O1xyXG59XHJcblxyXG4uc3RhcnQtaGVhZGVyIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgZm9udC1zaXplOiAxNnB4IWltcG9ydGFudDtcclxufVxyXG5cclxuLnN0YXJ0LWhlYWRlciBhIHtcclxuICAgIG1hcmdpbi1sZWZ0OiAxMHB4O1xyXG59XHJcblxyXG4uZ3JpZEhlYWRlcj4gOjpuZy1kZWVwIGZpZ3VyZSB7XHJcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IGZsZXgtc3RhcnQgIWltcG9ydGFudDtcclxufVxyXG5cclxuLmdyaWRIZWFkZXJMZWZ0Pjo6bmctZGVlcCBmaWd1cmUge1xyXG4gICAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZCFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5ib3gge1xyXG4gICAgZGlzcGxheTogZmxleDtcclxuICAgIGZsZXgtZmxvdzogY29sdW1uO1xyXG4gICAgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gNDBweCk7XHJcbn1cclxuXHJcbi5ib3ggLnJvdy5oZWFkZXIge1xyXG4gICAgZmxleDogMCAxIDE3MHB4O1xyXG4gICAgLyogVGhlIGFib3ZlIGlzIHNob3J0aGFuZCBmb3I6XHJcbiAgICBmbGV4LWdyb3c6IDAsXHJcbiAgICBmbGV4LXNocmluazogMSxcclxuICAgIGZsZXgtYmFzaXM6IGF1dG9cclxuICAgICovXHJcbn1cclxuXHJcbi5ib3ggLnJvdy5jb250ZW50IHtcclxuICAgIGZsZXg6IDEgMSBhdXRvO1xyXG59XHJcblxyXG5oMiB7XHJcbiAgICBmb250LXNpemU6IDMycHg7XHJcbiAgICBmb250LXdlaWdodDogNzAwO1xyXG4gICAgbWFyZ2luLXRvcDogMDtcclxuICAgIHRleHQtdHJhbnNmb3JtOiBjYXBpdGFsaXplO1xyXG59XHJcblxyXG5wIHtcclxuICAgIG1hcmdpbjogMDtcclxufVxyXG5cclxuaDIgc3BhbiB7XHJcbiAgICBjb2xvcjogI2ZmYmMxMztcclxufVxyXG5cclxuLmhlYWRlciBidXR0b24ge1xyXG4gICAgYmFja2dyb3VuZDogcmdiKDI1NSwgMjU1LCAyNTUpO1xyXG4gICAgYm9yZGVyOiAycHggc29saWQgIzNhMWQ2YztcclxuICAgIHBhZGRpbmc6IDRweCAxMHB4O1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMjVweDtcclxufVxyXG5cclxuLmhlYWRlciBidXR0b24uYWN0aXZlIHtcclxuICAgIGJhY2tncm91bmQ6ICMzNDFhNzA7XHJcbiAgICBib3JkZXI6IDJweCBzb2xpZCAjMmMxNzc0O1xyXG59XHJcblxyXG4uaGVhZGVyIGJ1dHRvbi5hY3RpdmU+aW1nIHtcclxuICAgIC13ZWJraXQtZmlsdGVyOiBicmlnaHRuZXNzKDIuMCk7XHJcbiAgICBmaWx0ZXI6IGJyaWdodG5lc3MoMi4wKTtcclxufVxyXG5cclxuLnRpbWUge1xyXG4gICAgZm9udC1zaXplOiAyNnB4O1xyXG59XHJcblxyXG4ucGxhY2Uge1xyXG4gICAgZm9udC1zaXplOiAxOHB4O1xyXG59XHJcblxyXG4uZGlyZWN0aW9uLW1lbnUge1xyXG4gICAgcGFkZGluZy10b3A6IDEwcHg7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjNTI1NWUwO1xyXG4gICAgaGVpZ2h0OiBhdXRvO1xyXG59XHJcblxyXG4uZGlyZWN0aW9uLW1lbnUgYnV0dG9uIHtcclxuICAgIG1hcmdpbi1yaWdodDogNXB4XHJcbn1cclxuXHJcbiNtYXBTdGFydCB7XHJcbiAgICB3aWR0aDogMTAwJTtcclxufVxyXG5cclxuLmZsZXgtbWFwIHtcclxuICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgZmxleDogMTtcclxufVxyXG5cclxuLnN1YlRvbGJhciB7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5zdWJUb2xiYXIgYnV0dG9uIHtcclxuICAgIG1pbi13aWR0aDogMTBweCFpbXBvcnRhbnQ7XHJcbiAgICBtYXJnaW4tbGVmdDogMTBweDtcclxufVxyXG5cclxuLmFjdGl2ZURpcmVjdGlvbiB7XHJcbiAgICBjb2xvcjogI2M3M2QzZDtcclxufVxyXG5cclxuOmhvc3QgL2RlZXAvIC5tYXQtZmlndXJlIHtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbn0iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](StartComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-start',
+                templateUrl: './start.component.html',
+                styleUrls: ['./start.component.css']
+            }]
+    }], function () { return [{ type: _services_AppState__WEBPACK_IMPORTED_MODULE_7__["AppState"] }, { type: _angular_material_snack_bar__WEBPACK_IMPORTED_MODULE_8__["MatSnackBar"] }, { type: _services_TraficService__WEBPACK_IMPORTED_MODULE_9__["TraficService"] }, { type: _services_BusLocationServices__WEBPACK_IMPORTED_MODULE_10__["BusLocationServices"] }, { type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgZone"] }, { type: _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_11__["MatBottomSheet"] }, { type: _services_NotificationService__WEBPACK_IMPORTED_MODULE_12__["NotificationService"] }, { type: _services_EventServices__WEBPACK_IMPORTED_MODULE_13__["EventService"] }, { type: _services_LocationService__WEBPACK_IMPORTED_MODULE_14__["LocationService"] }]; }, null); })();
 
-
-
-/***/ }),
-
-/***/ "./src/app/timetable/timetable.component.css":
-/*!***************************************************!*\
-  !*** ./src/app/timetable/timetable.component.css ***!
-  \***************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = ":host /deep/ .mat-tab-label{\r\n    width: 50%!important;\r\n    height: 30px!important;\r\n    font-family: \"Kalam\"!important;\r\n    color: #7b1fa2!important;\r\n}\r\n\r\n.gridHeader{\r\n    background-color:#5255e0;\r\n}\r\n\r\n:host /deep/ .mat-expansion-indicator{\r\ndisplay: none!important;\r\n}\r\n\r\n.timetable-course{\r\n    width: 100%;\r\n    padding-top: 6px!important;\r\n    padding-bottom: 6px;\r\n    box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12);\r\n    background-color:#424242;\r\n    color: #eee;\r\n}\r\n\r\n.odd{\r\n    background-color: #5e525f!important;\r\n}\r\n\r\n.filter-bar{\r\n    position: fixed;\r\n    height: 50px;\r\n    padding-top: 4px;\r\n    padding-bottom: 5px;\r\n    color: white;\r\n    bottom: 0px;\r\n    right: 0px;\r\n    z-index: 1000;\r\n    width: 100%;\r\n    background-color: #5255e0;\r\n    transition-duration: 0.3s;\r\n    font-size: 12px!important\r\n}\r\n\r\n.filter-bar-hidden{\r\n    bottom: 2px;\r\n    right: 4px;\r\n    width: 50px;\r\n    height: 40px;\r\n    border-radius: 90%;\r\n}\r\n\r\n.filter-options{\r\n    margin-right:13px;\r\n    font-size: 20px;\r\n    padding-bottom: 10px;\r\n    float:right;\r\n    margin-top: 4px;\r\n}\r\n\r\n:host /deep/ .mat-figure{\r\n    flex-direction: column;\r\n}"
-
-/***/ }),
-
-/***/ "./src/app/timetable/timetable.component.html":
-/*!****************************************************!*\
-  !*** ./src/app/timetable/timetable.component.html ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "<mat-toolbar style=\"height:50px\" color=\"primary\">\r\n  <mat-form-field style=\"width: 120px;\r\n        font-size: 14px;\">\r\n    <mat-select placeholder=\"Kierunek\">\r\n      <mat-option (click) = \"getCoursesForDirection(dir.value)\" *ngFor=\"let dir of directions\" [value]=\"dir.value\">\r\n        {{dir.viewValue}}\r\n      </mat-option>\r\n    </mat-select>\r\n  </mat-form-field>\r\n<div style=\"margin-left:20px;\"></div>\r\n  <mat-form-field style=\"width: 120px;\r\n        font-size: 14px;\">\r\n    <mat-select placeholder=\"Przez\">\r\n      <mat-option (click)=\"filterCourses(stop.value)\" *ngFor=\"let stop of stopsView\" [value]=\"stop.value\">\r\n        {{stop.viewValue}}\r\n      </mat-option>\r\n    </mat-select>\r\n  </mat-form-field>\r\n</mat-toolbar>\r\n\r\n<div *ngFor=\"let course of timetableView\">\r\n  <mat-card (click)=\"showDetails(course)\" style=\"padding: 5px;margin:3px\">\r\n    <mat-grid-list cols=\"3\" [rowHeight]=\"breakpoint\" (window:resize)=\"onResize($event)\">\r\n\r\n      <mat-grid-tile style=\"flex-direction:column-reverse\">\r\n        {{course.direction}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Kierunek</p>\r\n      </mat-grid-tile>\r\n      <mat-grid-tile style=\"flex-direction:column\">\r\n        {{course.firstStop.timeString}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Odjazd</p>\r\n      </mat-grid-tile>\r\n      <mat-grid-tile style=\"flex-direction:column;color:#e57373\">\r\n        {{course.legends}}\r\n        <p style=\"margin:2px;font-size: 12px;color: grey\">Legenda</p>\r\n      </mat-grid-tile>\r\n    </mat-grid-list>\r\n  </mat-card>\r\n</div>\r\n<!-- <div>\r\n  <mat-tab-group (selectedTabChange)=\"onTabClick($event)\" style=\"padding-bottom: 40px\">\r\n    <mat-tab label=\"Do Krakowa\" style=\"margin-bottom: 10px;\">\r\n      <div (click)=\"showStops(course)\" class=\"timetable-course\" *ngFor=\"let course of limCourses;let isOdd=odd\" [class.odd]=\"isOdd\" style=\"margin-bottom: 10px\">\r\n        <mat-grid-list cols=\"3\" rowHeight=\"20:3\">\r\n          <mat-grid-tile>{{course.direction}}</mat-grid-tile>\r\n          <mat-grid-tile>{{course.firstStop.timeString}}</mat-grid-tile>\r\n          <mat-grid-tile>{{course.legends}}</mat-grid-tile>\r\n        </mat-grid-list>\r\n      </div>\r\n    </mat-tab>\r\n    <mat-tab label=\"Do Limanowej\">\r\n        <div (click)=\"showStops(courseKrk)\" class=\"timetable-course\" *ngFor=\"let courseKrk of krkCourses;let isOddKrk=odd\" [class.odd]=\"isOddKrk\" style=\"margin-bottom: 10px\">\r\n            <mat-grid-list cols=\"3\" rowHeight=\"20:3\">\r\n              <mat-grid-tile>{{courseKrk.direction}}</mat-grid-tile>\r\n              <mat-grid-tile>{{courseKrk.firstStop.timeString}}</mat-grid-tile>\r\n              <mat-grid-tile>{{courseKrk.legends}}</mat-grid-tile>\r\n            </mat-grid-list>\r\n          </div>\r\n    </mat-tab>\r\n  </mat-tab-group>\r\n  <div [ngClass]=\"{'filter-bar-hidden' : hideFilterBar}\" class=\"filter-bar\">\r\n    <div *ngIf=\"!hideFilterBar\">\r\n      <mat-grid-list cols=\"5\" rowHeight=\"8:3\">\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"zegocinaCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"szykCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"rybieCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>\r\n          <mat-checkbox [(ngModel)]=\"tymbarkCourse\" (change)=\"filterCourses()\" color='primary'></mat-checkbox>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile (click)=\"filterBarClick()\" style=\"margin-top: 7px!important\">\r\n          <i class=\"material-icons\">\r\n            arrow_forward\r\n          </i>\r\n        </mat-grid-tile>\r\n        <mat-grid-tile>Żegocina</mat-grid-tile>\r\n        <mat-grid-tile>Szyk</mat-grid-tile>\r\n        <mat-grid-tile>Rybie</mat-grid-tile>\r\n        <mat-grid-tile>Tymbark</mat-grid-tile>\r\n      </mat-grid-list>\r\n    </div>\r\n    <div (click)=\"filterBarClick()\" class=\"filter-options\" *ngIf=\"hideFilterBar\">\r\n      <i class=\"material-icons\">\r\n        filter_list\r\n      </i>\r\n    </div>\r\n  </div>\r\n</div> -->"
 
 /***/ }),
 
@@ -4231,27 +3967,95 @@ module.exports = "<mat-toolbar style=\"height:50px\" color=\"primary\">\r\n  <ma
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TimetableComponent", function() { return TimetableComponent; });
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../services/AppState */ "./src/app/services/AppState.ts");
-/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
-/* harmony import */ var _components_stopsSheets_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/stopsSheets.component */ "./src/app/timetable/components/stopsSheets.component.ts");
-/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
-var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
-    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
-    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
-    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
-    return c > 3 && r && Object.defineProperty(target, key, r), r;
-};
-var __metadata = (undefined && undefined.__metadata) || function (k, v) {
-    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
-};
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _single_course_single_course_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../single-course/single-course.component */ "./src/app/single-course/single-course.component.ts");
+/* harmony import */ var _services_AppState__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../services/AppState */ "./src/app/services/AppState.ts");
+/* harmony import */ var _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/material/bottom-sheet */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/bottom-sheet.js");
+/* harmony import */ var _angular_material_toolbar__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/material/toolbar */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/toolbar.js");
+/* harmony import */ var _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/form-field */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/form-field.js");
+/* harmony import */ var _angular_material_select__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/select */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/select.js");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/common */ "./node_modules/@angular/common/__ivy_ngcc__/fesm2015/common.js");
+/* harmony import */ var _angular_material_core__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/material/core */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @angular/material/card */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/card.js");
+/* harmony import */ var _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @angular/material/grid-list */ "./node_modules/@angular/material/__ivy_ngcc__/fesm2015/grid-list.js");
 
 
 
 
 
-var TimetableComponent = /** @class */ (function () {
-    function TimetableComponent(appState, bottomSheet) {
+
+
+
+
+
+
+
+function TimetableComponent_mat_option_3_Template(rf, ctx) { if (rf & 1) {
+    const _r5 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-option", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TimetableComponent_mat_option_3_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r5); const dir_r3 = ctx.$implicit; const ctx_r4 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r4.getCoursesForDirection(dir_r3.value); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const dir_r3 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", dir_r3.value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", dir_r3.viewValue, " ");
+} }
+function TimetableComponent_mat_option_7_Template(rf, ctx) { if (rf & 1) {
+    const _r8 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-option", 8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TimetableComponent_mat_option_7_Template_mat_option_click_0_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r8); const stop_r6 = ctx.$implicit; const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r7.filterCourses(stop_r6.value); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const stop_r6 = ctx.$implicit;
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("value", stop_r6.value);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", stop_r6.viewValue, " ");
+} }
+function TimetableComponent_div_9_Template(rf, ctx) { if (rf & 1) {
+    const _r11 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵgetCurrentView"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-card", 9);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("click", function TimetableComponent_div_9_Template_mat_card_click_1_listener() { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11); const course_r9 = ctx.$implicit; const ctx_r10 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r10.showDetails(course_r9); });
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-grid-list", 10);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵlistener"]("resize", function TimetableComponent_div_9_Template_mat_grid_list_resize_2_listener($event) { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵrestoreView"](_r11); const ctx_r12 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"](); return ctx_r12.onResize($event); }, false, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵresolveWindow"]);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "mat-grid-tile", 11);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "Kierunek");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "mat-grid-tile", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "Odjazd");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "mat-grid-tile", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](13, "p", 12);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](14, "Legenda");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const course_r9 = ctx.$implicit;
+    const ctx_r2 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("rowHeight", ctx_r2.breakpoint);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", course_r9.direction, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", course_r9.stops[0].timeString, " ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", course_r9.legends, " ");
+} }
+class TimetableComponent {
+    constructor(appState, bottomSheet) {
         this.appState = appState;
         this.bottomSheet = bottomSheet;
         this.directions = [{ value: 'Lim', viewValue: 'Do Krakowa' },
@@ -4269,49 +4073,72 @@ var TimetableComponent = /** @class */ (function () {
         this.activeStop = null;
         this.breakpoint = "3:1";
     }
-    TimetableComponent.prototype.ngOnInit = function () {
+    ngOnInit() {
         this.timetable = this.appState.timetable;
         this.getCoursesForDirection("Lim");
         this.breakpoint = (window.innerWidth <= 450) ? "3:1" : "6:1";
-    };
-    TimetableComponent.prototype.onResize = function (event) {
+    }
+    onResize(event) {
         this.breakpoint = (event.target.innerWidth <= 450) ? "3:1" : "6:1";
-    };
-    TimetableComponent.prototype.getCoursesForDirection = function (direction) {
-        this.directionCoursesList = this.timetable.Where(function (x) { return x.direction.startsWith(direction); }).OrderBy(function (x) { return x.firstStop.timeString; });
+    }
+    getCoursesForDirection(direction) {
+        this.directionCoursesList = this.timetable.Where(x => x.direction.startsWith(direction)).OrderBy(x => x.firstStop.timeString);
         this.timetableView = this.directionCoursesList.ToArray();
         if (this.activeStop != null)
             this.filterCourses(this.activeStop);
-    };
-    TimetableComponent.prototype.showStops = function (course) {
-        this.bottomSheet.open(_components_stopsSheets_component__WEBPACK_IMPORTED_MODULE_3__["StopsSheets"], { data: course });
-    };
-    TimetableComponent.prototype.filterBarClick = function () {
+    }
+    // showStops(course:Course){
+    //   this.bottomSheet.open(StopsSheets, {data:course});
+    // }
+    filterBarClick() {
         if (this.hideFilterBar == true) {
             this.hideFilterBar = false;
         }
         else {
             this.hideFilterBar = true;
         }
-    };
-    TimetableComponent.prototype.showDetails = function (course) {
-        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_4__["SingleCourseComponent"], { data: { course: course, fullMode: false } });
-    };
-    TimetableComponent.prototype.filterCourses = function (stops) {
+    }
+    showDetails(course) {
+        this.bottomSheet.open(_single_course_single_course_component__WEBPACK_IMPORTED_MODULE_1__["SingleCourseComponent"], { data: { course: course, fullMode: false } });
+    }
+    filterCourses(stops) {
         this.activeStop = stops;
-        this.timetableView = this.directionCoursesList.Where(function (x) { return x.direction.includes(stops) || stops == "All"; }).ToArray();
-    };
-    TimetableComponent = __decorate([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
-            selector: 'app-timetable',
-            template: __webpack_require__(/*! ./timetable.component.html */ "./src/app/timetable/timetable.component.html"),
-            styles: [__webpack_require__(/*! ./timetable.component.css */ "./src/app/timetable/timetable.component.css")]
-        }),
-        __metadata("design:paramtypes", [_services_AppState__WEBPACK_IMPORTED_MODULE_1__["AppState"], _angular_material__WEBPACK_IMPORTED_MODULE_2__["MatBottomSheet"]])
-    ], TimetableComponent);
-    return TimetableComponent;
-}());
-
+        this.timetableView = this.directionCoursesList.Where(x => x.direction.includes(stops) || stops == "All").ToArray();
+    }
+}
+TimetableComponent.ɵfac = function TimetableComponent_Factory(t) { return new (t || TimetableComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_services_AppState__WEBPACK_IMPORTED_MODULE_2__["AppState"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_3__["MatBottomSheet"])); };
+TimetableComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: TimetableComponent, selectors: [["app-timetable"]], decls: 10, vars: 3, consts: [["color", "primary", 2, "height", "50px", "top", "40px", "position", "fixed", "z-index", "2000"], [2, "width", "120px", "font-size", "14px"], ["placeholder", "Kierunek"], [3, "value", "click", 4, "ngFor", "ngForOf"], [2, "margin-left", "20px"], ["placeholder", "Przez"], [2, "margin-top", "95px"], [4, "ngFor", "ngForOf"], [3, "value", "click"], [2, "padding", "5px", "margin", "3px", 3, "click"], ["cols", "3", 3, "rowHeight", "resize"], [2, "flex-direction", "column-reverse"], [2, "margin", "2px", "font-size", "12px", "color", "grey"], [2, "flex-direction", "column"], [2, "flex-direction", "column", "color", "#e57373"]], template: function TimetableComponent_Template(rf, ctx) { if (rf & 1) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "mat-toolbar", 0);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "mat-form-field", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "mat-select", 2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](3, TimetableComponent_mat_option_3_Template, 2, 2, "mat-option", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "mat-form-field", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "mat-select", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](7, TimetableComponent_mat_option_7_Template, 2, 2, "mat-option", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](8, "div", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, TimetableComponent_div_9_Template, 15, 4, "div", 7);
+    } if (rf & 2) {
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.directions);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.stopsView);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.timetableView);
+    } }, directives: [_angular_material_toolbar__WEBPACK_IMPORTED_MODULE_4__["MatToolbar"], _angular_material_form_field__WEBPACK_IMPORTED_MODULE_5__["MatFormField"], _angular_material_select__WEBPACK_IMPORTED_MODULE_6__["MatSelect"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"], _angular_material_core__WEBPACK_IMPORTED_MODULE_8__["MatOption"], _angular_material_card__WEBPACK_IMPORTED_MODULE_9__["MatCard"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_10__["MatGridList"], _angular_material_grid_list__WEBPACK_IMPORTED_MODULE_10__["MatGridTile"]], styles: ["[_nghost-%COMP%]     .mat-tab-label {\r\n    width: 50%!important;\r\n    height: 30px!important;\r\n    font-family: \"Kalam\"!important;\r\n    color: #7b1fa2!important;\r\n}\r\n\r\n.gridHeader[_ngcontent-%COMP%] {\r\n    background-color: #5255e0;\r\n}\r\n\r\n[_nghost-%COMP%]     .mat-expansion-indicator {\r\n    display: none!important;\r\n}\r\n\r\n.timetable-course[_ngcontent-%COMP%] {\r\n    width: 100%;\r\n    padding-top: 6px!important;\r\n    padding-bottom: 6px;\r\n    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 2px 0 rgba(0, 0, 0, .14), 0 1px 5px 0 rgba(0, 0, 0, .12);\r\n    background-color: #424242;\r\n    color: #eee;\r\n}\r\n\r\n.odd[_ngcontent-%COMP%] {\r\n    background-color: #5e525f!important;\r\n}\r\n\r\n.filter-bar[_ngcontent-%COMP%] {\r\n    position: fixed;\r\n    height: 50px;\r\n    padding-top: 4px;\r\n    padding-bottom: 5px;\r\n    color: white;\r\n    bottom: 0px;\r\n    right: 0px;\r\n    z-index: 1000;\r\n    width: 100%;\r\n    background-color: #5255e0;\r\n    transition-duration: 0.3s;\r\n    font-size: 12px!important\r\n}\r\n\r\n.filter-bar-hidden[_ngcontent-%COMP%] {\r\n    bottom: 2px;\r\n    right: 4px;\r\n    width: 50px;\r\n    height: 40px;\r\n    border-radius: 90%;\r\n}\r\n\r\n.filter-options[_ngcontent-%COMP%] {\r\n    margin-right: 13px;\r\n    font-size: 20px;\r\n    padding-bottom: 10px;\r\n    float: right;\r\n    margin-top: 4px;\r\n}\r\n\r\n[_nghost-%COMP%]     .mat-figure {\r\n    flex-direction: column;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvdGltZXRhYmxlL3RpbWV0YWJsZS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksb0JBQW9CO0lBQ3BCLHNCQUFzQjtJQUN0Qiw4QkFBOEI7SUFDOUIsd0JBQXdCO0FBQzVCOztBQUVBO0lBQ0kseUJBQXlCO0FBQzdCOztBQUVBO0lBQ0ksdUJBQXVCO0FBQzNCOztBQUVBO0lBQ0ksV0FBVztJQUNYLDBCQUEwQjtJQUMxQixtQkFBbUI7SUFDbkIsNEdBQTRHO0lBQzVHLHlCQUF5QjtJQUN6QixXQUFXO0FBQ2Y7O0FBRUE7SUFDSSxtQ0FBbUM7QUFDdkM7O0FBRUE7SUFDSSxlQUFlO0lBQ2YsWUFBWTtJQUNaLGdCQUFnQjtJQUNoQixtQkFBbUI7SUFDbkIsWUFBWTtJQUNaLFdBQVc7SUFDWCxVQUFVO0lBQ1YsYUFBYTtJQUNiLFdBQVc7SUFDWCx5QkFBeUI7SUFDekIseUJBQXlCO0lBQ3pCO0FBQ0o7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsVUFBVTtJQUNWLFdBQVc7SUFDWCxZQUFZO0lBQ1osa0JBQWtCO0FBQ3RCOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLGVBQWU7SUFDZixvQkFBb0I7SUFDcEIsWUFBWTtJQUNaLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxzQkFBc0I7QUFDMUIiLCJmaWxlIjoic3JjL2FwcC90aW1ldGFibGUvdGltZXRhYmxlLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyI6aG9zdCAvZGVlcC8gLm1hdC10YWItbGFiZWwge1xyXG4gICAgd2lkdGg6IDUwJSFpbXBvcnRhbnQ7XHJcbiAgICBoZWlnaHQ6IDMwcHghaW1wb3J0YW50O1xyXG4gICAgZm9udC1mYW1pbHk6IFwiS2FsYW1cIiFpbXBvcnRhbnQ7XHJcbiAgICBjb2xvcjogIzdiMWZhMiFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi5ncmlkSGVhZGVyIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICM1MjU1ZTA7XHJcbn1cclxuXHJcbjpob3N0IC9kZWVwLyAubWF0LWV4cGFuc2lvbi1pbmRpY2F0b3Ige1xyXG4gICAgZGlzcGxheTogbm9uZSFpbXBvcnRhbnQ7XHJcbn1cclxuXHJcbi50aW1ldGFibGUtY291cnNlIHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgcGFkZGluZy10b3A6IDZweCFpbXBvcnRhbnQ7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogNnB4O1xyXG4gICAgYm94LXNoYWRvdzogMCAzcHggMXB4IC0ycHggcmdiYSgwLCAwLCAwLCAuMiksIDAgMnB4IDJweCAwIHJnYmEoMCwgMCwgMCwgLjE0KSwgMCAxcHggNXB4IDAgcmdiYSgwLCAwLCAwLCAuMTIpO1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzQyNDI0MjtcclxuICAgIGNvbG9yOiAjZWVlO1xyXG59XHJcblxyXG4ub2RkIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICM1ZTUyNWYhaW1wb3J0YW50O1xyXG59XHJcblxyXG4uZmlsdGVyLWJhciB7XHJcbiAgICBwb3NpdGlvbjogZml4ZWQ7XHJcbiAgICBoZWlnaHQ6IDUwcHg7XHJcbiAgICBwYWRkaW5nLXRvcDogNHB4O1xyXG4gICAgcGFkZGluZy1ib3R0b206IDVweDtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxuICAgIGJvdHRvbTogMHB4O1xyXG4gICAgcmlnaHQ6IDBweDtcclxuICAgIHotaW5kZXg6IDEwMDA7XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGJhY2tncm91bmQtY29sb3I6ICM1MjU1ZTA7XHJcbiAgICB0cmFuc2l0aW9uLWR1cmF0aW9uOiAwLjNzO1xyXG4gICAgZm9udC1zaXplOiAxMnB4IWltcG9ydGFudFxyXG59XHJcblxyXG4uZmlsdGVyLWJhci1oaWRkZW4ge1xyXG4gICAgYm90dG9tOiAycHg7XHJcbiAgICByaWdodDogNHB4O1xyXG4gICAgd2lkdGg6IDUwcHg7XHJcbiAgICBoZWlnaHQ6IDQwcHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiA5MCU7XHJcbn1cclxuXHJcbi5maWx0ZXItb3B0aW9ucyB7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDEzcHg7XHJcbiAgICBmb250LXNpemU6IDIwcHg7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMTBweDtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIG1hcmdpbi10b3A6IDRweDtcclxufVxyXG5cclxuOmhvc3QgL2RlZXAvIC5tYXQtZmlndXJlIHtcclxuICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbn0iXX0= */"] });
+/*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](TimetableComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+                selector: 'app-timetable',
+                templateUrl: './timetable.component.html',
+                styleUrls: ['./timetable.component.css']
+            }]
+    }], function () { return [{ type: _services_AppState__WEBPACK_IMPORTED_MODULE_2__["AppState"] }, { type: _angular_material_bottom_sheet__WEBPACK_IMPORTED_MODULE_3__["MatBottomSheet"] }]; }, null); })();
 
 
 /***/ }),
@@ -4327,16 +4154,17 @@ var TimetableComponent = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "environment", function() { return environment; });
 // This file can be replaced during build by using the `fileReplacements` array.
-// `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
+// `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
-var environment = {
+const environment = {
     production: false
 };
 /*
- * In development mode, to ignore zone related error stack frames such as
- * `zone.run`, `zoneDelegate.invokeTask` for easier debugging, you can
- * import the following file, but please comment it out in production mode
- * because it will have performance impact when throw error
+ * For easier debugging in development mode, you can import the following file
+ * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
+ *
+ * This import should be commented out in production mode because it will have a negative impact
+ * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
 
@@ -4352,19 +4180,19 @@ var environment = {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/platform-browser-dynamic */ "./node_modules/@angular/platform-browser-dynamic/fesm5/platform-browser-dynamic.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
 /* harmony import */ var _app_app_module__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app/app.module */ "./src/app/app.module.ts");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/__ivy_ngcc__/fesm2015/platform-browser.js");
 
 
 
 
-if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].production) {
+if (_environments_environment__WEBPACK_IMPORTED_MODULE_1__["environment"].production) {
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["enableProdMode"])();
 }
-Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformBrowserDynamic"])().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
-    .catch(function (err) { return console.log(err); });
+_angular_platform_browser__WEBPACK_IMPORTED_MODULE_3__["platformBrowser"]().bootstrapModule(_app_app_module__WEBPACK_IMPORTED_MODULE_2__["AppModule"])
+    .catch(err => console.error(err));
 
 
 /***/ }),
@@ -4376,7 +4204,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\Kuba Projekty\MaksBus\MaxBusProject\src\main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! C:\_home\KubaProjekty\BusyKrkLim\BusyKrkLim\src\main.ts */"./src/main.ts");
 
 
 /***/ })
